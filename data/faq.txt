@@ -1,0 +1,310 @@
+Airtel Customer Support FAQ Knowledge Base
+
+1. What is Airtel?
+Airtel is one of India’s leading telecommunications companies providing mobile network services, broadband internet, DTH television, and digital payment solutions. Airtel offers prepaid and postpaid mobile plans along with 4G and 5G connectivity services across India.
+
+2. How can I recharge my Airtel prepaid number?
+You can recharge your Airtel prepaid number using multiple methods:
+- Airtel Thanks App
+- Google Pay
+- PhonePe
+- Paytm
+- Net Banking
+- Debit/Credit Card
+- Nearby recharge shops
+
+To recharge using the Airtel Thanks App:
+1. Open the app
+2. Select Recharge
+3. Enter your mobile number
+4. Choose a recharge plan
+5. Complete payment
+
+3. How do I check my Airtel balance?
+You can check your Airtel balance by:
+- Dialing *123#
+- Using the Airtel Thanks App
+- Calling customer care
+
+The balance details include:
+- Main balance
+- Data balance
+- SMS balance
+- Plan validity
+
+4. How can I activate Airtel 5G?
+Airtel 5G activates automatically if:
+- Your smartphone supports 5G
+- You are in a 5G coverage area
+- Your SIM is 5G enabled
+
+Steps to verify:
+1. Enable 5G in mobile settings
+2. Restart your phone
+3. Ensure mobile data is ON
+
+5. What should I do if mobile internet is slow?
+If your Airtel internet is slow:
+- Restart your phone
+- Turn airplane mode ON/OFF
+- Check network signal strength
+- Reset network settings
+- Ensure data limit is not exhausted
+
+If the problem continues:
+- Contact Airtel support at 121
+- Visit the nearest Airtel store
+
+6. How can I contact Airtel customer care?
+Customer care options:
+- Dial 121 for general support
+- Dial 198 for complaints
+- Use Airtel Thanks App live chat
+- Visit official Airtel website
+- Visit nearby Airtel store
+
+7. How can I change my Airtel SIM card?
+To replace your SIM card:
+1. Visit nearest Airtel store
+2. Carry valid ID proof
+3. Request SIM replacement
+4. Complete verification process
+
+The new SIM usually activates within a few hours.
+
+8. What should I do if my SIM is lost?
+If your SIM is lost:
+1. Call Airtel customer care immediately
+2. Block the SIM card
+3. Visit Airtel store for replacement
+4. Carry identity proof
+
+This prevents unauthorized use of your number.
+
+9. How can I port my number to Airtel?
+To switch to Airtel:
+1. Send SMS:
+PORT <mobile number>
+to 1900
+
+2. Receive UPC code
+3. Visit Airtel store
+4. Submit documents
+5. Choose a plan
+
+Porting usually completes within a few days.
+
+10. How do I check my Airtel data usage?
+You can check data usage by:
+- Airtel Thanks App
+- Dialing *121#
+- SMS notifications
+- Customer support
+
+The app shows:
+- Remaining data
+- Daily usage
+- Plan validity
+
+11. What is Airtel Thanks App?
+Airtel Thanks App is Airtel’s official mobile application used for:
+- Recharge
+- Bill payment
+- Data monitoring
+- Customer support
+- OTT subscription management
+- Banking services
+
+12. How can I pay my Airtel postpaid bill?
+Postpaid bill payment options:
+- Airtel Thanks App
+- UPI apps
+- Credit/Debit cards
+- Net Banking
+- Auto-pay services
+
+Late payments may lead to service interruption.
+
+13. What should I do if calls are dropping frequently?
+Possible solutions:
+- Restart phone
+- Check signal strength
+- Remove and reinsert SIM
+- Reset network settings
+- Update device software
+
+If issue continues, report network problem to Airtel.
+
+14. How do I deactivate Airtel caller tune?
+Methods to deactivate:
+- Dial 155223
+- Use Airtel Thanks App
+- Send STOP to caller tune SMS service
+
+15. How can I activate international roaming?
+To activate international roaming:
+1. Open Airtel Thanks App
+2. Select International Roaming
+3. Choose country and plan
+4. Complete payment
+
+International roaming should be activated before travel.
+
+16. How do I check Airtel validity?
+You can check validity by:
+- Dialing *123#
+- Airtel Thanks App
+- SMS alerts
+
+17. What is Airtel Xstream Fiber?
+Airtel Xstream Fiber is Airtel’s broadband internet service offering:
+- High-speed internet
+- Wi-Fi connectivity
+- OTT subscriptions
+- Unlimited data plans
+
+18. How can I book Airtel Xstream Fiber installation?
+To book installation:
+- Visit Airtel website
+- Use Airtel Thanks App
+- Contact customer care
+
+An executive will verify service availability in your area.
+
+19. What should I do if broadband is not working?
+Basic troubleshooting:
+- Restart router
+- Check power supply
+- Verify cable connections
+- Wait for network restoration
+
+If unresolved:
+- Contact Airtel broadband support
+
+20. How do I reset Airtel Wi-Fi router password?
+Steps:
+1. Open router admin page
+2. Login with admin credentials
+3. Go to wireless settings
+4. Change password
+5. Save settings
+
+21. How can I activate or deactivate DND service?
+To manage Do Not Disturb:
+- Dial 1909
+- Use Airtel Thanks App
+- Send START or STOP SMS
+
+22. How do I check Airtel offers?
+Offers can be checked through:
+- Airtel Thanks App
+- Airtel website
+- SMS notifications
+
+23. What documents are required for new Airtel SIM?
+Required documents:
+- Aadhaar Card
+- Passport
+- Driving License
+- Voter ID
+
+Address proof and identity proof may be required.
+
+24. How can I upgrade from prepaid to postpaid?
+Visit Airtel store or use Airtel Thanks App. Complete KYC verification and choose a suitable postpaid plan.
+
+25. What should I do if recharge is successful but balance is not updated?
+Wait a few minutes and restart your device. If balance is still not updated:
+- Contact customer care
+- Share transaction ID
+- Verify payment status
+
+26. How can I stop promotional SMS and calls?
+Activate DND service using:
+- Dial 1909
+- Airtel Thanks App
+
+27. What is Airtel Black?
+Airtel Black is a premium bundled service combining:
+- Mobile
+- Broadband
+- DTH
+
+under a single bill with priority customer support.
+
+28. How can I check network coverage in my area?
+Use Airtel website or Airtel Thanks App to check:
+- 4G availability
+- 5G availability
+- Broadband coverage
+
+29. How do I activate eSIM on Airtel?
+To activate eSIM:
+1. Ensure device supports eSIM
+2. Send request to Airtel
+3. Scan QR code received
+4. Complete activation steps
+
+30. How can I recover forgotten Airtel account password?
+Use Forgot Password option in Airtel Thanks App or website. OTP verification will help reset the password.
+
+31. How do I report network issues?
+You can report:
+- Slow internet
+- Call drops
+- No signal
+- SMS issues
+
+through Airtel customer care or Airtel Thanks App.
+
+32. What are Airtel prepaid unlimited plans?
+Unlimited plans generally include:
+- Unlimited calls
+- Daily data
+- SMS benefits
+- OTT subscriptions
+
+Plan details vary depending on recharge amount.
+
+33. How can I activate missed call alerts?
+Missed call alert service can be activated using Airtel customer care or service codes.
+
+34. What should I do if OTP messages are delayed?
+Possible reasons:
+- Network congestion
+- DND settings
+- Banking server delay
+
+Restart phone and check signal quality.
+
+35. How can I track my Airtel complaint status?
+Complaint status can be tracked through:
+- Airtel Thanks App
+- Customer care
+- Complaint reference number
+
+36. How do I find the nearest Airtel store?
+Use:
+- Google Maps
+- Airtel website
+- Airtel Thanks App
+
+37. How can I change my registered email ID?
+Update email through:
+- Airtel Thanks App
+- Airtel store
+- Customer care verification
+
+38. What are Airtel safe custody services?
+Safe custody temporarily suspends your number while retaining ownership. Useful during long travel periods.
+
+39. How do I activate voicemail on Airtel?
+Voicemail can be activated via customer care or Airtel service settings.
+
+40. What is Airtel Payments Bank?
+Airtel Payments Bank offers:
+- Savings account
+- UPI payments
+- Money transfer
+- Bill payments
+- Wallet services

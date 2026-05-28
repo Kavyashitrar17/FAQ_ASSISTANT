@@ -1,0 +1,111 @@
+{
+    "ba618e0b": {
+        "title": "what is airtel black ?",
+        "messages": [
+            {
+                "role": "user",
+                "content": "what is airtel black ?"
+            },
+            {
+                "role": "assistant",
+                "content": "According to the context, Airtel Black is a premium bundled service that combines mobile, broadband, and DTH services under a single bill with priority customer support."
+            },
+            {
+                "role": "user",
+                "content": "does it also include mobile  services?"
+            },
+            {
+                "role": "assistant",
+                "content": "The context does not provide any information about whether Airtel Black includes mobile services. Therefore, I cannot answer this question from the provided context."
+            }
+        ]
+    },
+    "324a2b16": {
+        "title": "what is airtel black ",
+        "messages": [
+            {
+                "role": "user",
+                "content": "what is airtel black "
+            },
+            {
+                "role": "assistant",
+                "content": "Sure, I could help.\n\nAccording to the context, Airtel Black is a premium bundled service combining mobile, broadband, and DTH under a single bill with priority customer support."
+            },
+            {
+                "role": "user",
+                "content": "does it include dth services too "
+            },
+            {
+                "role": "assistant",
+                "content": "No, the context does not mention whether Airtel Black includes DTH services, so I cannot answer this question from the provided context."
+            }
+        ]
+    },
+    "d1086e54": {
+        "title": "how recharge can be done for a\u2026",
+        "messages": [
+            {
+                "role": "user",
+                "content": "how recharge can be done for airtel users"
+            },
+            {
+                "role": "assistant",
+                "content": "Sure, I can help with that.\n\nI could not find that information in the provided context, so I cannot answer this question."
+            },
+            {
+                "role": "user",
+                "content": "how to do recharge "
+            },
+            {
+                "role": "assistant",
+                "content": " **Connection error** \u2013 the backend server isn't reachable. Please make sure FastAPI is running on `localhost:8000`."
+            }
+        ]
+    },
+    "f91af87a": {
+        "title": "what is airtel black does it h\u2026",
+        "messages": [
+            {
+                "role": "user",
+                "content": "what is airtel black does it have dth services"
+            },
+            {
+                "role": "assistant",
+                "content": "The context does not mention what Airtel Black has in terms of DTH services, so I cannot answer this question from the provided context."
+            },
+            {
+                "role": "user",
+                "content": "does airtel black have dth services "
+            },
+            {
+                "role": "assistant",
+                "content": "I could not find that information in the provided context, so I cannot answer this question."
+            }
+        ]
+    },
+    "454589cf": {
+        "title": "what is airtel black ",
+        "messages": [
+            {
+                "role": "user",
+                "content": "what is airtel black "
+            },
+            {
+                "role": "assistant",
+                "content": "Sure, I can help with that.\n\nAccording to the context, Airtel Black is a premium bundled service that combines mobile, broadband, and DTH services under a single bill with priority customer support."
+            },
+            {
+                "role": "user",
+                "content": "does it include dth services "
+            },
+            {
+                "role": "assistant",
+                "content": "No, the context does not mention whether Airtel Black includes DTH services, so I cannot answer this question from the provided context."
+            }
+        ]
+    },
+    "ef69938f": {
+        "title": "New Chat",
+        "messages": []
+    }
+}

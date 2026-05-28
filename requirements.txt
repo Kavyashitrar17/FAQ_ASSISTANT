@@ -1,0 +1,12 @@
+streamlit
+langchain==0.2.16
+langchain-core==0.2.38
+langchain-community==0.2.16
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+pypdf
+pymupdf
+docx2txt
+tiktoken
+ipykernel 
