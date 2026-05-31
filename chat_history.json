@@ -1,46 +1,4 @@
 {
-    "ba618e0b": {
-        "title": "what is airtel black ?",
-        "messages": [
-            {
-                "role": "user",
-                "content": "what is airtel black ?"
-            },
-            {
-                "role": "assistant",
-                "content": "According to the context, Airtel Black is a premium bundled service that combines mobile, broadband, and DTH services under a single bill with priority customer support."
-            },
-            {
-                "role": "user",
-                "content": "does it also include mobile  services?"
-            },
-            {
-                "role": "assistant",
-                "content": "The context does not provide any information about whether Airtel Black includes mobile services. Therefore, I cannot answer this question from the provided context."
-            }
-        ]
-    },
-    "324a2b16": {
-        "title": "what is airtel black ",
-        "messages": [
-            {
-                "role": "user",
-                "content": "what is airtel black "
-            },
-            {
-                "role": "assistant",
-                "content": "Sure, I could help.\n\nAccording to the context, Airtel Black is a premium bundled service combining mobile, broadband, and DTH under a single bill with priority customer support."
-            },
-            {
-                "role": "user",
-                "content": "does it include dth services too "
-            },
-            {
-                "role": "assistant",
-                "content": "No, the context does not mention whether Airtel Black includes DTH services, so I cannot answer this question from the provided context."
-            }
-        ]
-    },
     "d1086e54": {
         "title": "how recharge can be done for a\u2026",
         "messages": [
@@ -62,49 +20,406 @@
             }
         ]
     },
-    "f91af87a": {
-        "title": "what is airtel black does it h\u2026",
+    "9c25e7b3": {
+        "title": "what is airtel black",
         "messages": [
             {
                 "role": "user",
-                "content": "what is airtel black does it have dth services"
+                "content": "what is airtel black"
             },
             {
                 "role": "assistant",
-                "content": "The context does not mention what Airtel Black has in terms of DTH services, so I cannot answer this question from the provided context."
+                "content": "Airtel Black is a premium bundled service combining mobile, broadband, and DTH under a single bill with priority customer support. [Source 1]",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "27. What is Airtel Black?\nAirtel Black is a premium bundled service combining:\n- Mobile\n- Broadband\n- DTH\n\nunder a singl\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "1. What is Airtel?\nAirtel is one of India\u2019s leading telecommunications companies providing mobile network services, broa\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "17. What is Airtel Xstream Fiber?\nAirtel Xstream Fiber is Airtel\u2019s broadband internet service offering:\n- High-speed int\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "11. What is Airtel Thanks App?\nAirtel Thanks App is Airtel\u2019s official mobile application used for:\n- Recharge\n- Bill pay\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "40. What is Airtel Payments Bank?\nAirtel Payments Bank offers:\n- Savings account\n- UPI payments\n- Money transfer\n- Bill \u2026"
+                    }
+                ],
+                "rewritten_query": "what is airtel black"
             },
             {
                 "role": "user",
-                "content": "does airtel black have dth services "
+                "content": "does it include dth services"
             },
             {
                 "role": "assistant",
-                "content": "I could not find that information in the provided context, so I cannot answer this question."
+                "content": "According to the context, Airtel Black is a premium bundled service combining mobile, broadband, and DTH under a single bill with priority customer support. [Source 2]\n\nTherefore, the answer is yes, Airtel Black includes DTH services.",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "1. What is Airtel?\nAirtel is one of India\u2019s leading telecommunications companies providing mobile network services, broa\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "27. What is Airtel Black?\nAirtel Black is a premium bundled service combining:\n- Mobile\n- Broadband\n- DTH\n\nunder a singl\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "38. What are Airtel safe custody services?\nSafe custody temporarily suspends your number while retaining ownership. Usef\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "21. How can I activate or deactivate DND service?\nTo manage Do Not Disturb:\n- Dial 1909\n- Use Airtel Thanks App\n- Send S\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "40. What is Airtel Payments Bank?\nAirtel Payments Bank offers:\n- Savings account\n- UPI payments\n- Money transfer\n- Bill \u2026"
+                    }
+                ],
+                "rewritten_query": "does it include dth services"
+            },
+            {
+                "role": "user",
+                "content": "how to do recharge"
+            },
+            {
+                "role": "assistant",
+                "content": "Sure, here's the answer to your question:\n\nAccording to the context, Airtel Black is a premium bundled service combining mobile, broadband, and DTH under a single bill with priority customer support. [Source 2]\n\nTo recharge using the Airtel Thanks App, you can choose a recharge plan and follow the on-screen instructions. If the recharge is successful but the balance is not updated, you can contact customer care or share the transaction ID and verify the payment status to ensure the balance is updated promptly. [Source 4]",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "2. Select Recharge\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "2. How can I recharge my Airtel prepaid number?\nYou can recharge your Airtel prepaid number using multiple methods:\n- Ai\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "4. Choose a recharge plan\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "25. What should I do if recharge is successful but balance is not updated?\nWait a few minutes and restart your device. I\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "2. Restart your phone\u2026"
+                    }
+                ],
+                "rewritten_query": "how to do recharge"
             }
         ]
     },
-    "454589cf": {
-        "title": "what is airtel black ",
+    "e4a5088b": {
+        "title": "what is airtel black?",
         "messages": [
             {
                 "role": "user",
-                "content": "what is airtel black "
+                "content": "what is airtel black?"
             },
             {
                 "role": "assistant",
-                "content": "Sure, I can help with that.\n\nAccording to the context, Airtel Black is a premium bundled service that combines mobile, broadband, and DTH services under a single bill with priority customer support."
+                "content": "Airtel Black is a premium bundled service combining mobile, broadband, and DTH under a single bill with priority customer support.",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "27. What is Airtel Black?\nAirtel Black is a premium bundled service combining:\n- Mobile\n- Broadband\n- DTH\n\nunder a singl\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "1. What is Airtel?\nAirtel is one of India\u2019s leading telecommunications companies providing mobile network services, broa\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "17. What is Airtel Xstream Fiber?\nAirtel Xstream Fiber is Airtel\u2019s broadband internet service offering:\n- High-speed int\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "11. What is Airtel Thanks App?\nAirtel Thanks App is Airtel\u2019s official mobile application used for:\n- Recharge\n- Bill pay\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "40. What is Airtel Payments Bank?\nAirtel Payments Bank offers:\n- Savings account\n- UPI payments\n- Money transfer\n- Bill \u2026"
+                    }
+                ],
+                "rewritten_query": "what is airtel black?"
             },
             {
                 "role": "user",
-                "content": "does it include dth services "
+                "content": "does it include mobile services"
             },
             {
                 "role": "assistant",
-                "content": "No, the context does not mention whether Airtel Black includes DTH services, so I cannot answer this question from the provided context."
+                "content": "No, the context does not mention whether Airtel Black includes mobile services, so I cannot answer this question from the provided context.\n\n> \u26a0\ufe0f *Low confidence: this answer may not be fully grounded in the knowledge base. Please verify with Airtel support.*",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "27. What is Airtel Black?\nAirtel Black is a premium bundled service combining:\n- Mobile\n- Broadband\n- DTH\n\nunder a singl\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "1. What is Airtel?\nAirtel is one of India\u2019s leading telecommunications companies providing mobile network services, broa\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "11. What is Airtel Thanks App?\nAirtel Thanks App is Airtel\u2019s official mobile application used for:\n- Recharge\n- Bill pay\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "2. Send request to Airtel\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "3. Visit Airtel store\u2026"
+                    }
+                ],
+                "rewritten_query": "Sure, here is the rewritten question:\n\nDoes Airtel Black include mobile services?"
             }
         ]
     },
-    "ef69938f": {
+    "10e458cc": {
+        "title": "airtel chats",
+        "messages": [
+            {
+                "role": "user",
+                "content": "what is airtel black"
+            },
+            {
+                "role": "assistant",
+                "content": "I'm happy to help you with your question!\n\nAccording to our FAQ, Airtel Black is a premium bundled service that combines mobile, broadband, and DTH under a single bill with priority customer support. [Source 1] Would you like to know more about the benefits or features of Airtel Black?",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "27. What is Airtel Black?\nAirtel Black is a premium bundled service combining:\n- Mobile\n- Broadband\n- DTH\n\nunder a singl\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "1. What is Airtel?\nAirtel is one of India\u2019s leading telecommunications companies providing mobile network services, broa\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "17. What is Airtel Xstream Fiber?\nAirtel Xstream Fiber is Airtel\u2019s broadband internet service offering:\n- High-speed int\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "11. What is Airtel Thanks App?\nAirtel Thanks App is Airtel\u2019s official mobile application used for:\n- Recharge\n- Bill pay\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "40. What is Airtel Payments Bank?\nAirtel Payments Bank offers:\n- Savings account\n- UPI payments\n- Money transfer\n- Bill \u2026"
+                    }
+                ],
+                "rewritten_query": "what is airtel black"
+            },
+            {
+                "role": "user",
+                "content": "does it include mobile services"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes, Airtel Black includes mobile services as part of its bundled package [Source 1]. This means that if you subscribe to Airtel Black, you'll get access to both mobile and other services like broadband and DTH under a single bill with priority customer support.",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "27. What is Airtel Black?\nAirtel Black is a premium bundled service combining:\n- Mobile\n- Broadband\n- DTH\n\nunder a singl\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "1. What is Airtel?\nAirtel is one of India\u2019s leading telecommunications companies providing mobile network services, broa\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "11. What is Airtel Thanks App?\nAirtel Thanks App is Airtel\u2019s official mobile application used for:\n- Recharge\n- Bill pay\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "32. What are Airtel prepaid unlimited plans?\nUnlimited plans generally include:\n- Unlimited calls\n- Daily data\n- SMS ben\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "38. What are Airtel safe custody services?\nSafe custody temporarily suspends your number while retaining ownership. Usef\u2026"
+                    }
+                ],
+                "rewritten_query": "Does Airtel Black include mobile services?"
+            },
+            {
+                "role": "user",
+                "content": "how to do recharge "
+            },
+            {
+                "role": "assistant",
+                "content": "To recharge your Airtel prepaid number, you can use multiple methods such as:\n\n* Airtel Thanks App\n* Google Pay\n* PhonePe\n* Paytm\n* Net Banking\n* Debit/Credit Card\n* Nearby recharge shops.\n\n Simply select \"Recharge\" and follow the in-app instructions to complete the process.",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "2. Select Recharge\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "2. How can I recharge my Airtel prepaid number?\nYou can recharge your Airtel prepaid number using multiple methods:\n- Ai\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "4. Choose a recharge plan\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "25. What should I do if recharge is successful but balance is not updated?\nWait a few minutes and restart your device. I\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "2. Restart your phone\u2026"
+                    }
+                ],
+                "rewritten_query": "How to do recharge"
+            },
+            {
+                "role": "user",
+                "content": "summarise what airtel bank offers"
+            },
+            {
+                "role": "assistant",
+                "content": "\u26a0\ufe0f Error: Response ended prematurely",
+                "sources": [],
+                "rewritten_query": null
+            }
+        ]
+    },
+    "da207ab8": {
+        "title": "what payment airtel bank offer...",
+        "messages": [
+            {
+                "role": "user",
+                "content": "what payment airtel bank offers"
+            },
+            {
+                "role": "assistant",
+                "content": "Airtel Payments Bank offers Savings account, UPI payments, Money transfer, Bill payments, and Wallet services. [Source 1]",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "40. What is Airtel Payments Bank?\nAirtel Payments Bank offers:\n- Savings account\n- UPI payments\n- Money transfer\n- Bill \u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "1. What is Airtel?\nAirtel is one of India\u2019s leading telecommunications companies providing mobile network services, broa\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "12. How can I pay my Airtel postpaid bill?\nPostpaid bill payment options:\n- Airtel Thanks App\n- UPI apps\n- Credit/Debit \u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "11. What is Airtel Thanks App?\nAirtel Thanks App is Airtel\u2019s official mobile application used for:\n- Recharge\n- Bill pay\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "22. How do I check Airtel offers?\nOffers can be checked through:\n- Airtel Thanks App\n- Airtel website\n- SMS notification\u2026"
+                    }
+                ],
+                "rewritten_query": "what payment airtel bank offers"
+            }
+        ]
+    },
+    "c273ae15": {
         "title": "New Chat",
         "messages": []
     }

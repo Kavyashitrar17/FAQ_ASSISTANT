@@ -1,87 +1,84 @@
 from fastapi import FastAPI
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
-from typing import List, Dict
-from backend.retriever import retrieve_docs
-from backend.prompt import build_prompt
-from backend.generator import generate_answer
+import json
 
-app = FastAPI()
+from backend.retrieval.semantic import semantic_search
+from backend.retrieval.keyword import keyword_search
+from backend.retrieval.hybrid import reciprocal_rank_fusion
+from backend.retrieval.reranker import rerank
+from backend.generation.query_rewriter import rewrite_query
+from backend.generation.prompt import build_prompt
+from backend.generation.generator import stream_answer
+from backend.generation.hallucination import add_confidence_note
+# from backend.memory.session import trim_history, history_to_string
+
+app = FastAPI(title="Airtel RAG API v3")
 
 
 class QueryRequest(BaseModel):
     question: str
-    history: List[Dict] = []
+    history: list[dict] = []
 
 
-@app.get("/")
-def home():
-    return {"message": "Airtel RAG API is running"}
+@app.post("/chat/stream")
+async def chat_stream(request: QueryRequest):
+    """
+    Server-Sent Events endpoint.
+    Yields: data: {"token": "..."} and finally data: {"sources": [...], "done": true}
+    """
+    async def event_generator():
+        # 1. Memory
+        
+        history = request.history
+        history_str = ""
 
+        for msg in history:
+         role = msg.get("role", "")
+         content = msg.get("content", "")
+         history_str += f"{role}: {content}\n" 
 
-@app.post("/chat")
-def chat(request: QueryRequest):
+        # 2. Query rewriting (key fix)
+        rewritten = rewrite_query(request.question, request.history)
 
-    question = request.question
+        # 3. Hybrid retrieval
+        sem_results = semantic_search(rewritten)
+        kw_results = keyword_search(rewritten)
+        fused_docs = reciprocal_rank_fusion(sem_results, kw_results)
 
-    # ─────────────────────────────────────────────
-    # BUILD HISTORY STRING  (for prompt context)
-    # ─────────────────────────────────────────────
-    history_text = ""
-    for msg in request.history:
-        role    = msg.get("role", "")
-        content = msg.get("content", "")
-        history_text += f"{role}: {content}\n"
+        # 4. Reranking
+        reranked_docs = rerank(rewritten, fused_docs)
 
-    # ─────────────────────────────────────────────
-    # ENHANCE QUESTION FOR RETRIEVAL
-    # Combine the most-recent previous user query
-    # with the current question so FAISS retrieval
-    # has better context for follow-up questions.
-    # ─────────────────────────────────────────────
-    enhanced_question = question                    # safe default
+        # 5. Prompt + sources
+        prompt, sources = build_prompt(
+            question=request.question,
+            docs=reranked_docs,
+            # history_str=history_str,
+            rewritten_query=rewritten,
+        )
 
-    if request.history:
-        last_user_messages = [
-            msg["content"]
-            for msg in request.history
-            if msg["role"] == "user"
-        ]
+        # 6. Stream tokens
+        full_answer = ""
+        for token in stream_answer(prompt):
+            full_answer += token
+            yield f"data: {json.dumps({'token': token})}\n\n"
 
-        # FIX 3: use [-1] (most recent previous turn),
-        #         not [-2] (two turns ago)
-        if len(last_user_messages) >= 1:
-            previous_query = last_user_messages[-1]
+        # 7. Hallucination check on completed answer
+        checked_answer = add_confidence_note(full_answer, reranked_docs)
+        if checked_answer != full_answer:
+            suffix = checked_answer[len(full_answer):]
+            yield f"data: {json.dumps({'token': suffix})}\n\n"
 
-            # FIX 4: no leading whitespace — stray spaces
-            #         degrade FAISS embedding quality
-            enhanced_question = (
-                f"Previous topic: {previous_query}\n"
-                f"Current question: {question}"
-            )
-            print("Enhanced Query:", enhanced_question)
+        # 8. Final metadata frame
+        yield f"data: {json.dumps({'sources': sources, 'rewritten_query': rewritten, 'done': True})}\n\n"
 
-    # ─────────────────────────────────────────────
-    # RETRIEVE DOCUMENTS
-    # ─────────────────────────────────────────────
-    docs = retrieve_docs(enhanced_question)
-    print("\n===== RETRIEVED DOCS =====")
-    for i, doc in enumerate(docs):
-        print(f"\nDOC {i + 1}:\n")
-        print(doc.page_content)
-    print("\n==========================\n")
-
-    # ─────────────────────────────────────────────
-    # BUILD PROMPT  &  GENERATE ANSWER
-    # ─────────────────────────────────────────────
-    prompt = build_prompt(
-        context=docs,
-        question=question,
-        history=history_text,
+    return StreamingResponse(
+        event_generator(),
+        media_type="text/event-stream",
+        headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
     )
 
-    answer = generate_answer(prompt)
 
-    return {
-        "question": request.question,
-        "answer": answer,
-    }
+@app.get("/health")
+def health():
+    return {"status": "ok"}
