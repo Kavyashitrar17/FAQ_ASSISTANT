@@ -11,14 +11,14 @@ from backend.generation.query_rewriter import rewrite_query
 from backend.generation.prompt import build_prompt
 from backend.generation.generator import stream_answer
 from backend.generation.hallucination import add_confidence_note
-# from backend.memory.session import trim_history, history_to_string
 
 app = FastAPI(title="Airtel RAG API v3")
 
 
 class QueryRequest(BaseModel):
     question: str
-    history: list[dict] = []
+    service:  str | None = None   # e.g. "Prepaid", "DTH", "WiFi Broadband"
+    history:  list[dict] = []
 
 
 @app.post("/chat/stream")
@@ -29,22 +29,20 @@ async def chat_stream(request: QueryRequest):
     """
     async def event_generator():
         # 1. Memory
-        
         history = request.history
         history_str = ""
-
         for msg in history:
-         role = msg.get("role", "")
-         content = msg.get("content", "")
-         history_str += f"{role}: {content}\n" 
+            role    = msg.get("role", "")
+            content = msg.get("content", "")
+            history_str += f"{role}: {content}\n"
 
-        # 2. Query rewriting (key fix)
+        # 2. Query rewriting
         rewritten = rewrite_query(request.question, request.history)
 
-        # 3. Hybrid retrieval
-        sem_results = semantic_search(rewritten)
-        kw_results = keyword_search(rewritten)
-        fused_docs = reciprocal_rank_fusion(sem_results, kw_results)
+        # 3. Hybrid retrieval — service filter applied when provided
+        sem_results = semantic_search(rewritten, request.service)
+        kw_results  = keyword_search(rewritten,  request.service)
+        fused_docs  = reciprocal_rank_fusion(sem_results, kw_results)
 
         # 4. Reranking
         reranked_docs = rerank(rewritten, fused_docs)
@@ -53,7 +51,6 @@ async def chat_stream(request: QueryRequest):
         prompt, sources = build_prompt(
             question=request.question,
             docs=reranked_docs,
-            # history_str=history_str,
             rewritten_query=rewritten,
         )
 

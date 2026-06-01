@@ -419,8 +419,132 @@
             }
         ]
     },
-    "c273ae15": {
-        "title": "New Chat",
-        "messages": []
+    "b71b4b4a": {
+        "title": "what is airtel black",
+        "messages": [
+            {
+                "role": "user",
+                "content": "what is airtel black"
+            },
+            {
+                "role": "assistant",
+                "content": "Airtel Black is our premium postpaid plan that offers high-speed data, international roaming, and other benefits [Source 1]. It's designed for customers who want more value from their mobile experience.\n\n> \u26a0\ufe0f *Low confidence: this answer may not be fully grounded in the knowledge base. Please verify with Airtel support.*",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "What is Airtel Black and how is it different from regular Airtel plans?\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "What are the eligibility criteria to subscribe to Airtel Black?\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "Is Airtel Black available in my city?\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "Which services are bundled under Airtel Black?\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "One of my mobile lines under Airtel Black has no network. How do I fix it?\u2026"
+                    }
+                ],
+                "rewritten_query": "what is airtel black"
+            },
+            {
+                "role": "user",
+                "content": "does it include dth services\n"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes, Airtel Black includes DTH services. [Source 3]",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "Can I include mobile, broadband, and DTH all in one Airtel Black plan?\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "How are charges split between mobile, broadband, and DTH on my Airtel Black bill?\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "Which services are bundled under Airtel Black?\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "Does Airtel Black provide a dedicated relationship manager or priority support?\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "Does Airtel Black offer a single bill for all bundled services?\u2026"
+                    }
+                ],
+                "rewritten_query": "Does Airtel Black include DTH services?"
+            },
+            {
+                "role": "user",
+                "content": "who is airtel ceo?"
+            },
+            {
+                "role": "assistant",
+                "content": "I could not find that in my knowledge base.",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "Who is Airtel's appellate authority and how do I escalate a postpaid complaint?\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "Who is the Banking Ombudsman I can approach for unresolved Airtel Payments Bank complaints?\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "Which services are bundled under Airtel Black?\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "What postpaid plans does Airtel currently offer?\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "What is Airtel Black and how is it different from regular Airtel plans?\u2026"
+                    }
+                ],
+                "rewritten_query": "who is airtel ceo?"
+            }
+        ]
     }
 }

@@ -1,0 +1,80 @@
+{
+  "service": "DTH",
+  "topics": [
+    {
+      "name": "New Connection & Installation",
+      "questions": [
+        "How do I get a new Airtel DTH connection installed at my home?",
+        "How long does Airtel DTH installation take after I place the order?",
+        "What is the cost of a new Airtel DTH connection including the set-top box?",
+        "Can I book a new Airtel DTH connection online?",
+        "Does Airtel DTH provide the dish antenna and set-top box, or do I buy them separately?",
+        "What documents are required for a new Airtel DTH connection?",
+        "Can I choose a specific date and time for the DTH installation technician?",
+        "I booked a new Airtel DTH connection but no technician has arrived yet. What do I do?",
+        "Is Airtel DTH HD or 4K available in my city?",
+        "Can I get multiple DTH set-top boxes connected to a single Airtel DTH account?"
+      ]
+    },
+    {
+      "name": "Recharge & Subscription Plans",
+      "questions": [
+        "How do I recharge my Airtel DTH account?",
+        "What are the current Airtel DTH subscription packs and their monthly prices?",
+        "How do I add or remove specific channels from my Airtel DTH pack?",
+        "My Airtel DTH subscription expired. How do I renew it?",
+        "Can I pay for Airtel DTH via UPI or credit card?",
+        "How do I set up auto-recharge for my Airtel DTH subscription?",
+        "My Airtel DTH recharge was deducted but channels are not visible. What do I do?",
+        "How do I check the balance and next recharge date on my Airtel DTH account?",
+        "Is there an annual Airtel DTH plan that reduces my monthly cost?",
+        "Can I recharge my Airtel DTH from outside India?"
+      ]
+    },
+    {
+      "name": "Signal & Picture Issues",
+      "questions": [
+        "My Airtel DTH screen shows 'No Signal'. How do I fix it?",
+        "My Airtel DTH picture is pixelated or freezing. What is the cause?",
+        "All my Airtel DTH channels disappeared after heavy rain. What should I do?",
+        "How do I improve the Airtel DTH signal strength in bad weather?",
+        "My Airtel DTH shows signal on some channels but not all. Why?",
+        "The Airtel DTH set-top box is on but the screen is black. How do I fix it?",
+        "My Airtel DTH remote is not responding to the set-top box. What should I check?",
+        "How do I reset my Airtel DTH set-top box to factory settings?",
+        "Which cable connects the dish to the set-top box and how do I check if it is damaged?",
+        "How do I report an Airtel DTH signal problem and request a technician visit?"
+      ]
+    },
+    {
+      "name": "Channel & Pack Management",
+      "questions": [
+        "How do I add a new channel to my existing Airtel DTH pack?",
+        "How do I remove a channel I no longer want from my Airtel DTH subscription?",
+        "How do I switch to a different Airtel DTH base pack?",
+        "What is the TRAI rule about channel selection for DTH and how does it affect me?",
+        "How do I view the full list of channels available in my current Airtel DTH pack?",
+        "Does Airtel DTH offer sports-only or news-only channel packs?",
+        "How do I get regional language channels added to my Airtel DTH?",
+        "Can I add premium channels like HBO or Sony LIV to my Airtel DTH pack?",
+        "How long does it take for a newly added channel to become visible on my DTH?",
+        "Can I temporarily suspend specific channels without cancelling my whole plan?"
+      ]
+    },
+    {
+      "name": "Account & Device Management",
+      "questions": [
+        "How do I transfer my Airtel DTH connection to a new address?",
+        "Can I transfer my Airtel DTH account to another person's name?",
+        "How do I permanently deactivate my Airtel DTH connection?",
+        "Will I get a refund if I cancel my Airtel DTH mid-subscription?",
+        "How do I upgrade my Airtel DTH set-top box to an HD or 4K model?",
+        "My Airtel DTH set-top box is damaged or not working. How do I get it replaced?",
+        "How do I register my Airtel DTH account on the Airtel Thanks app?",
+        "How do I link multiple Airtel DTH set-top boxes to a single account?",
+        "What is the customer care number for Airtel DTH support?",
+        "How do I raise a formal complaint about my Airtel DTH service?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "service": "WiFi Broadband",
+  "topics": [
+    {
+      "name": "New Connection & Installation",
+      "questions": [
+        "How do I apply for a new Airtel Xstream Fiber connection at my home?",
+        "How long does it take to get an Airtel broadband connection installed?",
+        "Is Airtel Xstream Fiber available in my area or building?",
+        "What documents are required to apply for a new Airtel broadband connection?",
+        "Can I book a new Airtel broadband connection entirely online?",
+        "What is the installation charge for a new Airtel Xstream Fiber connection?",
+        "I paid the installation fee but the technician has not visited yet. What do I do?",
+        "Can I choose a preferred date and time slot for the technician's visit?",
+        "Does Airtel provide a router with the broadband connection or do I buy my own?",
+        "How do I track the status of my new Airtel broadband connection request?"
+      ]
+    },
+    {
+      "name": "Router & Equipment",
+      "questions": [
+        "How do I set up my Airtel Xstream router for the first time?",
+        "What is the default username and password for my Airtel router?",
+        "How do I change the WiFi name and password on my Airtel router?",
+        "My Airtel router power light is red or orange. What does that mean?",
+        "How do I reboot or factory reset my Airtel Xstream router?",
+        "Can I use my own third-party router with Airtel Xstream Fiber?",
+        "How do I connect a device using a wired Ethernet cable to my Airtel router?",
+        "My Airtel router is overheating. Is this normal and what should I do?",
+        "How do I update the firmware on my Airtel router?",
+        "How do I set up a guest WiFi network on my Airtel router?"
+      ]
+    },
+    {
+      "name": "Speed & Connectivity Issues",
+      "questions": [
+        "My Airtel broadband speed is much slower than what my plan promises. Why?",
+        "How do I run a speed test to check my actual Airtel broadband speed?",
+        "My internet is slow only during evenings. Is this a network congestion issue?",
+        "Does Airtel throttle broadband speed after I exceed a data limit?",
+        "Restarting the router does not fix my slow internet. What is the next step?",
+        "My WiFi speed is slow but wired Ethernet speed is fine. What should I check?",
+        "My Airtel broadband keeps disconnecting every few minutes. Why?",
+        "My broadband has been down for several hours. How do I report it?",
+        "How do I check if there is a planned Airtel network outage in my area?",
+        "Can I get a bill credit if my Airtel broadband is down for more than 24 hours?"
+      ]
+    },
+    {
+      "name": "Plans, Billing & Payments",
+      "questions": [
+        "What are the current Airtel Xstream Fiber plans and their monthly costs?",
+        "How do I upgrade my Airtel broadband to a higher speed plan?",
+        "Can I downgrade my Airtel broadband plan to a cheaper option?",
+        "How long does a broadband plan change take to come into effect?",
+        "How do I pay my Airtel broadband bill online?",
+        "Can I set up auto-pay for my Airtel broadband bill?",
+        "What happens if I miss my Airtel broadband bill due date?",
+        "How do I download a broadband invoice for a previous billing month?",
+        "I was charged twice for the same billing cycle. How do I get a refund?",
+        "Does Airtel broadband include any OTT subscriptions like Netflix or Hotstar?"
+      ]
+    },
+    {
+      "name": "Account Management",
+      "questions": [
+        "Can I shift my Airtel broadband connection to a new address in the same city?",
+        "How do I apply for a broadband relocation and how long does it take?",
+        "Is there a charge for relocating my Airtel Xstream Fiber connection?",
+        "Can I transfer my Airtel broadband connection to another person's name?",
+        "How do I permanently cancel my Airtel broadband connection?",
+        "What is the notice period required before cancelling Airtel broadband?",
+        "Will I get a refund for unused days if I cancel my plan early?",
+        "Do I need to return the router and ONT device after cancellation?",
+        "How do I pause or temporarily suspend my Airtel broadband connection?",
+        "How do I raise a complaint or escalate a broadband service issue with Airtel?"
+      ]
+    }
+  ]
+}

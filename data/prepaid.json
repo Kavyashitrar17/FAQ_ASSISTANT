@@ -1,0 +1,80 @@
+{
+  "service": "Prepaid",
+  "topics": [
+    {
+      "name": "Recharge & Plans",
+      "questions": [
+        "Which Airtel prepaid plan gives the most data for under ₹300?",
+        "What is the difference between Smart Recharge and Full Talktime plans?",
+        "Which prepaid plan includes free Amazon Prime or Disney+ Hotstar?",
+        "Is there an annual Airtel prepaid plan valid for a full year?",
+        "What is the minimum recharge to keep my Airtel number active?",
+        "My recharge payment was deducted but the plan was not activated. What do I do?",
+        "How long does a refund take for a failed Airtel recharge?",
+        "I recharged the wrong number by mistake. Can I get a refund?",
+        "How do I enable auto-recharge on my Airtel prepaid number?",
+        "My auto-recharge failed even though my bank had sufficient balance. Why?"
+      ]
+    },
+    {
+      "name": "Data & Internet",
+      "questions": [
+        "How do I check how much mobile data I have left on my Airtel plan?",
+        "What speed will I get after my daily high-speed data is exhausted?",
+        "My Airtel internet is slow even though I have data balance remaining. Why?",
+        "How do I buy a data add-on before my plan renews?",
+        "Does unused daily data roll over to the next day on Airtel prepaid?",
+        "Can I set a data usage alert on the Airtel Thanks app?",
+        "How do I activate international roaming on my Airtel prepaid number?",
+        "Which Airtel international roaming pack is best for a 7-day trip?",
+        "My Airtel roaming is not working after I landed abroad. How do I fix it?",
+        "Will I be charged for incoming calls while roaming internationally?"
+      ]
+    },
+    {
+      "name": "SIM Card & Number",
+      "questions": [
+        "My Airtel SIM is lost or stolen. How do I block it immediately?",
+        "How do I get a replacement SIM for my existing Airtel number?",
+        "Can I upgrade from a regular SIM to an Airtel eSIM while keeping my number?",
+        "How long does it take for a replaced Airtel SIM to become active?",
+        "Will my balance and plan validity be preserved on a replacement SIM?",
+        "How do I port my number from another operator to Airtel prepaid?",
+        "How many days does MNP porting to Airtel take?",
+        "What SMS do I send to generate my MNP porting code?",
+        "My porting request to Airtel was rejected. What are the common reasons?",
+        "Can I port a Jio or BSNL postpaid number to Airtel prepaid?"
+      ]
+    },
+    {
+      "name": "Calls & SMS",
+      "questions": [
+        "Why do my Airtel calls keep dropping in my home area?",
+        "How do I report a persistent call drop issue to Airtel?",
+        "My Airtel number shows no signal indoors. How can I improve coverage?",
+        "Other people cannot hear me clearly on calls even though I can hear them.",
+        "How do I enable Wi-Fi calling on Airtel?",
+        "I am receiving too many spam calls on my Airtel number. How do I block them?",
+        "How do I activate a missed call alert on my Airtel prepaid number?",
+        "How do I check my remaining free SMS balance on Airtel?",
+        "Can I send international SMS from my Airtel prepaid number?",
+        "How do I activate DND (Do Not Disturb) on my Airtel number?"
+      ]
+    },
+    {
+      "name": "Account & Profile",
+      "questions": [
+        "How do I update my address or email ID linked to my Airtel prepaid account?",
+        "How do I link my Aadhaar card to my Airtel prepaid SIM?",
+        "How do I check the name registered against my Airtel mobile number?",
+        "How do I change the account holder name on my Airtel prepaid number?",
+        "How do I permanently close or deactivate my Airtel prepaid number?",
+        "How do I check the balance and validity on my Airtel prepaid number?",
+        "How do I view my last 10 recharge transactions on Airtel?",
+        "How do I raise a complaint on the Airtel Thanks app?",
+        "What is Airtel's customer care number for prepaid queries?",
+        "How do I escalate an unresolved Airtel complaint to the appellate authority?"
+      ]
+    }
+  ]
+}

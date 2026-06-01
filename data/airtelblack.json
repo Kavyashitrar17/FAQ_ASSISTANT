@@ -1,0 +1,80 @@
+{
+  "service": "Airtel Black",
+  "topics": [
+    {
+      "name": "What is Airtel Black",
+      "questions": [
+        "What is Airtel Black and how is it different from regular Airtel plans?",
+        "Which services are bundled under Airtel Black?",
+        "Can I include mobile, broadband, and DTH all in one Airtel Black plan?",
+        "Does Airtel Black offer a single bill for all bundled services?",
+        "Is Airtel Black available in my city?",
+        "What are the eligibility criteria to subscribe to Airtel Black?",
+        "Does Airtel Black provide a dedicated relationship manager or priority support?",
+        "How many family members can be included under one Airtel Black plan?",
+        "What OTT subscriptions are included in Airtel Black?",
+        "Is there a contract period or lock-in for Airtel Black subscribers?"
+      ]
+    },
+    {
+      "name": "Subscription & Onboarding",
+      "questions": [
+        "How do I subscribe to Airtel Black?",
+        "Can I convert my existing Airtel postpaid and broadband into Airtel Black?",
+        "How long does it take to get onboarded to Airtel Black after placing the request?",
+        "What is the monthly cost of Airtel Black plans?",
+        "Can I add or remove services from my Airtel Black bundle after subscribing?",
+        "How do I add a new Airtel mobile number to my existing Airtel Black plan?",
+        "Can I add a non-Airtel service into my Airtel Black bundle?",
+        "Is there a one-time setup or activation fee for Airtel Black?",
+        "How do I check what services are currently active under my Airtel Black plan?",
+        "How do I upgrade my Airtel Black plan to a higher tier?"
+      ]
+    },
+    {
+      "name": "Billing & Payments",
+      "questions": [
+        "How do I receive and view my Airtel Black combined monthly bill?",
+        "Why is my Airtel Black bill different from the plan amount I signed up for?",
+        "How do I pay my Airtel Black bill online?",
+        "Can I set up auto-pay for my Airtel Black combined bill?",
+        "How are charges split between mobile, broadband, and DTH on my Airtel Black bill?",
+        "What happens if I miss my Airtel Black bill due date?",
+        "How do I get a GST invoice for my Airtel Black subscription?",
+        "Can I get an itemized breakup of each service in my Airtel Black bill?",
+        "How do I dispute an incorrect charge on my Airtel Black bill?",
+        "Will my Airtel Black bill increase if I add more family members?"
+      ]
+    },
+    {
+      "name": "Service Issues & Support",
+      "questions": [
+        "My broadband under Airtel Black is not working. Who do I contact?",
+        "My DTH signal is lost under my Airtel Black plan. How do I get support?",
+        "One of my mobile lines under Airtel Black has no network. How do I fix it?",
+        "Does Airtel Black offer priority complaint resolution over regular customers?",
+        "How do I reach Airtel Black dedicated customer support?",
+        "I raised a complaint for my Airtel Black service but it has not been resolved. How do I escalate?",
+        "Can I get a home visit for any Airtel Black service issue?",
+        "What is the typical resolution time for Airtel Black service complaints?",
+        "How do I track the status of an open complaint under my Airtel Black account?",
+        "Is there a 24x7 helpline specifically for Airtel Black customers?"
+      ]
+    },
+    {
+      "name": "Cancellation & Changes",
+      "questions": [
+        "How do I cancel my Airtel Black subscription?",
+        "Can I remove one service from Airtel Black without cancelling the whole plan?",
+        "What happens to my individual services if I cancel Airtel Black?",
+        "Will I get a refund for the remaining days if I cancel Airtel Black mid-cycle?",
+        "How do I transfer my Airtel Black plan to a new address?",
+        "Can I transfer my Airtel Black subscription to another family member's name?",
+        "What is the notice period required to cancel Airtel Black?",
+        "If I cancel Airtel Black, will my mobile number and broadband remain active?",
+        "How do I temporarily pause my Airtel Black subscription?",
+        "Can I switch from Airtel Black back to separate individual service plans?"
+      ]
+    }
+  ]
+}

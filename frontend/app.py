@@ -259,9 +259,9 @@ with st.sidebar:
 
         with col2:
             with st.popover("⋯"):
-                if st.button("✏️ Rename", key=f"rename_btn_{cid}", use_container_width=True):
+                if st.button(" Rename", key=f"rename_btn_{cid}", use_container_width=True):
                     rename_chat_dialog(cid)
-                if st.button("🗑️ Delete", key=f"delete_{cid}", use_container_width=True):
+                if st.button("Delete", key=f"delete_{cid}", use_container_width=True):
                     del chat_sessions[cid]
                     if not chat_sessions:
                         new_chat_id = str(uuid.uuid4())[:8]

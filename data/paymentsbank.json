@@ -1,0 +1,80 @@
+{
+  "service": "Airtel Payments Bank",
+  "topics": [
+    {
+      "name": "Account Opening & KYC",
+      "questions": [
+        "How do I open an Airtel Payments Bank account?",
+        "What documents are required to open an Airtel Payments Bank account?",
+        "Can I open an Airtel Payments Bank account without visiting a store?",
+        "What is the difference between a basic savings account and a full KYC account in Airtel Payments Bank?",
+        "How do I complete full KYC for my Airtel Payments Bank account?",
+        "How long does it take to activate my Airtel Payments Bank account after KYC?",
+        "Can I open an Airtel Payments Bank account if I am not an Airtel mobile subscriber?",
+        "What is the maximum balance allowed in an Airtel Payments Bank account?",
+        "How do I check the KYC status of my Airtel Payments Bank account?",
+        "My Airtel Payments Bank account is frozen due to pending KYC. How do I unfreeze it?"
+      ]
+    },
+    {
+      "name": "Deposits, Withdrawals & Transfers",
+      "questions": [
+        "How do I add money to my Airtel Payments Bank account?",
+        "How do I transfer money from my Airtel Payments Bank account to another bank account?",
+        "What is the daily transfer limit for Airtel Payments Bank?",
+        "How do I withdraw cash from my Airtel Payments Bank account?",
+        "Can I withdraw cash from an ATM using Airtel Payments Bank?",
+        "How long does a fund transfer from Airtel Payments Bank to another bank take?",
+        "I sent money to the wrong UPI ID through Airtel Payments Bank. How do I reverse it?",
+        "What are the charges for transferring money out of Airtel Payments Bank?",
+        "How do I load money into Airtel Payments Bank from a debit or credit card?",
+        "Can I receive salary or pension directly into my Airtel Payments Bank account?"
+      ]
+    },
+    {
+      "name": "UPI & Payments",
+      "questions": [
+        "How do I set up UPI on the Airtel Thanks app using Airtel Payments Bank?",
+        "How do I change my Airtel Payments Bank UPI PIN?",
+        "My Airtel Payments Bank UPI payment failed but money was deducted. What do I do?",
+        "How long does a failed UPI refund take to credit back to my account?",
+        "Can I use Airtel Payments Bank UPI for payments on Swiggy, Zomato, or Amazon?",
+        "What is the maximum amount I can pay via UPI through Airtel Payments Bank in a day?",
+        "How do I scan a QR code and pay using Airtel Payments Bank?",
+        "Can I link multiple bank accounts to my Airtel Payments Bank UPI ID?",
+        "How do I set up or collect a payment request using Airtel Payments Bank UPI?",
+        "My Airtel Payments Bank UPI ID is not working. How do I troubleshoot it?"
+      ]
+    },
+    {
+      "name": "Fixed Deposits & Interest",
+      "questions": [
+        "Does Airtel Payments Bank offer a fixed deposit or savings interest?",
+        "What is the current savings account interest rate offered by Airtel Payments Bank?",
+        "How is interest calculated and credited in my Airtel Payments Bank savings account?",
+        "Can I open a fixed deposit through Airtel Payments Bank?",
+        "Is the money in my Airtel Payments Bank account insured under DICGC?",
+        "What is the minimum balance required to earn interest in Airtel Payments Bank?",
+        "How do I view my interest credit history in the Airtel Payments Bank app?",
+        "Is Airtel Payments Bank a RBI-licensed bank?",
+        "Can I use my Airtel Payments Bank account for income tax refunds?",
+        "Does Airtel Payments Bank provide a passbook or account statement?"
+      ]
+    },
+    {
+      "name": "Account Security & Issues",
+      "questions": [
+        "I suspect unauthorized transactions on my Airtel Payments Bank account. What do I do?",
+        "How do I block or freeze my Airtel Payments Bank account immediately?",
+        "How do I reset my Airtel Payments Bank MPIN?",
+        "I lost my phone linked to Airtel Payments Bank. How do I secure my account?",
+        "How do I close my Airtel Payments Bank account permanently?",
+        "How do I update my mobile number linked to Airtel Payments Bank?",
+        "Can I have two Airtel Payments Bank accounts on different phone numbers?",
+        "How do I download an account statement from Airtel Payments Bank?",
+        "What is the grievance redressal process for Airtel Payments Bank disputes?",
+        "Who is the Banking Ombudsman I can approach for unresolved Airtel Payments Bank complaints?"
+      ]
+    }
+  ]
+}

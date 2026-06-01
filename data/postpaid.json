@@ -1,0 +1,80 @@
+{
+  "service": "Postpaid",
+  "topics": [
+    {
+      "name": "Billing & Payments",
+      "questions": [
+        "How do I view and download my Airtel postpaid bill?",
+        "Why is my Airtel postpaid bill higher than usual this month?",
+        "How do I pay my Airtel postpaid bill online?",
+        "Can I set up auto-pay for my Airtel postpaid bill?",
+        "What happens if I miss my Airtel postpaid bill due date?",
+        "How do I dispute an incorrect charge on my Airtel postpaid bill?",
+        "I was charged twice for the same bill cycle. How do I get a refund?",
+        "Does Airtel postpaid support payment via UPI or net banking?",
+        "How many days after the due date will my Airtel postpaid connection be suspended?",
+        "How do I get a GST invoice for my Airtel postpaid bill?"
+      ]
+    },
+    {
+      "name": "Plan & Add-ons",
+      "questions": [
+        "What postpaid plans does Airtel currently offer?",
+        "How do I upgrade or downgrade my current Airtel postpaid plan?",
+        "Will I be charged a proration fee when I change my plan mid-cycle?",
+        "Which Airtel postpaid plan includes Netflix, Amazon Prime, or Hotstar?",
+        "How do I add an international roaming pack to my postpaid plan?",
+        "How do I add extra data to my postpaid plan before the cycle ends?",
+        "Can I share my postpaid data with family members on the same account?",
+        "What is the Airtel Infinity postpaid plan and what does it include?",
+        "How do I remove an add-on that I no longer want on my postpaid plan?",
+        "Are calls truly unlimited on Airtel postpaid or is there a fair usage limit?"
+      ]
+    },
+    {
+      "name": "Data & Roaming",
+      "questions": [
+        "How do I check my remaining data usage in the current postpaid cycle?",
+        "My postpaid internet is slow even though I have not exceeded my data limit. Why?",
+        "What speed will I get after exhausting my postpaid data allowance?",
+        "How do I activate international roaming on my Airtel postpaid number?",
+        "How much does Airtel charge for data usage in the USA, UK, or UAE on postpaid?",
+        "My Airtel roaming data is not working after I arrived abroad. What do I do?",
+        "Will roaming charges appear on my next monthly bill or immediately?",
+        "How do I deactivate international roaming when I return to India?",
+        "Can I use Wi-Fi calling on my Airtel postpaid number when abroad?",
+        "Does Airtel postpaid offer any free roaming days as part of the plan?"
+      ]
+    },
+    {
+      "name": "Family & Multi-SIM",
+      "questions": [
+        "How do I add a family member's number to my Airtel postpaid account?",
+        "How many SIMs can I add under one Airtel postpaid family plan?",
+        "Can I get a single bill for all family SIMs on my Airtel postpaid account?",
+        "How do I set a spending or data limit for a family member's SIM?",
+        "Can I transfer data from my allowance to a family member's SIM?",
+        "How do I remove a number from my Airtel postpaid family group?",
+        "Does each family SIM get independent data or is it pooled?",
+        "Can I add a prepaid Airtel number to my postpaid family group?",
+        "How do I view usage details for each SIM in my family plan?",
+        "What happens to a family member's SIM if the primary account holder's bill is unpaid?"
+      ]
+    },
+    {
+      "name": "Account Management",
+      "questions": [
+        "How do I update the registered address on my Airtel postpaid account?",
+        "How do I transfer my Airtel postpaid number to another person's name?",
+        "How do I convert my Airtel postpaid number to prepaid?",
+        "How do I permanently deactivate or close my Airtel postpaid connection?",
+        "What documents are needed to take over an existing Airtel postpaid account?",
+        "How do I link multiple Airtel mobile numbers to a single Airtel Thanks login?",
+        "How do I check the security deposit amount paid for my postpaid connection?",
+        "How long does Airtel take to refund the security deposit after deactivation?",
+        "How do I raise a complaint about my Airtel postpaid service?",
+        "Who is Airtel's appellate authority and how do I escalate a postpaid complaint?"
+      ]
+    }
+  ]
+}

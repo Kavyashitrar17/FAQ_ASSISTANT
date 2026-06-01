@@ -87,7 +87,13 @@ section[data-testid="stSidebar"] {
 
 /* New Chat button */
 [data-testid="stSidebar"] [data-testid="stButton"]:first-of-type > button {
-    background: linear-gradient(135deg, var(--red-core), var(--red-deep)) !important;
+    background: linear-gradient(
+    180deg,
+    #232b3b,
+    #1a2130
+) !important;
+
+box-shadow: 0 4px 14px rgba(0,0,0,0.45) !important;
     color: #fff !important; border: none !important;
     border-radius: var(--radius-md) !important;
     font-family: 'Sora', sans-serif !important;
@@ -98,8 +104,15 @@ section[data-testid="stSidebar"] {
     letter-spacing: 0.02em !important; margin-bottom: 10px !important;
 }
 [data-testid="stSidebar"] [data-testid="stButton"]:first-of-type > button:hover {
-    background: linear-gradient(135deg, var(--red-bright), var(--red-core)) !important;
-    box-shadow: 0 5px 22px rgba(228,0,0,0.42) !important;
+    background: linear-gradient(
+    180deg,
+    #1b2130,
+    #141923
+) !important;
+
+border: 1px solid #2a3142 !important;
+
+box-shadow: 0 2px 10px rgba(0,0,0,0.35) !important;
     transform: translateY(-1px) !important;
 }
 
@@ -153,10 +166,10 @@ section[data-testid="stSidebar"] {
 
 /* Active chat row overlay */
 .chat-row-active {
-    background: rgba(228,0,0,0.10) !important;
-    border-left: 2px solid var(--red-core) !important;
+    background: #1b2130 !important;
+    border-left: 3px solid #5f697c !important;
+    color: #ffffff !important;
     border-radius: 0 6px 6px 0 !important;
-    color: var(--text-primary) !important;
     font-weight: 500 !important;
     padding: 0 8px 0 10px !important;
     height: 32px !important; display: flex; align-items: center;
