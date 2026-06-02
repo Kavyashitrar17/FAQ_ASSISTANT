@@ -546,5 +546,422 @@
                 "rewritten_query": "who is airtel ceo?"
             }
         ]
+    },
+    "1ae949e3": {
+        "title": "What are the best recharge plans",
+        "messages": [
+            {
+                "role": "assistant",
+                "content": "\ud83d\udc4b **Hi! I'm Airtel Assistant.**\n\nI can help with:\n- \ud83d\udcf1 Mobile Recharge & Plans\n- \ud83d\udcf6 WiFi Broadband\n- \ud83d\udcfa DTH Services\n- \ud83c\udfe6 Airtel Payments Bank\n- \u2b50 Airtel Black\n\nAsk me anything or choose one of the quick options below.",
+                "sources": [],
+                "rewritten_query": null
+            },
+            {
+                "role": "user",
+                "content": "What are the best recharge plans?"
+            },
+            {
+                "role": "assistant",
+                "content": "I could not find that in my knowledge base. Our FAQ section has information on Smart Recharge and Full Talktime plans, but it doesn't mention \"best\" recharge plans. Would you like me to explain the difference between those two plans?",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "What is the difference between Smart Recharge and Full Talktime plans?\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "How do I set up auto-recharge for my Airtel DTH subscription?\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "What is the minimum recharge to keep my Airtel number active?\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "How do I view my last 10 recharge transactions on Airtel?\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "How do I enable auto-recharge on my Airtel prepaid number?\u2026"
+                    }
+                ],
+                "rewritten_query": "What are the best recharge plans?"
+            }
+        ]
+    },
+    "ea356503": {
+        "title": "what is airtel payment bank of\u2026",
+        "messages": [
+            {
+                "role": "user",
+                "content": "what is airtel payment bank offers"
+            },
+            {
+                "role": "assistant",
+                "content": "Airtel Payments Bank offers various services, including savings accounts, digital payments, and bill payments. It's a RBI-licensed bank [Source 4]. For more information on specific services or features, I can try to help you find that in our knowledge base. Would you like me to look into something specific?\n\n> \u26a0\ufe0f *Low confidence: this answer may not be fully grounded in the knowledge base. Please verify with Airtel support.*",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "Does Airtel Payments Bank offer a fixed deposit or savings interest?\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "What is the current savings account interest rate offered by Airtel Payments Bank?\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "Does Airtel Payments Bank provide a passbook or account statement?\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "Is Airtel Payments Bank a RBI-licensed bank?\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "How do I set up or collect a payment request using Airtel Payments Bank UPI?\u2026"
+                    }
+                ],
+                "rewritten_query": "what is airtel payment bank offers"
+            },
+            {
+                "role": "user",
+                "content": "airtel payment bank offers"
+            },
+            {
+                "role": "assistant",
+                "content": "Airtel Payments Bank offers various services, including:\n\n- UPI payments\n- Bill payments\n- Recharge payments\n- Digital wallet services\n\nFor more information on the specific features and services offered by Airtel Payments Bank, I recommend checking our official website or contacting our customer support team.\n\n> \u26a0\ufe0f *Low confidence: this answer may not be fully grounded in the knowledge base. Please verify with Airtel support.*",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "Does Airtel Payments Bank offer a fixed deposit or savings interest?\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "Can I use Airtel Payments Bank UPI for payments on Swiggy, Zomato, or Amazon?\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "Is Airtel Payments Bank a RBI-licensed bank?\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "How do I set up or collect a payment request using Airtel Payments Bank UPI?\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "Can I open a fixed deposit through Airtel Payments Bank?\u2026"
+                    }
+                ],
+                "rewritten_query": "airtel payment bank offers"
+            },
+            {
+                "role": "user",
+                "content": "hii"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?\n\n> \u26a0\ufe0f *Low confidence: this answer may not be fully grounded in the knowledge base. Please verify with Airtel support.*",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "How do I set up UPI on the Airtel Thanks app using Airtel Payments Bank?\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "My Airtel Payments Bank UPI ID is not working. How do I troubleshoot it?\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "How do I set up or collect a payment request using Airtel Payments Bank UPI?\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "Does Airtel postpaid support payment via UPI or net banking?\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "My Airtel Payments Bank UPI payment failed but money was deducted. What do I do?\u2026"
+                    }
+                ],
+                "rewritten_query": "hii"
+            },
+            {
+                "role": "user",
+                "content": "hi"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?\n\n> \u26a0\ufe0f *Low confidence: this answer may not be fully grounded in the knowledge base. Please verify with Airtel support.*",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "Who is the Banking Ombudsman I can approach for unresolved Airtel Payments Bank complaints?\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "What is the default username and password for my Airtel router?\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "What is the Airtel Infinity postpaid plan and what does it include?\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "My Airtel Payments Bank UPI ID is not working. How do I troubleshoot it?\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "Can I send international SMS from my Airtel prepaid number?\u2026"
+                    }
+                ],
+                "rewritten_query": "hi"
+            },
+            {
+                "role": "user",
+                "content": "hello"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello! I'd be happy to help you with your Airtel query. Which issue would you like assistance with today?",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "My broadband under Airtel Black is not working. Who do I contact?\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "Who is the Banking Ombudsman I can approach for unresolved Airtel Payments Bank complaints?\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "What is Airtel's customer care number for prepaid queries?\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "My Airtel Payments Bank UPI ID is not working. How do I troubleshoot it?\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "How do I port my number from another operator to Airtel prepaid?\u2026"
+                    }
+                ],
+                "rewritten_query": "hello"
+            },
+            {
+                "role": "user",
+                "content": "what are current xtreme fibre plan "
+            },
+            {
+                "role": "assistant",
+                "content": "I apologize, but I couldn't find any information on \"Xtreme Fibre\" in our knowledge base. It seems that we have an \"Airtel Xstream Fiber\" service, not \"Xtreme Fibre\". Would you like to know more about Airtel Xstream Fiber plans?",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "What are the current Airtel Xstream Fiber plans and their monthly costs?\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "What is the installation charge for a new Airtel Xstream Fiber connection?\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "How do I apply for a new Airtel Xstream Fiber connection at my home?\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "Is Airtel Xstream Fiber available in my area or building?\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "Is there a charge for relocating my Airtel Xstream Fiber connection?\u2026"
+                    }
+                ],
+                "rewritten_query": "what are the current Xtreme Fibre plans?"
+            },
+            {
+                "role": "user",
+                "content": "how to recharge prepaid number"
+            },
+            {
+                "role": "assistant",
+                "content": "To recharge your Airtel prepaid number, you can follow these steps:\n\n1. Visit our website at [www.airtel.in](http://www.airtel.in) or download the Airtel Mobile App.\n2. Click on 'Recharge' and select your plan from the options.\n3. Enter the required details and pay using a preferred payment method.\n4. You will receive an SMS with the recharge details.\n\nAlternatively, you can also recharge through our customer care number 1860 300 1937 (available 24x7) or visit any Airtel retail outlet near you.",
+                "sources": [
+                    {
+                        "index": 1,
+                        "source": "FAQ chunk 1",
+                        "section": "",
+                        "snippet": "How do I enable auto-recharge on my Airtel prepaid number?\u2026"
+                    },
+                    {
+                        "index": 2,
+                        "source": "FAQ chunk 2",
+                        "section": "",
+                        "snippet": "I recharged the wrong number by mistake. Can I get a refund?\u2026"
+                    },
+                    {
+                        "index": 3,
+                        "source": "FAQ chunk 3",
+                        "section": "",
+                        "snippet": "How do I convert my Airtel postpaid number to prepaid?\u2026"
+                    },
+                    {
+                        "index": 4,
+                        "source": "FAQ chunk 4",
+                        "section": "",
+                        "snippet": "What is the minimum recharge to keep my Airtel number active?\u2026"
+                    },
+                    {
+                        "index": 5,
+                        "source": "FAQ chunk 5",
+                        "section": "",
+                        "snippet": "How do I check the balance and validity on my Airtel prepaid number?\u2026"
+                    }
+                ],
+                "rewritten_query": "How to recharge a prepaid number?"
+            }
+        ]
+    },
+    "a7efcfbe": {
+        "title": "what is airtel black?",
+        "messages": [
+            {
+                "role": "user",
+                "content": "what is airtel black?"
+            },
+            {
+                "role": "assistant",
+                "content": "Airtel Black is a premium bundled service that combines multiple Airtel accounts\u2014such as Mobile, Broadband, and DTH\u2014under a single customized plan. It simplifies your monthly billing by combining these services into one bill and gives you access to a dedicated premium customer support team[cite: 7].",
+                "rewritten_query": "what is airtel black?"
+            },
+            {
+                "role": "user",
+                "content": "does it include both mobile and dth services"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes, Airtel Black includes both mobile and DTH services. You can combine your mobile postpaid lines and DTH television services into a single integrated Airtel Black account [Source 2].",
+                "rewritten_query": "Does Airtel Black include both mobile and DTH services?"
+            }
+        ]
+    },
+    "502554e4": {
+        "title": "How do I set up UPI on Airtel \u2026",
+        "messages": [
+            {
+                "role": "user",
+                "content": "How do I set up UPI on Airtel Payments Bank?"
+            },
+            {
+                "role": "assistant",
+                "content": "To set up UPI services, navigate to the banking tab within the Airtel Thanks app and select the 'Airtel UPI' registration link. The app will send an automated SMS text from your phone to verify your device links securely with your bank account records. Once verified, you can create a custom virtual payment address (VPA) and link it to your account.",
+                "rewritten_query": "How do I set up UPI on Airtel Payments Bank?"
+            }
+        ]
+    },
+    "6e05d8cd": {
+        "title": "How do I check my Airtel Black\u2026",
+        "messages": []
+    },
+    "4d4d0256": {
+        "title": "How do I port my number to Air\u2026",
+        "messages": [
+            {
+                "role": "user",
+                "content": "How do I port my number to Airtel prepaid?"
+            },
+            {
+                "role": "assistant",
+                "content": "To switch to Airtel prepaid, follow these steps: 1. Send SMS: PORT <mobile number> to 1900, 2. Receive UPC code, 3. Visit Airtel store, 4. Submit documents, 5. Choose a plan. Porting usually completes within a few days.",
+                "rewritten_query": "How do I port my number to Airtel prepaid?"
+            },
+            {
+                "role": "user",
+                "content": "how much does it cost"
+            },
+            {
+                "role": "assistant",
+                "content": "I could not find that in my knowledge base. The initial cost of porting to Airtel prepaid is mentioned as a unique porting code (UPC) generated by texting 'PORT <Mobile Number>' to 1900 from your current network, but I don't have information on the specific costs associated with this process.",
+                "rewritten_query": "How much does porting to Airtel prepaid cost?"
+            },
+            {
+                "role": "user",
+                "content": "tell me step wise how to do it"
+            },
+            {
+                "role": "assistant",
+                "content": "To port your number to Airtel prepaid, follow these steps:\n\n1. Send SMS: PORT <mobile number> to 1900.\n2. Receive Unique Porting Code (UPC) from your current network.\n3. Visit an Airtel store with the UPC code and required documents (Aadhaar Card or alternative POI/POA).\n4. Submit documents and choose a plan.\n\nPorting usually completes within a few days.",
+                "rewritten_query": "tell me step wise how to port my number to Airtel prepaid"
+            }
+        ]
     }
 }

@@ -4,76 +4,226 @@
     {
       "name": "Recharge & Plans",
       "questions": [
-        "Which Airtel prepaid plan gives the most data for under ₹300?",
-        "What is the difference between Smart Recharge and Full Talktime plans?",
-        "Which prepaid plan includes free Amazon Prime or Disney+ Hotstar?",
-        "Is there an annual Airtel prepaid plan valid for a full year?",
-        "What is the minimum recharge to keep my Airtel number active?",
-        "My recharge payment was deducted but the plan was not activated. What do I do?",
-        "How long does a refund take for a failed Airtel recharge?",
-        "I recharged the wrong number by mistake. Can I get a refund?",
-        "How do I enable auto-recharge on my Airtel prepaid number?",
-        "My auto-recharge failed even though my bank had sufficient balance. Why?"
+        {
+          "question": "Which Airtel prepaid plan gives the most data for under ₹300?",
+          "answer": "Airtel offers a dynamic selection of prepaid packs and limited-time data recharges tailored to various price ranges. Because plan configurations, talktime inclusions, and data allowances are adjusted frequently, please check the 'Best Offers' panel inside the Airtel Thanks app. There you will find the most accurate, up-to-date prepaid options available for your number under ₹300."
+        },
+        {
+          "question": "What is the difference between Smart Recharge and Full Talktime plans?",
+          "answer": "Smart Recharges are small-value packs designed to extend your baseline account validity and provide limited talktime and data rates. Full Talktime plans, by contrast, credit your core account balance with an amount exactly equal to the recharge face value. Note that modern unlimited plans have largely replaced traditional talktime vouchers for everyday data and call needs."
+        },
+        {
+          "question": "Which prepaid plan includes free Amazon Prime or Disney+ Hotstar?",
+          "answer": "Airtel features bundled streaming subscriptions on select premium unlimited prepaid recharge plans. Since these digital reward partnerships and plan bundles can change over time, look at the active plan descriptions in the Airtel Thanks app. Once you complete an eligible recharge, you can claim your entertainment access via the 'Discover Thanks' section."
+        },
+        {
+          "question": "Is there an annual Airtel prepaid plan valid for a full year?",
+          "answer": "Yes, Airtel consistently provides long-term prepaid plans that offer a full 365 days of service validity. These annual plans bundle continuous unlimited voice calls along with either a daily high-speed data limit or a fixed bulk data allowance. Check the 'Annual Plans' tab inside the Airtel Thanks app to compare current long-term packages."
+        },
+        {
+          "question": "What is the minimum recharge to keep my Airtel number active?",
+          "answer": "To prevent your incoming and outgoing services from being suspended, your prepaid account must have an active validity pack. Airtel offers entry-level validation packs specifically meant to extend your service lifecycle at minimal expense. You can view the exact minimum recharge value required for your specific circle via the Airtel Thanks app."
+        },
+        {
+          "question": "My recharge payment was deducted but the plan was not activated. What do I do?",
+          "answer": "Recharge transactions typically process within a few minutes, but system delays can occasionally occur. If your payment was deducted but the plan is missing after 30 minutes, try restarting your mobile device to force a network refresh. If it still fails to appear, navigate to the Help section of the Airtel Thanks app to log a payment dispute with your transaction ID."
+        },
+        {
+          "question": "How long does a refund take for a failed Airtel recharge?",
+          "answer": "When a recharge transaction fails on our backend but money leaves your account, an automatic reversal is triggered. The funds are typically credited back to your original payment mode (banking portal, card, or wallet) within 3 to 7 working days. This timeline depends on your financial institution's processing schedules."
+        },
+        {
+          "question": "I recharged the wrong number by mistake. Can I get a refund?",
+          "answer": "Airtel recharges are processed instantly based on the explicit destination mobile number entered at checkout, making completed payments irreversible. If you realize an error was made on a highly similar Airtel number, please reach out to customer care immediately via 121 for review. Reversals cannot be guaranteed if the credited balances have already been utilized by the unintended recipient."
+        },
+        {
+          "question": "How do I enable auto-recharge on my Airtel prepaid number?",
+          "answer": "You can configure automated recharges by navigating to the payment settings inside the Airtel Thanks app. Link your preferred digital wallet, UPI account, or debit/credit card and authorize a recurring mandate for your preferred prepaid plan. The system will then automatically trigger a recharge payment whenever your current validity draws to a close."
+        },
+        {
+          "question": "My auto-recharge failed even though my bank had sufficient balance. Why?",
+          "answer": "Auto-recharge failures can occur due to temporary banking network downtime, updated multi-factor security rules from your card issuer, or expired mandate permissions. If your balance is adequate, remove and recreate the auto-recharge instruction inside the Airtel Thanks app. You can also process a manual recharge in the interim to protect your mobile connectivity."
+        }
       ]
     },
     {
       "name": "Data & Internet",
       "questions": [
-        "How do I check how much mobile data I have left on my Airtel plan?",
-        "What speed will I get after my daily high-speed data is exhausted?",
-        "My Airtel internet is slow even though I have data balance remaining. Why?",
-        "How do I buy a data add-on before my plan renews?",
-        "Does unused daily data roll over to the next day on Airtel prepaid?",
-        "Can I set a data usage alert on the Airtel Thanks app?",
-        "How do I activate international roaming on my Airtel prepaid number?",
-        "Which Airtel international roaming pack is best for a 7-day trip?",
-        "My Airtel roaming is not working after I landed abroad. How do I fix it?",
-        "Will I be charged for incoming calls while roaming internationally?"
+        {
+          "question": "How do I check how much mobile data I have left on my Airtel plan?",
+          "answer": "The most effective way to view your real-time data balance is by opening the dashboard of the Airtel Thanks app. Alternatively, you can dial the USSD short code *121# or *123# from your smartphone dialer to receive an instant on-screen summary of your data metrics. Automated usage warning notifications are also pushed to your screen as you approach your limits."
+        },
+        {
+          "question": "What speed will I get after my daily high-speed data is exhausted?",
+          "answer": "Once you consume 100% of your daily allocated high-speed data quota, your cellular internet connection remains active but drops to a lower standard baseline speed. This continuous lower-tier connectivity prevents you from being completely disconnected from basic messaging services. Your maximum operational high-speed data rate will reset automatically at midnight."
+        },
+        {
+          "question": "My Airtel internet is slow even though I have data balance remaining. Why?",
+          "answer": "Slower speeds despite an active data balance can happen due to poor indoor signal reception, heavy localized cell tower congestion, or incorrect APN configurations on your smartphone. Try toggling your phone's Airplane Mode on and off to re-authenticate your connection to the nearest 4G or 5G tower. If speeds remain poor, reset your device's network settings or use the Airtel Thanks app to check for regional coverage maintenance."
+        },
+        {
+          "question": "How do I buy a data add-on before my plan renews?",
+          "answer": "If you exhaust your primary daily data allocation early, you can buy an immediate data booster pack via the Airtel Thanks app. These add-ons are located under the 'Data Packs' menu and integrate instantly into your active mobile profile. Alternatively, you can complete a quick data booster recharge through any authorized retail outlet or payment application."
+        },
+        {
+          "question": "Does unused daily data roll over to the next day on Airtel prepaid?",
+          "answer": "Standard Airtel prepaid unlimited plans operate on a fixed daily allotment system where unused high-speed megabytes expire at midnight and do not roll over to the following day. Certain custom or bulk data packs provide a lump-sum data pool valid for the entire plan tenure instead of a strict daily limit. Review your plan details carefully in the Airtel Thanks app to understand its specific data structure."
+        },
+        {
+          "question": "Can I set a data usage alert on the Airtel Thanks app?",
+          "answer": "The Airtel Thanks app displays your remaining data balance on its central screen whenever you launch it. While the app does not feature a custom manual alert buzzer, you can set native hardware limits inside your Android or iOS system settings to track usage. Airtel also sends automated operational SMS texts when your data usage crosses the 50%, 90%, and 100% thresholds."
+        },
+        {
+          "question": "How do I activate international roaming on my Airtel prepaid number?",
+          "answer": "International roaming features are natively built into your Airtel prepaid SIM card and initialize automatically when you attach to a foreign telecom network. To prevent high standard data rates, we highly advise purchasing a dedicated International Roaming pack via the Airtel Thanks app before your departure. Ensure that data roaming is enabled within your mobile device's cellular settings menu."
+        },
+        {
+          "question": "Which Airtel international roaming pack is best for a 7-day trip?",
+          "answer": "Airtel provides various international roaming plans designed for brief global travels, which include data, local calling minutes, and SMS benefits. Because pack options and country-specific partner coverages change depending on your destination, please view the 'International Roaming' section in the Airtel Thanks app. Enter your target country to select the best match for your trip."
+        },
+        {
+          "question": "My Airtel roaming is not working after I landed abroad. How do I fix it?",
+          "answer": "If your device shows no signal abroad, restart your handset and open your cellular settings to switch network selection from automatic to manual mode, then select an official Airtel partner carrier. Confirm that both 'Data Roaming' and cellular data toggles are active on your smartphone. If issues remain, connect to a local Wi-Fi network and contact our global customer support team via the Airtel Thanks app."
+        },
+        {
+          "question": "Will I be charged for incoming calls while roaming internationally?",
+          "answer": "Yes, standard prepaid accounts without an active international roaming pack will incur usage-based international fees for all received calls. To get free or discounted incoming voice minutes, you should activate a specific roaming package before traveling. Review the exact incoming tariff sheets for your destination country inside the Airtel Thanks app."
+        }
       ]
     },
     {
       "name": "SIM Card & Number",
       "questions": [
-        "My Airtel SIM is lost or stolen. How do I block it immediately?",
-        "How do I get a replacement SIM for my existing Airtel number?",
-        "Can I upgrade from a regular SIM to an Airtel eSIM while keeping my number?",
-        "How long does it take for a replaced Airtel SIM to become active?",
-        "Will my balance and plan validity be preserved on a replacement SIM?",
-        "How do I port my number from another operator to Airtel prepaid?",
-        "How many days does MNP porting to Airtel take?",
-        "What SMS do I send to generate my MNP porting code?",
-        "My porting request to Airtel was rejected. What are the common reasons?",
-        "Can I port a Jio or BSNL postpaid number to Airtel prepaid?"
+        {
+          "question": "My Airtel SIM is lost or stolen. How do I block it immediately?",
+          "answer": "To block a lost or stolen SIM instantly and protect your identity, call Airtel customer care at 121 from another Airtel line or dial our alternative helpline numbers. You can also report the loss at your nearest Airtel retail outlet to block line activity immediately. This action prevents unauthorized calling, texting, or data usage on your account."
+        },
+        {
+          "question": "How do I get a replacement SIM for my existing Airtel number?",
+          "answer": "To get a replacement SIM card, visit your nearest authorized Airtel store or retail center in person. You will need to present your original Proof of Identity (such as an Aadhaar Card) and undergo biometric or OTP verification. A nominal charge may apply for the new physical SIM card casing."
+        },
+        {
+          "question": "Can I upgrade from a regular SIM to an Airtel eSIM while keeping my number?",
+          "answer": "Yes, you can transition your active number from a physical plastic card to a digital eSIM if your smartphone natively supports eSIM technology. To begin the migration, open the Airtel Thanks app and complete the automated eSIM conversion workflow. Alternatively, send the request via official SMS protocols as guided by our customer care documentation."
+        },
+        {
+          "question": "How long does it take for a replaced Airtel SIM to become active?",
+          "answer": "A newly issued physical replacement SIM card generally activates within a few hours following successful biometric identity verification at our store. For regulatory compliance and fraud prevention, SMS services are temporarily blocked on the new card for a standard 24-hour window. This delay safeguards your banking profiles and personal security from SIM-swap risks."
+        },
+        {
+          "question": "Will my balance and plan validity be preserved on a replacement SIM?",
+          "answer": "Yes, your core prepaid balance, current plan validity, data buckets, and value-added profiles are safely preserved on our backend servers. When your replacement SIM card is activated, all existing credits transfer seamlessly to the new card chip. You will not lose any active services or prepaid benefits during a standard SIM replacement process."
+        },
+        {
+          "question": "How do I port my number from another operator to Airtel prepaid?",
+          "answer": "To move your number to Airtel prepaid via Mobile Number Portability (MNP), generate a Unique Porting Code (UPC) by texting 'PORT <Mobile Number>' to 1900 from your current network. Bring this code along with your Aadhaar Card or alternative POI/POA documents to any Airtel retail outlet. You can also request a home delivery of your new Airtel SIM card through our website."
+        },
+        {
+          "question": "How many days does MNP porting to Airtel take?",
+          "answer": "The regulatory timeline for Mobile Number Portability (MNP) within the same telecom circle is usually completed within 3 working days. For cross-circle or interstate porting requests, the transfer process can take up to 5 working days. Your current connection will remain active until the porting process completes, minimizing service downtime."
+        },
+        {
+          "question": "What SMS do I send to generate my MNP porting code?",
+          "answer": "To obtain your Unique Porting Code (UPC), open your messaging application and send an SMS with the text 'PORT' followed by a space and your 10-digit mobile number to 1900. Your current service provider will validate the request and text back your alphanumeric porting code if eligible. Please note that this code carries a fixed structural expiration date."
+        },
+        {
+          "question": "My porting request to Airtel was rejected. What are the common reasons?",
+          "answer": "MNP requests can be rejected if your current SIM has been active with your current operator for less than 90 days, or if there is an mismatch in your registered user details. Rejections also happen if your Unique Porting Code (UPC) has expired or if you have outstanding contractual dues on a postpaid line. Check your rejection SMS code details and reach out to your current carrier to resolve the block."
+        },
+        {
+          "question": "Can I port a Jio or BSNL postpaid number to Airtel prepaid?",
+          "answer": "Yes, you can port any competitor's active postpaid number to an Airtel prepaid account using standard MNP guidelines. Ensure you completely settle all outstanding billing statements with your current carrier before initiating the porting code request to avoid rejection. Visit an Airtel retail store with your active porting code to complete the verification."
+        }
       ]
     },
     {
       "name": "Calls & SMS",
       "questions": [
-        "Why do my Airtel calls keep dropping in my home area?",
-        "How do I report a persistent call drop issue to Airtel?",
-        "My Airtel number shows no signal indoors. How can I improve coverage?",
-        "Other people cannot hear me clearly on calls even though I can hear them.",
-        "How do I enable Wi-Fi calling on Airtel?",
-        "I am receiving too many spam calls on my Airtel number. How do I block them?",
-        "How do I activate a missed call alert on my Airtel prepaid number?",
-        "How do I check my remaining free SMS balance on Airtel?",
-        "Can I send international SMS from my Airtel prepaid number?",
-        "How do I activate DND (Do Not Disturb) on my Airtel number?"
+        {
+          "question": "Why do my Airtel calls keep dropping in my home area?",
+          "answer": "Frequent call drops inside a building can happen due to natural signal blocks like thick concrete walls, radiant metallic roofs, or localized network infrastructure maintenance. To help isolate the cause, see if the dropped calls happen only in specific rooms or affect other Airtel handsets nearby. You can report persistent coverage weak spots via the network diagnostic portal inside the Airtel Thanks app."
+        },
+        {
+          "question": "How do I report a persistent call drop issue to Airtel?",
+          "answer": "You can report call drop issues directly through the Help and Support menu inside the Airtel Thanks app. Select the 'Network Diagnostics' option to flag recent failed connections and log a localized coverage ticket. Our network planning teams use these reports to analyze cell tower performance and optimize local area coverage."
+        },
+        {
+          "question": "My Airtel number shows no signal indoors. How can I improve coverage?",
+          "answer": "If you experience weak cellular coverage indoors, enabling Wi-Fi Calling (VoWiFi) on your smartphone can significantly improve call quality. This feature routes your voice calls over your home broadband connection when cellular signals are obstructed. If the signal drops everywhere inside your home, check your physical SIM positioning or try toggling airplane mode to re-establish a tower link."
+        },
+        {
+          "question": "Other people cannot hear me clearly on calls even though I can hear them.",
+          "answer": "One-way audio issues can stem from a temporary voice channel glitch, a hardware microphone fault on your phone, or low upload bandwidth on the serving tower. Try toggling your device's VoLTE settings on and off or restarting the smartphone to clear temporary session bugs. Testing your SIM card in an alternative device can help determine if the issue is phone-specific."
+        },
+        {
+          "question": "How do I enable Wi-Fi calling on Airtel?",
+          "answer": "To activate Airtel Wi-Fi Calling, navigate to your smartphone's cellular network or call connection settings and toggle the 'Wi-Fi Calling' feature on. Ensure your device is connected to a stable Wi-Fi network and that your Airtel SIM card has active VoLTE privileges. The phone network indicator icon will update to reflect Wi-Fi calling status once active."
+        },
+        {
+          "question": "I am receiving too many spam calls on my Airtel number. How do I block them?",
+          "answer": "You can curb unwanted telemarketing calls by activating full Do Not Disturb (DND) modes on your line via the Airtel Thanks app. You can also send the SMS 'START 0' to the official regulatory short code 1909 to register your preferences. For individual persistent offenders, use your smartphone's built-in block list features to stop future incoming alerts."
+        },
+        {
+          "question": "How do I activate a missed call alert on my Airtel prepaid number?",
+          "answer": "The missed call alert service can be activated and monitored directly inside the value-added service tab of the Airtel Thanks app. This feature sends you automated notifications about calls missed while your phone was switched off or out of coverage. Check the app to see if this feature is bundled with your current unlimited prepaid plan."
+        },
+        {
+          "question": "How do I check my remaining free SMS balance on Airtel?",
+          "answer": "You can check your remaining daily or monthly promotional SMS balance on the main account card within the Airtel Thanks app. You can also dial the USSD short code *121# or *123# from your mobile dialer to view an on-screen summary of your remaining messaging credits. Automated warning texts are sent if you approach your plan's messaging caps."
+        },
+        {
+          "question": "Can I send international SMS from my Airtel prepaid number?",
+          "answer": "Yes, you can send international text messages (ISMS) from your prepaid number, provided your account has sufficient core talktime balance. Standard unlimited prepaid plans generally exclude international messaging credits from their daily free quotas. You can check the specific per-message tariff rates for your destination country via the Airtel website."
+        },
+        {
+          "question": "How do I activate DND (Do Not Disturb) on my Airtel number?",
+          "answer": "To activate Do Not Disturb (DND), log into the Airtel Thanks app, navigate to your Account Settings, and select the DND preference menu. You can also dial the regulatory helpline at 1909 or text 'START 0' to 1909 to block all commercial communications. Your updated blocking configuration will be registered across the carrier network within 24 hours."
+        }
       ]
     },
     {
       "name": "Account & Profile",
       "questions": [
-        "How do I update my address or email ID linked to my Airtel prepaid account?",
-        "How do I link my Aadhaar card to my Airtel prepaid SIM?",
-        "How do I check the name registered against my Airtel mobile number?",
-        "How do I change the account holder name on my Airtel prepaid number?",
-        "How do I permanently close or deactivate my Airtel prepaid number?",
-        "How do I check the balance and validity on my Airtel prepaid number?",
-        "How do I view my last 10 recharge transactions on Airtel?",
-        "How do I raise a complaint on the Airtel Thanks app?",
-        "What is Airtel's customer care number for prepaid queries?",
-        "How do I escalate an unresolved Airtel complaint to the appellate authority?"
+        {
+          "question": "How do I update my address or email ID linked to my Airtel prepaid account?",
+          "answer": "You can view and request updates to your linked email address and personal profile details directly inside the account management tab of the Airtel Thanks app. To modify your permanent registered home address, you must visit an authorized Airtel store to submit a fresh Proof of Address. This requires completing a digital verification process for security compliance."
+        },
+        {
+          "question": "How do I link my Aadhaar card to my Airtel prepaid SIM?",
+          "answer": "To link your Aadhaar card or update your biometric verification files, please visit your nearest authorized Airtel retail outlet or company store. A store representative will initiate a digital re-verification process using your Aadhaar number and secure biometric fingerprint scanning. This update cannot be performed over third-party phone channels due to regulatory privacy laws."
+        },
+        {
+          "question": "How do I check the name registered against my Airtel mobile number?",
+          "answer": "The name registered to your mobile profile can be viewed by opening the account profile page inside the Airtel Thanks app. You can also find your profile information on the welcome documentation or digital registration receipts provided when the SIM card was issued. If you suspect an error in your profile, visit an Airtel store with your ID card to request a correction."
+        },
+        {
+          "question": "How do I change the account holder name on my Airtel prepaid number?",
+          "answer": "Changing the official ownership name on an active prepaid SIM requires a standard transfer procedure at an authorized Airtel company store. Both the current registered owner and the new applicant should attend in person with valid identification documents. The incoming subscriber must undergo full biometric or digital KYC verification to complete the ownership change."
+        },
+        {
+          "question": "How do I permanently close or deactivate my Airtel prepaid number?",
+          "answer": "A prepaid mobile line will automatically enter an inactive lifecycle and eventual deactivation if it records zero usage or recharges for a continuous 90-day window. If you wish to request immediate formal termination for security or personal reasons, please visit an Airtel store to file a closure application. Ensure you bring your matching identity cards to verify account ownership."
+        },
+        {
+          "question": "How do I check the balance and validity on my Airtel prepaid number?",
+          "answer": "You can view your main monetary balance, high-speed data balances, and overall account expiration dates directly on the Airtel Thanks app home screen. You can also dial the USSD code *123# from your phone dialer to receive an instant balance statement on your screen. The system also broadcasts automated push reminders as your plan validity nears its end."
+        },
+        {
+          "question": "How do I view my last 10 recharge transactions on Airtel?",
+          "answer": "Your complete digital transaction archive is saved and accessible inside the Transaction History section of the Airtel Thanks app. This portal lists the exact payment dates, plan values, and reference numbers for your recent recharge activities. If you purchased your recharge through an external shop, you can request a mini-statement update by dialing *121#."
+        },
+        {
+          "question": "How do I raise a complaint on the Airtel Thanks app?",
+          "answer": "To file a formal grievance, open the Airtel Thanks app and tap the 'Help' icon located on the navigation bar. Select the relevant topic category that matches your issue and follow the guided prompts to log an official support ticket. You will receive a unique tracking ID number along with an estimated resolution timeline via SMS."
+        },
+        {
+          "question": "What is Airtel's customer care number for prepaid queries?",
+          "answer": "For general account questions, plan inquiries, and automated balance details, you can call our interactive voice helpline at 121 from your Airtel number. To register structural service complaints or report line faults, dial the dedicated support short code 198. Non-Airtel lines can reach out using our specific regional corporate helpdesk landlines."
+        },
+        {
+          "question": "How do I escalate an unresolved Airtel complaint to the appellate authority?",
+          "answer": "If an official ticket remains unresolved past its deadline or the provided solution is unsatisfactory, you can appeal to the Airtel Appellate Authority in your region. Contact details, email addresses, and office hours for the Appellate Authority are updated on the Airtel website. Make sure to include your original unique complaint number from your 198 ticket for review."
+        }
       ]
     }
   ]

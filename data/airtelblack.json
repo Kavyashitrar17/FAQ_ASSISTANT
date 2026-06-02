@@ -4,76 +4,226 @@
     {
       "name": "What is Airtel Black",
       "questions": [
-        "What is Airtel Black and how is it different from regular Airtel plans?",
-        "Which services are bundled under Airtel Black?",
-        "Can I include mobile, broadband, and DTH all in one Airtel Black plan?",
-        "Does Airtel Black offer a single bill for all bundled services?",
-        "Is Airtel Black available in my city?",
-        "What are the eligibility criteria to subscribe to Airtel Black?",
-        "Does Airtel Black provide a dedicated relationship manager or priority support?",
-        "How many family members can be included under one Airtel Black plan?",
-        "What OTT subscriptions are included in Airtel Black?",
-        "Is there a contract period or lock-in for Airtel Black subscribers?"
+        {
+          "question": "What is Airtel Black and how is it different from regular Airtel plans?",
+          "answer": "Airtel Black is a premium bundled service that combines multiple Airtel accounts—such as Mobile, Broadband, and DTH—under a single customized plan[cite: 7]. It simplifies your monthly billing by combining these services into one bill and gives you access to a dedicated premium customer support team[cite: 7]. This setup offers a more convenient experience compared to managing separate individual service plans."
+        },
+        {
+          "question": "Which services are bundled under Airtel Black?",
+          "answer": "Airtel Black allows you to bundle your Airtel Postpaid mobile connections, Airtel Xstream Fiber broadband lines, and Airtel DTH television services into a single plan[cite: 7]. You can select a pre-configured bundle option or build a custom plan that fits your household's specific needs. All bundled services are consolidated into one monthly bill[cite: 7]."
+        },
+        {
+          "question": "Can I include mobile, broadband, and DTH all in one Airtel Black plan?",
+          "answer": "Yes, you can combine your mobile postpaid lines, fixed-line broadband, and DTH services into a single integrated Airtel Black account[cite: 7]. This allows you to manage all your household entertainment and connectivity needs through one account profile. You will receive a single monthly bill that covers all active services[cite: 7]."
+        },
+        {
+          "question": "Does Airtel Black offer a single bill for all bundled services?",
+          "answer": "Yes, one of the main features of Airtel Black is a single, combined monthly statement that covers all your bundled services[cite: 7]. This invoice replaces separate bills for your individual mobile, broadband, and DTH lines, making monthly payments simpler[cite: 7]. You can view and pay this combined bill through the Airtel Thanks app."
+        },
+        {
+          "question": "Is Airtel Black available in my city?",
+          "answer": "Airtel Black availability depends on the coverage of our individual postpaid, broadband, and DTH networks in your specific location[cite: 7]. You can check service availability for your neighborhood by visiting the Airtel Black section of our website or using the Airtel Thanks app. Enter your address or pin code to see if bundled services are open in your area."
+        },
+        {
+          "question": "What are the eligibility criteria to subscribe to Airtel Black?",
+          "answer": "To qualify for Airtel Black, you must have or activate at least two eligible Airtel services, such as a postpaid mobile line and a broadband connection[cite: 7]. The primary account holder must complete standard identity verification and maintain a good payment history on all active accounts. You can check your eligibility details through the Airtel Thanks app."
+        },
+        {
+          "question": "Does Airtel Black provide a dedicated relationship manager or priority support?",
+          "answer": "Yes, Airtel Black subscribers receive priority customer care, which includes shorter wait times and access to a dedicated support team[cite: 7]. Your service requests and technical issues are routed through an accelerated customer service path for faster resolution[cite: 7]. You can access this priority assistance via our dedicated helpline or through the Airtel Thanks app."
+        },
+        {
+          "question": "How many family members can be included under one Airtel Black plan?",
+          "answer": "The number of family members and mobile connections you can add depends on the specific postpaid plan tier bundled within your Airtel Black account[cite: 7]. Standard bundles typically accommodate multiple child lines alongside your main household broadband and DTH accounts. You can manage your linked family lines through the Airtel Thanks app."
+        },
+        {
+          "question": "What OTT subscriptions are included in Airtel Black?",
+          "answer": "Select pre-configured and custom Airtel Black plans bundle access to popular streaming and entertainment platforms[cite: 7]. The specific streaming rewards and promotional add-ons vary depending on the plan tier you choose during activation. You can view and activate your bundled rewards through the 'Discover Thanks' section in the Airtel Thanks app."
+        },
+        {
+          "question": "Is there a contract period or lock-in for Airtel Black subscribers?",
+          "answer": "Airtel Black does not require a long-term contract or exit lock-in period, giving you the flexibility to adjust your plan as needed[cite: 7]. If you choose to separate your services or cancel the bundle, any hardware installation fees or advance rental promotions will be settled based on the terms accepted at signup. You can manage your plan configuration at any time through the Airtel Thanks app."
+        }
       ]
     },
     {
       "name": "Subscription & Onboarding",
       "questions": [
-        "How do I subscribe to Airtel Black?",
-        "Can I convert my existing Airtel postpaid and broadband into Airtel Black?",
-        "How long does it take to get onboarded to Airtel Black after placing the request?",
-        "What is the monthly cost of Airtel Black plans?",
-        "Can I add or remove services from my Airtel Black bundle after subscribing?",
-        "How do I add a new Airtel mobile number to my existing Airtel Black plan?",
-        "Can I add a non-Airtel service into my Airtel Black bundle?",
-        "Is there a one-time setup or activation fee for Airtel Black?",
-        "How do I check what services are currently active under my Airtel Black plan?",
-        "How do I upgrade my Airtel Black plan to a higher tier?"
+        {
+          "question": "How do I subscribe to Airtel Black?",
+          "answer": "You can subscribe to Airtel Black by choosing an active bundle option through the Airtel Thanks app or our official website[cite: 7]. You can also sign up by visiting your nearest authorized Airtel company store or calling our customer care team to request a custom plan. A representative will check service coverage at your location and guide you through the setup."
+        },
+        {
+          "question": "Can I convert my existing Airtel postpaid and broadband into Airtel Black?",
+          "answer": "Yes, you can easily combine your separate active Airtel accounts into a single unified Airtel Black plan[cite: 7]. This conversion can be completed through the Airtel Thanks app by linking your accounts under one primary mobile login. Once combined, your separate bills will be replaced by a single monthly statement[cite: 7]."
+        },
+        {
+          "question": "How long does it take to get onboarded to Airtel Black after placing the request?",
+          "answer": "Linking existing active Airtel accounts into an Airtel Black bundle is typically completed within a few hours of verification[cite: 7]. If your plan requires new service installations, like a broadband line or DTH connection, setup usually takes 24 to 48 hours[cite: 7]. You will receive confirmation alerts via SMS once your unified plan goes live."
+        },
+        {
+          "question": "What is the monthly cost of Airtel Black plans?",
+          "answer": "Airtel Black offers a range of pre-configured plans alongside custom bundles, so monthly costs depend on the specific services you choose[cite: 7]. Because pricing varies based on your selected data packages, call options, and regional taxes, please check the Airtel Thanks app for current plan rates. The app provides a clear cost breakdown before you confirm your selection."
+        },
+        {
+          "question": "Can I add or remove services from my Airtel Black bundle after subscribing?",
+          "answer": "Yes, you can modify your Airtel Black bundle by adding or removing individual services through the Airtel Thanks app at any time[cite: 7]. If you remove a service, it will shift out of the unified bill and return to an independent plan or close based on your request. These plan updates will be reflected in your next monthly billing statement[cite: 7]."
+        },
+        {
+          "question": "How do I add a new Airtel mobile number to my existing Airtel Black plan?",
+          "answer": "The primary account holder can add an active Airtel postpaid number to their bundle via the account management menu in the Airtel Thanks app[cite: 7]. If the number is currently on a prepaid plan, it must be transitioned to postpaid before it can join the family group. Once linked, the new line shares the plan's benefits and is included in the single bill[cite: 7]."
+        },
+        {
+          "question": "Can I add a non-Airtel service into my Airtel Black bundle?",
+          "answer": "Airtel Black plans can only bundle official services provided directly by Airtel, such as our postpaid mobile, Xstream Fiber, and DTH lines[cite: 7]. Third-party networks or alternative utility services cannot be added to your combined bill. If a family member wants to join your plan, they can port their existing number to Airtel using standard MNP procedures."
+        },
+        {
+          "question": "Is there a one-time setup or activation fee for Airtel Black?",
+          "answer": "One-time setup or activation fees depend on whether your bundle requires new hardware installations, like a fiber router or a DTH set-top box[cite: 7]. Select premium plans or advance rental options may include complimentary installation as part of a promotional offer. Any applicable setup fees will be clearly outlined when you configure your plan in the Airtel Thanks app."
+        },
+        {
+          "question": "How do I check what services are currently active under my Airtel Black plan?",
+          "answer": "You can view all the services currently linked to your bundle by logging into the Airtel Thanks app and opening the Airtel Black account dashboard[cite: 7]. This section provides an overview of your active mobile lines, broadband details, and DTH connections. It also shows your current billing cycles and shared data pool status."
+        },
+        {
+          "question": "How do I upgrade my Airtel Black plan to a higher tier?",
+          "answer": "You can upgrade your Airtel Black plan by selecting a higher pre-configured bundle tier or adding more data and speed options within the Airtel Thanks app[cite: 7]. Once you confirm your new selection, the updated speed profiles and service features are usually applied within a few hours. The proportional cost adjustment will be shown on your next monthly bill[cite: 7]."
+        }
       ]
     },
     {
       "name": "Billing & Payments",
       "questions": [
-        "How do I receive and view my Airtel Black combined monthly bill?",
-        "Why is my Airtel Black bill different from the plan amount I signed up for?",
-        "How do I pay my Airtel Black bill online?",
-        "Can I set up auto-pay for my Airtel Black combined bill?",
-        "How are charges split between mobile, broadband, and DTH on my Airtel Black bill?",
-        "What happens if I miss my Airtel Black bill due date?",
-        "How do I get a GST invoice for my Airtel Black subscription?",
-        "Can I get an itemized breakup of each service in my Airtel Black bill?",
-        "How do I dispute an incorrect charge on my Airtel Black bill?",
-        "Will my Airtel Black bill increase if I add more family members?"
+        {
+          "question": "How do I receive and view my Airtel Black combined monthly bill?",
+          "answer": "Your combined monthly bill is generated automatically at the end of your billing cycle and can be viewed inside the Airtel Thanks app[cite: 7]. A PDF copy of the invoice is also delivered to the primary account holder's registered email address. This single document contains a detailed cost breakdown for each active service in your bundle[cite: 7]."
+        },
+        {
+          "question": "Why is my Airtel Black bill different from the plan amount I signed up for?",
+          "answer": "Your bill total can vary from the base plan rate due to out-of-plan usage, international roaming, premium digital add-ons, or regional government taxes[cite: 7]. Proportional adjustments from adding or modifying services in the middle of a billing cycle can also affect the final amount. Review the itemized breakdown in your PDF invoice via the Airtel Thanks app to see the exact details."
+        },
+        {
+          "question": "How do I pay my Airtel Black bill online?",
+          "answer": "You can pay your combined bill online through the billing section of the Airtel Thanks app or via our official website[cite: 7]. We support a variety of secure payment methods, including UPI, net banking, debit cards, and credit cards. Once payment is processed, a digital receipt will be sent to your registered contact endpoints."
+        },
+        {
+          "question": "Can I set up auto-pay for my Airtel Black combined bill?",
+          "answer": "Yes, you can turn on automatic payments by going to the billing preferences menu within the Airtel Thanks app[cite: 7]. Linking your credit card, debit card, or verified UPI handle allows the system to clear your statement balance automatically on the due date each month[cite: 7]. This helps keep your account active and guards against late fees."
+        },
+        {
+          "question": "How are charges split between mobile, broadband, and DTH on my Airtel Black bill?",
+          "answer": "Your monthly Airtel Black invoice provides a clear, itemized breakdown that separates charges for each active service tier[cite: 7]. The statement displays the base rental costs for your mobile, fixed-line broadband, and DTH lines before adding any individual usage fees or taxes[cite: 7]. You can view this detailed breakdown anytime by downloading the bill PDF from the Airtel Thanks app."
+        },
+        {
+          "question": "What happens if I miss my Airtel Black bill due date?",
+          "answer": "Missing your payment deadline will result in late fees being added to your next monthly statement[cite: 7]. If the balance remains unpaid past the grace period, automated service restrictions may apply to all the bundled services in your account[cite: 7]. Clearing the total outstanding balance through the Airtel Thanks app will restore your services."
+        },
+        {
+          "question": "How do I get a GST invoice for my Airtel Black subscription?",
+          "answer": "To receive a tax-compliant GST invoice, the primary account holder must update their business name and valid GSTIN details in their account profile[cite: 7]. This can be requested through the corporate helpdesk or by visiting an authorized Airtel company store with your tax documentation. Once verified, your monthly statements will display the updated tax breakdown."
+        },
+        {
+          "question": "Can I get an itemized breakup of each service in my Airtel Black bill?",
+          "answer": "Yes, your combined invoice includes a full itemized log for each individual service line in your bundle[cite: 7]. This section breaks down voice minutes, data usage, specific DTH channel packs, and any active add-on services[cite: 7]. You can download and review this complete PDF log directly within the billing section of the Airtel Thanks app."
+        },
+        {
+          "question": "How do I dispute an incorrect charge on my Airtel Black bill?",
+          "answer": "You can dispute an incorrect charge by opening the Help section in the Airtel Thanks app and lodging a formal billing ticket[cite: 7]. Alternatively, call our dedicated priority support helpline to review your statement with a service agent[cite: 7]. We will check your usage records and apply adjustments or credits to your account if any errors are verified."
+        },
+        {
+          "question": "Will my Airtel Black bill increase if I add more family members?",
+          "answer": "Yes, adding extra mobile connections or child lines to your bundle will increase your total monthly bill based on the cost of the additional lines[cite: 7]. Some premium plans include a fixed number of family slots within the base rate, while other configurations add a nominal fee for each new line[cite: 7]. You can check the cost adjustments for new family lines inside the Airtel Thanks app."
+        }
       ]
     },
     {
       "name": "Service Issues & Support",
       "questions": [
-        "My broadband under Airtel Black is not working. Who do I contact?",
-        "My DTH signal is lost under my Airtel Black plan. How do I get support?",
-        "One of my mobile lines under Airtel Black has no network. How do I fix it?",
-        "Does Airtel Black offer priority complaint resolution over regular customers?",
-        "How do I reach Airtel Black dedicated customer support?",
-        "I raised a complaint for my Airtel Black service but it has not been resolved. How do I escalate?",
-        "Can I get a home visit for any Airtel Black service issue?",
-        "What is the typical resolution time for Airtel Black service complaints?",
-        "How do I track the status of an open complaint under my Airtel Black account?",
-        "Is there a 24x7 helpline specifically for Airtel Black customers?"
+        {
+          "question": "My broadband under Airtel Black is not working. Who do I contact?",
+          "answer": "You can report broadband issues by opening the Help section in the Airtel Thanks app and launching an automated line diagnostic test[cite: 7]. As an Airtel Black member, you can also call our priority helpline for direct access to our technical support team[cite: 7]. We will work to isolate the issue or dispatch a technician to your home if needed."
+        },
+        {
+          "question": "My DTH signal is lost under my Airtel Black plan. How do I get support?",
+          "answer": "If your television screen displays a 'No Signal' error alert, you can log a support ticket through the Help menu in the Airtel Thanks app[cite: 7]. You can also use your priority customer benefits to speak with a support agent via our dedicated helpline for guided troubleshooting steps[cite: 7]. If the issue is caused by a hardware fault or dish misalignment, we can schedule a service visit."
+        },
+        {
+          "question": "One of my mobile lines under Airtel Black has no network. How do I fix it?",
+          "answer": "Try toggling your device's Airplane Mode on and off or restarting the phone to re-establish its connection to the nearest cell tower. If the network remains unavailable, use the Airtel Thanks app from a working line to check your line status and ensure it hasn't been blocked due to an unpaid bill[cite: 7]. You can also flag persistent local coverage issues through our priority support channel[cite: 7]."
+        },
+        {
+          "question": "Does Airtel Black offer priority complaint resolution over regular customers?",
+          "answer": "Yes, Airtel Black accounts are placed in a priority service tier designed for faster response and resolution times[cite: 7]. Your technical and billing tickets are routed ahead of standard queues to help resolve issues quickly[cite: 7]. You can track the real-time status of your priority tickets through the Airtel Thanks app."
+        },
+        {
+          "question": "How do I reach Airtel Black dedicated customer support?",
+          "answer": "You can connect with your priority customer support team by calling the dedicated helpline number listed in the Airtel Black section of the Airtel Thanks app[cite: 7]. The app also features a direct customer service portal with live chat options for faster assistance[cite: 7]. Your account profile automatically identifies you as a priority member to ensure short wait times."
+        },
+        {
+          "question": "I raised a complaint for my Airtel Black service but it has not been resolved. How do I escalate?",
+          "answer": "If a priority ticket is not resolved within its stated timeline, you can escalate the matter through the advanced support options in the Airtel Thanks app[cite: 7]. You can also look up the official contact details and email addresses for our Nodal Officers or the regional Appellate Authority on our website. Please quote your open complaint reference number when filing an appeal."
+        },
+        {
+          "question": "Can I get a home visit for any Airtel Black service issue?",
+          "answer": "Yes, if an issue involving your bundled broadband or DTH services cannot be fixed remotely, a field technician can be scheduled to visit your home[cite: 7]. As an Airtel Black member, you have access to priority appointment scheduling to fit your availability[cite: 7]. You can book and track your technician's arrival status through the Airtel Thanks app."
+        },
+        {
+          "question": "What is the typical resolution time for Airtel Black service complaints?",
+          "answer": "Airtel Black accounts benefit from priority service windows, with many technical line adjustments and basic profile issues resolved within a few hours[cite: 7]. Complex physical issues, such as repairing a cut external fiber line or replacing damaged hardware, are typically handled within 24 hours[cite: 7]. You will receive regular automated progress updates via SMS."
+        },
+        {
+          "question": "How do I track the status of an open complaint under my Airtel Black account?",
+          "answer": "You can track the ongoing progress of any active service tickets by navigating to the 'Track Requests' section in the Airtel Thanks app[cite: 7]. This area displays the current resolution stage, assigned technical teams, and estimated completion times for your tickets. Automated status changes will also be sent to your primary mobile number via SMS[cite: 7]."
+        },
+        {
+          "question": "Is there a 24x7 helpline specifically for Airtel Black customers?",
+          "answer": "Yes, Airtel provides 24/7 priority customer support channels specifically for our Airtel Black subscribers to handle urgent issues[cite: 7]. You can reach this support team anytime by calling our priority hotline or using the digital chat features inside the Airtel Thanks app[cite: 7]. This helps ensure you can get assistance for critical line outages or emergency account blocks whenever needed."
+        }
       ]
     },
     {
       "name": "Cancellation & Changes",
       "questions": [
-        "How do I cancel my Airtel Black subscription?",
-        "Can I remove one service from Airtel Black without cancelling the whole plan?",
-        "What happens to my individual services if I cancel Airtel Black?",
-        "Will I get a refund for the remaining days if I cancel Airtel Black mid-cycle?",
-        "How do I transfer my Airtel Black plan to a new address?",
-        "Can I transfer my Airtel Black subscription to another family member's name?",
-        "What is the notice period required to cancel Airtel Black?",
-        "If I cancel Airtel Black, will my mobile number and broadband remain active?",
-        "How do I temporarily pause my Airtel Black subscription?",
-        "Can I switch from Airtel Black back to separate individual service plans?"
+        {
+          "question": "How do I cancel my Airtel Black subscription?",
+          "answer": "To cancel your subscription, you must submit a formal request through the Airtel Thanks app or contact our priority customer support helpline[cite: 7]. Our team will guide you through separating your accounts or closing your services, and will generate a final bill for your usage up to that date[cite: 7]. Any company-owned broadband routers or DTH boxes will need to be returned."
+        },
+        {
+          "question": "Can I remove one service from Airtel Black without cancelling the whole plan?",
+          "answer": "Yes, you can choose to remove a specific service, like an extra mobile line or a DTH account, while keeping your remaining services bundled[cite: 7]. This modification can be completed within the bundle management settings of the Airtel Thanks app[cite: 7]. The removed line will separate from your combined account and return to a standalone billing structure."
+        },
+        {
+          "question": "What happens to my individual services if I cancel Airtel Black?",
+          "answer": "If you choose to cancel your Airtel Black plan, your remaining lines will shift away from the combined account structure[cite: 7]. They will transition back to individual standalone postpaid, broadband, or DTH plans based on the active options available[cite: 7]. These standalone lines will then be billed separately according to their new individual plan rates."
+        },
+        {
+          "question": "Will I get a refund for the remaining days if I cancel Airtel Black mid-cycle?",
+          "answer": "Yes, your final combined bill will be prorated dynamically based on the exact number of days your bundle was active during that closing billing cycle[cite: 7]. If you are on an advance payment plan, any remaining credit balances will be reviewed after final account auditing. Eligible refunds are typically transferred to your verified bank account within a few weeks."
+        },
+        {
+          "question": "How do I transfer my Airtel Black plan to a new address?",
+          "answer": "You can request a relocation for your fixed-line broadband and DTH services by entering your new address details in the Airtel Thanks app[cite: 7]. Our technical teams will check service feasibility at your new location to help coordinate a smooth transfer. Your mobile postpaid services will remain active and unchanged during the physical move[cite: 7]."
+        },
+        {
+          "question": "Can I transfer my Airtel Black subscription to another family member's name?",
+          "answer": "Transferring full account ownership requires a standard verification process at an authorized Airtel company store[cite: 7]. Both the current primary account holder and the incoming applicant must visit the store to submit transfer documents. The new owner will need to provide identity documents and complete a fresh digital KYC verification."
+        },
+        {
+          "question": "What is the notice period required to cancel Airtel Black?",
+          "answer": "Airtel requests that cancellation requests be submitted in advance to allow for smooth billing cutoff coordination across your bundled lines[cite: 7]. This helps ensure your final statement is calculated precisely up to your active cancellation date without rolling into the next month. All outstanding usage charges must be cleared to complete the cancellation[cite: 7]."
+        },
+        {
+          "question": "If I cancel Airtel Black, will my mobile number and broadband remain active?",
+          "answer": "Yes, canceling the Airtel Black bundle structure simply dissolves the unified billing arrangement, and your individual lines can remain active if requested[cite: 7]. They will be converted into separate, standalone service accounts with their own individual billing cycles[cite: 7]. If you want a specific service turned off completely, you must request a formal closure for that line."
+        },
+        {
+          "question": "How do I temporarily pause my Airtel Black subscription?",
+          "answer": "Airtel offers a temporary safe custody feature for customers who will be away from home for an extended period. This hold can be requested for your fixed-line broadband and DTH services through the Airtel Thanks app to temporarily pause usage fees[cite: 7]. Your primary mobile lines will typically remain active under standard roaming or basic rental tiers during this pause."
+        },
+        {
+          "question": "Can I switch from Airtel Black back to separate individual service plans?",
+          "answer": "Yes, you can choose to dissolve your bundle and return to separate individual service plans at any time via the Airtel Thanks app[cite: 7]. Once processed, your mobile, broadband, and DTH accounts will be unlinked and generate separate monthly bills going forward[cite: 7]. This change will take effect starting from your next consecutive billing cycle."
+        }
       ]
     }
   ]

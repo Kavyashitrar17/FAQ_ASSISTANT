@@ -50,6 +50,13 @@ SERVICES = {
             "How do I get a SIM replacement?",
             "How do I port my number to Airtel?",
         ],
+        "actions": [
+            {"label": "Recharge Plans",      "query": "What are the best Airtel prepaid recharge plans available?"},
+            {"label": "Balance Check",        "query": "How do I check my Airtel prepaid data and balance?"},
+            {"label": "Port to Airtel",       "query": "How do I port my number to Airtel prepaid?"},
+            {"label": "SIM Replacement",      "query": "How do I get an Airtel SIM replacement?"},
+            {"label": "Other Question",       "query": None},
+        ],
     },
     "postpaid": {
         "icon": "📞",
@@ -62,6 +69,13 @@ SERVICES = {
             "How do I enable roaming on postpaid?",
             "How do I activate eSIM?",
             "How do I check my usage details?",
+        ],
+        "actions": [
+            {"label": "Pay Bill",             "query": "How do I pay my Airtel postpaid bill?"},
+            {"label": "Upgrade Plan",         "query": "How do I upgrade my Airtel postpaid plan?"},
+            {"label": "Enable Roaming",       "query": "How do I enable international roaming on my Airtel postpaid?"},
+            {"label": "Activate eSIM",        "query": "How do I activate eSIM on Airtel postpaid?"},
+            {"label": "Other Question",       "query": None},
         ],
     },
     "wifi": {
@@ -76,6 +90,13 @@ SERVICES = {
             "How do I get a new Airtel Fiber connection?",
             "How do I register a complaint?",
         ],
+        "actions": [
+            {"label": "New Connection",       "query": "How do I get a new Airtel Fiber broadband connection?"},
+            {"label": "Download Bill",        "query": "How do I download my Airtel broadband bill?"},
+            {"label": "Slow Internet",        "query": "How do I fix slow Airtel broadband internet speed?"},
+            {"label": "Shift Connection",     "query": "How do I request relocation of my Airtel broadband connection?"},
+            {"label": "Other Question",       "query": None},
+        ],
     },
     "dth": {
         "icon": "📺",
@@ -88,6 +109,13 @@ SERVICES = {
             "How do I add new channels?",
             "How do I upgrade to HD?",
             "How do I manage my DTH account?",
+        ],
+        "actions": [
+            {"label": "Recharge DTH",         "query": "How do I recharge my Airtel DTH?"},
+            {"label": "Channel Packs",        "query": "What channel packs are available on Airtel DTH?"},
+            {"label": "Fix Signal Issue",     "query": "How do I fix signal issues on my Airtel DTH?"},
+            {"label": "Upgrade to HD",        "query": "How do I upgrade my Airtel DTH to HD?"},
+            {"label": "Other Question",       "query": None},
         ],
     },
     "payments": {
@@ -102,6 +130,13 @@ SERVICES = {
             "How do I update my KYC?",
             "How do I get an Airtel debit card?",
         ],
+        "actions": [
+            {"label": "Open Account",         "query": "How do I open an Airtel Payments Bank savings account?"},
+            {"label": "Setup UPI",            "query": "How do I set up UPI on Airtel Payments Bank?"},
+            {"label": "Transfer Money",       "query": "How do I transfer money using Airtel Payments Bank?"},
+            {"label": "Update KYC",           "query": "How do I update my KYC for Airtel Payments Bank?"},
+            {"label": "Other Question",       "query": None},
+        ],
     },
     "black": {
         "icon": "⭐",
@@ -114,6 +149,13 @@ SERVICES = {
             "How do I add more services to Airtel Black?",
             "How do I contact Airtel Black support?",
         ],
+        "actions": [
+            {"label": "What is Airtel Black?", "query": "What is Airtel Black and what are its benefits?"},
+            {"label": "Subscribe",             "query": "How do I subscribe to Airtel Black?"},
+            {"label": "Billing",               "query": "How do I check my Airtel Black bill?"},
+            {"label": "Support",               "query": "How do I contact Airtel Black customer support?"},
+            {"label": "Other Question",        "query": None},
+        ],
     },
 }
 
@@ -121,13 +163,13 @@ SERVICES = {
 # FOLLOW-UP SUGGESTIONS BY KEYWORD
 # ─────────────────────────────────────────────
 FOLLOWUP_SUGGESTIONS = {
-    "prepaid": ["Check data balance", "Recharge now", "Check validity", "Port to Airtel", "International roaming"],
+    "prepaid":  ["Check data balance", "Recharge now", "Check validity", "Port to Airtel", "International roaming"],
     "postpaid": ["Pay bill", "Upgrade plan", "Enable roaming", "Activate eSIM", "Usage summary"],
-    "wifi": ["Pay broadband bill", "Check speed tips", "Change plan", "New connection", "Raise complaint"],
-    "dth": ["Recharge DTH", "Add channels", "Fix signal issue", "HD upgrade", "Channel packs"],
+    "wifi":     ["Pay broadband bill", "Check speed tips", "Change plan", "New connection", "Raise complaint"],
+    "dth":      ["Recharge DTH", "Add channels", "Fix signal issue", "HD upgrade", "Channel packs"],
     "payments": ["UPI setup", "Transfer money", "Update KYC", "Open account", "Debit card"],
-    "black": ["View plans", "Check bill", "Add services", "Upgrade package", "Support"],
-    "default": ["Check balance", "Current plan", "Bill payment", "Recharge options", "Talk to support"],
+    "black":    ["View plans", "Check bill", "Add services", "Upgrade package", "Support"],
+    "default":  ["Check balance", "Current plan", "Bill payment", "Recharge options", "Talk to support"],
 }
 
 def get_followups(query: str) -> list[str]:
@@ -166,12 +208,16 @@ else:
     chat_sessions = {}
 
 # ─────────────────────────────────────────────
-# SESSION STATE
+# SESSION STATE INIT
 # ─────────────────────────────────────────────
 if "selected_service" not in st.session_state:
     st.session_state.selected_service = None
+if "selected_action" not in st.session_state:
+    st.session_state.selected_action = None
 if "pending_query" not in st.session_state:
     st.session_state.pending_query = None
+if "free_input_mode" not in st.session_state:
+    st.session_state.free_input_mode = False
 if "sidebar_search" not in st.session_state:
     st.session_state.sidebar_search = ""
 
@@ -181,6 +227,110 @@ if "sidebar_search" not in st.session_state:
 def save_chats():
     with open(CHAT_FILE, "w") as f:
         json.dump(chat_sessions, f, indent=4)
+
+# ─────────────────────────────────────────────
+# MODULAR RENDERERS
+# ─────────────────────────────────────────────
+
+def render_service_cards():
+    """Renders the welcome hero and 6 service cards (3 per row)."""
+    st.markdown(
+        """
+<div class="welcome-wrap">
+    <div class="welcome-hero">
+        <div class="welcome-icon-wrap">
+            <div class="welcome-icon">📡</div>
+            <div class="welcome-pulse"></div>
+        </div>
+        <div class="welcome-title">Hello! I'm your <span>Airtel</span> Assistant 👋</div>
+        <div class="welcome-sub">Choose a service to get started, or type your question below.</div>
+    </div>
+</div>
+""",
+        unsafe_allow_html=True,
+    )
+
+    row1 = list(SERVICES.items())[:3]
+    row2 = list(SERVICES.items())[3:]
+
+    for row in [row1, row2]:
+        cols = st.columns(len(row))
+        for col, (key, svc) in zip(cols, row):
+            with col:
+                clicked = st.button(
+                    f"{svc['icon']}\n\n**{svc['label']}**",
+                    key=f"svc_btn_{key}",
+                    use_container_width=True,
+                )
+                if clicked:
+                    st.session_state.selected_service = key
+                    st.session_state.selected_action = None
+                    st.session_state.free_input_mode = False
+                    st.rerun()
+
+
+def render_service_actions(svc_key: str):
+    """Renders quick-action buttons for the selected service."""
+    svc = SERVICES[svc_key]
+
+    st.markdown(
+        f"""
+<div class="faq-header">
+    <div class="faq-header-icon">{svc['icon']}</div>
+    <div>
+        <div class="faq-header-title">{svc['label']}</div>
+        <div class="faq-header-sub">Pick a quick action or type your own question below.</div>
+    </div>
+</div>
+""",
+        unsafe_allow_html=True,
+    )
+
+    if st.button("← Services", key="back_btn"):
+        st.session_state.selected_service = None
+        st.session_state.selected_action = None
+        st.session_state.free_input_mode = False
+        st.rerun()
+
+    st.markdown('<div class="action-grid-vertical">', unsafe_allow_html=True)
+    actions = svc["actions"]
+
+    for i in range(0, len(actions), 2):
+      col1, col2 = st.columns(2)
+
+      with col1:
+        if st.button(
+            actions[i]["label"],
+            key=f"action_{svc_key}_{i}",
+            use_container_width=True,
+        ):
+         handle_quick_action(actions[i])
+
+      if i + 1 < len(actions):
+         with col2:
+            if st.button(
+                actions[i + 1]["label"],
+                key=f"action_{svc_key}_{i+1}",
+                use_container_width=True,
+            ):
+                handle_quick_action(actions[i + 1])
+    
+
+    st.markdown("</div>", unsafe_allow_html=True)
+
+
+def handle_quick_action(action: dict):
+    """Handles a quick-action button click."""
+    if action["query"] is None:
+        # "Other Question" — drop into free chat
+        st.session_state.free_input_mode = True
+        st.session_state.selected_action = "free"
+        st.rerun()
+    else:
+        st.session_state.selected_action = action["label"]
+        st.session_state.pending_query = action["query"]
+        st.rerun()
+
 
 # ─────────────────────────────────────────────
 # SIDEBAR
@@ -206,6 +356,8 @@ with st.sidebar:
         save_chats()
         st.session_state.current_chat = chat_id
         st.session_state.selected_service = None
+        st.session_state.selected_action = None
+        st.session_state.free_input_mode = False
         st.rerun()
 
     # INIT current_chat
@@ -221,7 +373,6 @@ with st.sidebar:
     if st.session_state.current_chat not in chat_sessions:
         st.session_state.current_chat = list(chat_sessions.keys())[-1]
 
-    # SEARCH
     st.markdown('<div class="sidebar-section-label">Recent Chats</div>', unsafe_allow_html=True)
     search_val = st.text_input(
         "Search chats",
@@ -245,16 +396,15 @@ with st.sidebar:
 
         col1, col2 = st.columns([13, 1])
         with col1:
-            btn_class = "active" if is_active else ""
             if is_active:
                 st.markdown(f'<div class="chat-row-active">{display_title}</div>', unsafe_allow_html=True)
-                # still render the button invisibly so we can capture clicks
-                if st.button(display_title, key=f"chat_{cid}", use_container_width=True):
-                    pass  # already active
+                
             else:
                 if st.button(display_title, key=f"chat_{cid}", use_container_width=True):
                     st.session_state.current_chat = cid
                     st.session_state.selected_service = None
+                    st.session_state.selected_action = None
+                    st.session_state.free_input_mode = False
                     st.rerun()
 
         with col2:
@@ -353,7 +503,6 @@ def send_query(query: str):
                         token_placeholder.markdown(full_text + "▌")
 
                     if payload.get("done"):
-                        sources = payload.get("sources", [])
                         rewritten = payload.get("rewritten_query")
 
         except requests.exceptions.ConnectionError:
@@ -368,7 +517,6 @@ def send_query(query: str):
 
         token_placeholder.markdown(full_text)
 
-        # SOURCES — expandable
         if sources:
             if rewritten and rewritten != query:
                 st.markdown(
@@ -391,7 +539,6 @@ def send_query(query: str):
                         unsafe_allow_html=True,
                     )
 
-        # FOLLOW-UP SUGGESTIONS
         suggestions = get_followups(query)
         st.markdown('<div class="followup-label">You might also ask:</div>', unsafe_allow_html=True)
         cols = st.columns(len(suggestions))
@@ -403,7 +550,6 @@ def send_query(query: str):
     messages.append({
         "role": "assistant",
         "content": full_text,
-        "sources": sources,
         "rewritten_query": rewritten,
     })
     current_chat["messages"] = messages
@@ -413,103 +559,18 @@ def send_query(query: str):
 # CHAT DISPLAY
 # ─────────────────────────────────────────────
 if len(messages) == 0:
-
+    # No messages yet — show welcome or service actions
     if st.session_state.selected_service is None:
-        # ── WELCOME SCREEN ──
-        st.markdown(
-            """
-<div class="welcome-wrap">
-    <div class="welcome-hero">
-        <div class="welcome-icon-wrap">
-            <div class="welcome-icon">📡</div>
-            <div class="welcome-pulse"></div>
-        </div>
-        <div class="welcome-title">Hello! I'm your <span>Airtel</span> Assistant 👋</div>
-        <div class="welcome-sub">Choose a service to get started, or type your question below.</div>
-    </div>
-</div>
-""",
-            unsafe_allow_html=True,
-        )
-
-        # Service cards — 3 per row
-        row1 = list(SERVICES.items())[:3]
-        row2 = list(SERVICES.items())[3:]
-
-        for row in [row1, row2]:
-            cols = st.columns(len(row))
-            for col, (key, svc) in zip(cols, row):
-                with col:
-                    st.markdown(
-                        f"""
-<div class="service-card" id="svc-{key}">
-    <div class="service-card-icon">{svc['icon']}</div>
-    <div class="service-card-label">{svc['label']}</div>
-</div>
-""",
-                        unsafe_allow_html=True,
-                    )
-                    if st.button(
-                        f"{svc['icon']} {svc['label']}",
-                        key=f"svc_btn_{key}",
-                        use_container_width=True,
-                    ):
-                        st.session_state.selected_service = key
-                        st.rerun()
-
+        render_service_cards()
     else:
-        # ── FAQ CHIPS SCREEN ──
-        svc_key = st.session_state.selected_service
-        svc = SERVICES[svc_key]
-
-        st.markdown(
-            f"""
-<div class="faq-header">
-    <div class="faq-header-icon">{svc['icon']}</div>
-    <div>
-        <div class="faq-header-title">{svc['label']}</div>
-        <div class="faq-header-sub">Select a question or type your own below.</div>
-    </div>
-</div>
-""",
-            unsafe_allow_html=True,
-        )
-
-        if st.button("← Back to services", key="back_btn"):
-            st.session_state.selected_service = None
-            st.rerun()
-
-        st.markdown('<div class="faq-chips-wrap">', unsafe_allow_html=True)
-        for faq in svc["faqs"]:
-            if st.button(faq, key=f"faq_{uuid.uuid4().hex[:6]}", use_container_width=False):
-                st.session_state.pending_query = faq
-                st.rerun()
-        st.markdown("</div>", unsafe_allow_html=True)
-
+        render_service_actions(st.session_state.selected_service)
 else:
-    # ── EXISTING CHAT ──
+    # Existing chat — render history
     for msg in messages:
         role = msg["role"]
         avatar = "👤" if role == "user" else "🤖"
         with st.chat_message(role, avatar=avatar):
             st.markdown(msg["content"])
-            # Show sources for past assistant messages
-            if role == "assistant" and msg.get("sources"):
-                with st.expander("📎 Sources Used", expanded=False):
-                    for s in msg["sources"]:
-                        st.markdown(
-                            f"""
-<div class="source-card">
-    <div class="source-header">
-        <span class="source-index">#{s['index']}</span>
-        <span class="source-file">{s['source']}</span>
-    </div>
-    <div class="source-section">📂 {s['section']}</div>
-    <div class="source-snippet">{s['snippet']}</div>
-</div>
-""",
-                            unsafe_allow_html=True,
-                        )
 
 # ─────────────────────────────────────────────
 # CHAT INPUT
@@ -517,11 +578,15 @@ else:
 query = st.chat_input("Ask about plans, recharge, broadband, DTH…")
 
 # ─────────────────────────────────────────────
-# HANDLE PENDING (chip-triggered) QUERY
+# HANDLE PENDING QUERY (chip / quick-action triggered)
 # ─────────────────────────────────────────────
 if st.session_state.pending_query:
     pq = st.session_state.pending_query
     st.session_state.pending_query = None
+    # Once a query fires, we leave the action screen and go into chat
+    st.session_state.selected_service = None
+    st.session_state.selected_action = None
+    st.session_state.free_input_mode = False
     send_query(pq)
     st.rerun()
 
@@ -529,5 +594,8 @@ if st.session_state.pending_query:
 # HANDLE TYPED QUERY
 # ─────────────────────────────────────────────
 if query:
+    st.session_state.selected_service = None
+    st.session_state.selected_action = None
+    st.session_state.free_input_mode = False
     send_query(query)
     st.rerun()

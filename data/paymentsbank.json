@@ -4,76 +4,226 @@
     {
       "name": "Account Opening & KYC",
       "questions": [
-        "How do I open an Airtel Payments Bank account?",
-        "What documents are required to open an Airtel Payments Bank account?",
-        "Can I open an Airtel Payments Bank account without visiting a store?",
-        "What is the difference between a basic savings account and a full KYC account in Airtel Payments Bank?",
-        "How do I complete full KYC for my Airtel Payments Bank account?",
-        "How long does it take to activate my Airtel Payments Bank account after KYC?",
-        "Can I open an Airtel Payments Bank account if I am not an Airtel mobile subscriber?",
-        "What is the maximum balance allowed in an Airtel Payments Bank account?",
-        "How do I check the KYC status of my Airtel Payments Bank account?",
-        "My Airtel Payments Bank account is frozen due to pending KYC. How do I unfreeze it?"
+        {
+          "question": "How do I open an Airtel Payments Bank account?",
+          "answer": "You can open an Airtel Payments Bank account digitally by using the banking wallet section inside the Airtel Thanks app. Follow the on-screen registration prompts, input your personal details, and verify the request using an OTP sent to your phone. You can also open an account in person by visiting an authorized Airtel Payments Bank retail banking point."
+        },
+        {
+          "question": "What documents are required to open an Airtel Payments Bank account?",
+          "answer": "To successfully open a bank account, you must provide your permanent Aadhaar Card number and a valid PAN Card. These regulatory documents are necessary to satisfy identity and tax verification standards. The onboarding setup is completed digitally using secure OTP systems or biometric scanning at our retail banking points."
+        },
+        {
+          "question": "Can I open an Airtel Payments Bank account without visiting a store?",
+          "answer": "Yes, you can complete the account opening process entirely from home via the Airtel Thanks app. Select the banking section and follow the guided prompts to complete a Video KYC (Know Your Customer) session with a bank representative. Make sure you have your physical PAN card and Aadhaar card ready before starting the video call."
+        },
+        {
+          "question": "What is the difference between a basic savings account and a full KYC account in Airtel Payments Bank?",
+          "answer": "A basic wallet or limited account carries restrictive monthly transaction caps and lower balance limitations under standard regulatory rules. Upgrading to a Full KYC account removes these basic transaction thresholds and allows you to access higher balance maximums. Full KYC accounts also unlock advanced banking features like seamless interbank transfers and structured interest rewards."
+        },
+        {
+          "question": "How do I complete full KYC for my Airtel Payments Bank account?",
+          "answer": "You can complete your Full KYC upgrade digitally by initiating a Video KYC call within the Airtel Thanks app. Alternatively, you can complete the verification in person by visiting any authorized Airtel Payments Bank outlet. Be sure to bring your physical Aadhaar card and PAN card to finish the verification with our agent."
+        },
+        {
+          "question": "How long does it take to activate my Airtel Payments Bank account after KYC?",
+          "answer": "Accounts opened through biometric verification at a banking point are typically activated and ready for use within a few hours. Digital applications that use Video KYC undergo a backend audit process and are usually approved within 24 to 48 working hours. You will receive a confirmation SMS once your banking features are fully active."
+        },
+        {
+          "question": "Can I open an Airtel Payments Bank account if I am not an Airtel mobile subscriber?",
+          "answer": "Yes, Airtel Payments Bank services are open to subscribers of all telecommunications networks. You can download the Airtel Thanks app onto your mobile device, log in using your non-Airtel phone number, and open a bank account. Your registered mobile number will serve as your unique account number across our banking platforms."
+        },
+        {
+          "question": "What is the maximum balance allowed in an Airtel Payments Bank account?",
+          "answer": "In compliance with Reserve Bank of India (RBI) guidelines for specialized payments banks, individual savings accounts maintain a set day-end balance limit. If your account balance goes above this set regulatory maximum, additional funds may need to be redirected into linked financial options or partner bank facilities. You can view current regulatory balance limits on the Airtel Payments Bank website."
+        },
+        {
+          "question": "How do I check the KYC status of my Airtel Payments Bank account?",
+          "answer": "You can check your current account verification status by looking under the banking profile menu inside the Airtel Thanks app. Your profile card will display a verified badge if your Full KYC documentation is approved and up to date. If your account requires additional documentation, a notice will appear along with instructions on how to submit it."
+        },
+        {
+          "question": "My Airtel Payments Bank account is frozen due to pending KYC. How do I unfreeze it?",
+          "answer": "To restore access to a frozen account, you must complete your pending identity verification by initiating a Video KYC session inside the Airtel Thanks app. You can also resolve the hold by visiting an authorized banking retail outlet to undergo biometric verification. Once your identity documents are audited and approved, your banking features will be restored."
+        }
       ]
     },
     {
       "name": "Deposits, Withdrawals & Transfers",
       "questions": [
-        "How do I add money to my Airtel Payments Bank account?",
-        "How do I transfer money from my Airtel Payments Bank account to another bank account?",
-        "What is the daily transfer limit for Airtel Payments Bank?",
-        "How do I withdraw cash from my Airtel Payments Bank account?",
-        "Can I withdraw cash from an ATM using Airtel Payments Bank?",
-        "How long does a fund transfer from Airtel Payments Bank to another bank take?",
-        "I sent money to the wrong UPI ID through Airtel Payments Bank. How do I reverse it?",
-        "What are the charges for transferring money out of Airtel Payments Bank?",
-        "How do I load money into Airtel Payments Bank from a debit or credit card?",
-        "Can I receive salary or pension directly into my Airtel Payments Bank account?"
+        {
+          "question": "How do I add money to my Airtel Payments Bank account?",
+          "answer": "You can add funds to your account digitally through the banking section of the Airtel Thanks app. Simply select 'Add Money' and complete the transaction using an external debit card, credit card, or net banking account. You can also deposit physical cash into your account by visiting any authorized Airtel Payments Bank retail service point."
+        },
+        {
+          "question": "How do I transfer money from my Airtel Payments Bank account to another bank account?",
+          "answer": "You can transfer money to other bank accounts using the IMPS, NEFT, or UPI options inside the Airtel Thanks app. Enter the recipient's bank account number, branch IFSC code, and the transfer amount, then verify the transaction with your secure MPIN. These interbank transfer features are available 24/7 for your convenience."
+        },
+        {
+          "question": "What is the daily transfer limit for Airtel Payments Bank?",
+          "answer": "Daily transaction thresholds for money transfers, UPI payments, and cash withdrawals are determined by your account verification tier and standard security rules. Full KYC accounts have higher transaction limits compared to basic limited-use accounts. You can check the exact daily limits for your account profile inside the banking settings tab of the Airtel Thanks app."
+        },
+        {
+          "question": "How do I withdraw cash from my Airtel Payments Bank account?",
+          "answer": "You can withdraw physical cash by visiting any authorized Airtel Payments Bank merchant location or retail banking point. The merchant will initiate a secure withdrawal request, which you will verify using your biometric fingerprint or your secure account MPIN. Once verified, the retail agent will hand over the cash amount."
+        },
+        {
+          "question": "Can I withdraw cash from an ATM using Airtel Payments Bank?",
+          "answer": "Airtel Payments Bank provides a digital virtual card that can be managed inside the Airtel Thanks app for online shopping transactions. Direct physical card withdrawals at standard automated teller machines (ATMs) depend on the active availability of physical card options. You can use our extensive network of local banking points to complete cardless cash withdrawals."
+        },
+        {
+          "question": "How long does a fund transfer from Airtel Payments Bank to another bank take?",
+          "answer": "Fund transfers sent via IMPS or UPI protocols are typically processed instantly and credit the recipient's bank account within a few moments. Transactions made through NEFT are processed in standard hourly batches in accordance with reserve banking settlement rules. You will receive an SMS alert containing transaction status details for every transfer."
+        },
+        {
+          "question": "I sent money to the wrong UPI ID through Airtel Payments Bank. How do I reverse it?",
+          "answer": "Because electronic fund transfers through UPI are processed and settled instantly, completed transactions cannot be automatically canceled or reversed by our system. We advise reaching out to the unintended recipient directly to request a return of the funds. You can also log a formal dispute through the support panel in the Airtel Thanks app to get assistance from our operations team."
+        },
+        {
+          "question": "What are the charges for transferring money out of Airtel Payments Bank?",
+          "answer": "Outbound money transfers made via UPI are typically free of service charges on our platform. Other transfer options, such as IMPS or physical cash withdrawals at local banking points, may carry nominal processing fees based on the transaction amount. You can review our full schedule of fees and charges inside the banking terms section of the Airtel Thanks app."
+        },
+        {
+          "question": "How do I load money into Airtel Payments Bank from a debit or credit card?",
+          "answer": "Open the banking dashboard inside the Airtel Thanks app, select the 'Add Money' feature, and enter your desired deposit amount. Choose the debit or credit card option on the payment screen, enter your card details securely, and authorize the transaction with your bank's OTP. The loaded funds will update in your account balance immediately."
+        },
+        {
+          "question": "Can I receive salary or pension directly into my Airtel Payments Bank account?",
+          "answer": "Yes, your savings account is fully equipped to receive direct deposits, including corporate salaries, government pensions, and subsidy transfers. Simply provide your unique Airtel Payments Bank account number (which matches your mobile number) and our corporate branch IFSC code to your employer or issuing agency. You will receive an automated notification as soon as the funds clear."
+        }
       ]
     },
     {
       "name": "UPI & Payments",
       "questions": [
-        "How do I set up UPI on the Airtel Thanks app using Airtel Payments Bank?",
-        "How do I change my Airtel Payments Bank UPI PIN?",
-        "My Airtel Payments Bank UPI payment failed but money was deducted. What do I do?",
-        "How long does a failed UPI refund take to credit back to my account?",
-        "Can I use Airtel Payments Bank UPI for payments on Swiggy, Zomato, or Amazon?",
-        "What is the maximum amount I can pay via UPI through Airtel Payments Bank in a day?",
-        "How do I scan a QR code and pay using Airtel Payments Bank?",
-        "Can I link multiple bank accounts to my Airtel Payments Bank UPI ID?",
-        "How do I set up or collect a payment request using Airtel Payments Bank UPI?",
-        "My Airtel Payments Bank UPI ID is not working. How do I troubleshoot it?"
+        {
+          "question": "How do I set up UPI on the Airtel Thanks app using Airtel Payments Bank?",
+          "answer": "To set up UPI services, navigate to the banking tab within the Airtel Thanks app and select the 'Airtel UPI' registration link. The app will send an automated SMS text from your phone to verify your device links securely with your bank account records. Once verified, you can create a custom virtual payment address (VPA) and link it to your account."
+        },
+        {
+          "question": "How do I change my Airtel Payments Bank UPI PIN?",
+          "answer": "You can modify your security security PIN by going to the UPI control panel inside the banking section of the Airtel Thanks app. Select 'Reset UPI PIN' and verify your identity by entering your registered account verification details or an OTP. Input your preferred new 4-digit or 6-digit PIN to secure future transactions."
+        },
+        {
+          "question": "My Airtel Payments Bank UPI payment failed but money was deducted. What do I do?",
+          "answer": "If a transaction fails due to a network timeout but funds leave your account, the money is securely held by banking systems during the settlement window. In most cases, these pending balances are automatically reversed back to your account within 3 to 5 business days. You can track the real-time resolution status of the transaction via the History tab in the Airtel Thanks app."
+        },
+        {
+          "question": "How long does a failed UPI refund take to credit back to my account?",
+          "answer": "Refunds for failed UPI transactions are generally processed quickly and credit back to your account within a few hours. Depending on interbank settlement congestion and individual bank rules, some refunds can take up to 3 to 7 working days to resolve. If a refund is delayed past this window, you can raise an escalation inside the Airtel Thanks app."
+        },
+        {
+          "question": "Can I use Airtel Payments Bank UPI for payments on Swiggy, Zomato, or Amazon?",
+          "answer": "Yes, your unique Airtel Payments Bank UPI handle can be used across all major online shopping, food delivery, and digital service applications. Simply select UPI as your payment method at checkout and enter your virtual payment address (VPA). You will receive a secure payment notification inside the Airtel Thanks app to authorize the transaction."
+        },
+        {
+          "question": "What is the maximum amount I can pay via UPI through Airtel Payments Bank in a day?",
+          "answer": "Airtel Payments Bank adheres to standard regulatory guidelines which set a cumulative cap on total daily UPI transfer amounts. New accounts or modified security profiles may experience lower temporary transaction limits for the first 24 hours to prevent fraud. You can view your account's specific transaction limits inside the UPI dashboard of the Airtel Thanks app."
+        },
+        {
+          "question": "How do I scan a QR code and pay using Airtel Payments Bank?",
+          "answer": "Open the Airtel Thanks app and tap the 'Scan QR' camera icon located on the quick-access menu or banking dashboard. Point your device's camera at the merchant's QR code, enter the payment amount, and verify the transaction using your secure MPIN. A payment confirmation screen will appear instantly for both you and the merchant."
+        },
+        {
+          "question": "Can I link multiple bank accounts to my Airtel Payments Bank UPI ID?",
+          "answer": "The Airtel Thanks app functions as a comprehensive UPI platform, allowing you to link other external savings bank accounts to your profile. Navigate to the UPI settings menu and select 'Add Bank Account' to link other accounts using your registered mobile number. You can then choose which linked account to use before confirming a payment."
+        },
+        {
+          "question": "How do I set up or collect a payment request using Airtel Payments Bank UPI?",
+          "answer": "You can initiate a payment request by selecting the 'Collect Money' option within the UPI menu of the Airtel Thanks app. Enter the payer's virtual payment address (VPA), input the requested amount, and hit send to deliver a payment alert to their device. The requested funds will transfer directly into your account once the payer approves the alert."
+        },
+        {
+          "question": "My Airtel Payments Bank UPI ID is not working. How do I troubleshoot it?",
+          "answer": "If your UPI service encounters errors, check that your device has a stable internet connection and that your registered SIM card is active in slot 1. Try clearing your application cache files or re-authenticating your device connection link inside the app settings. If the issue persists, verify that your account status is active and not on hold due to pending KYC."
+        }
       ]
     },
     {
       "name": "Fixed Deposits & Interest",
       "questions": [
-        "Does Airtel Payments Bank offer a fixed deposit or savings interest?",
-        "What is the current savings account interest rate offered by Airtel Payments Bank?",
-        "How is interest calculated and credited in my Airtel Payments Bank savings account?",
-        "Can I open a fixed deposit through Airtel Payments Bank?",
-        "Is the money in my Airtel Payments Bank account insured under DICGC?",
-        "What is the minimum balance required to earn interest in Airtel Payments Bank?",
-        "How do I view my interest credit history in the Airtel Payments Bank app?",
-        "Is Airtel Payments Bank a RBI-licensed bank?",
-        "Can I use my Airtel Payments Bank account for income tax refunds?",
-        "Does Airtel Payments Bank provide a passbook or account statement?"
+        {
+          "question": "Does Airtel Payments Bank offer a fixed deposit or savings interest?",
+          "answer": "Yes, Airtel Payments Bank provides competitive interest rewards on savings account balances that meet our eligibility requirements. We also offer fixed deposit options in partnership with established banking institutions to help you grow your savings. You can explore our current savings tiers and fixed deposit choices inside the banking app."
+        },
+        {
+          "question": "What is the current savings account interest rate offered by Airtel Payments Bank?",
+          "answer": "Interest rates on savings accounts are tiered and calculated based on your day-end balance amounts. Because deposit interest structures are subject to regular adjustments based on economic conditions, please view our current rate sheets on the Airtel Payments Bank website. The latest verified interest details are also displayed in the banking dashboard of the Airtel Thanks app."
+        },
+        {
+          "question": "How is interest calculated and credited in my Airtel Payments Bank savings account?",
+          "answer": "Savings account interest is calculated daily based on your total end-of-day ledger balances in accordance with banking rules. The accumulated interest earnings are consolidated and credited directly to your savings account at the end of each calendar month. You can view these interest payments by downloading your monthly account statement."
+        },
+        {
+          "question": "Can I open a fixed deposit through Airtel Payments Bank?",
+          "answer": "Yes, you can easily set up a fixed deposit digitally through our partner bank configurations within the Airtel Thanks app. Navigate to the investment section, choose your preferred deposit amount, and select a investment duration that fits your goals. The system will manage the application process and link the investment directly to your main banking profile."
+        },
+        {
+          "question": "Is the money in my Airtel Payments Bank account insured under DICGC?",
+          "answer": "Yes, all individual depositor balances held with Airtel Payments Bank are fully insured up to standard statutory maximum limits under the Deposit Insurance and Credit Guarantee Corporation (DICGC). This institutional backing provides protection for your personal savings. The insurance program covers savings balances, wallet funds, and fixed deposits uniformly."
+        },
+        {
+          "question": "What is the minimum balance required to earn interest in Airtel Payments Bank?",
+          "answer": "While your savings account does not require a large minimum balance to remain open, earning interest rewards may require meeting basic minimum balance thresholds. You can find the exact balance requirements and interest tiers in the product disclosure documents on our website. Keeping your account active helps ensure you continue to receive these financial benefits."
+        },
+        {
+          "question": "How do I view my interest credit history in the Airtel Payments Bank app?",
+          "answer": "You can view your interest earnings by checking your account transaction history inside the Airtel Thanks app. Filter your account ledger search by selecting 'Interest Credits' to view all monthly interest additions to your account. This historical breakdown can also be viewed in your downloadable PDF account statements."
+        },
+        {
+          "question": "Is Airtel Payments Bank a RBI-licensed bank?",
+          "answer": "Yes, Airtel Payments Bank is a fully authorized banking institution that operates under a specialized license granted by the Reserve Bank of India (RBI). We comply with all regulatory banking standards, capital reserves rules, and consumer protection policies set by the central bank. Our operations are audited regularly to maintain a secure banking environment."
+        },
+        {
+          "question": "Can I use my Airtel Payments Bank account for income tax refunds?",
+          "answer": "Yes, your savings account can be used to receive direct tax refunds from the Income Tax Department. When filing your tax return, simply provide your unique Airtel Payments Bank account number and our official branch IFSC code. Ensure your account is fully verified with up-to-date KYC documentation to avoid processing delays."
+        },
+        {
+          "question": "Does Airtel Payments Bank provide a passbook or account statement?",
+          "answer": "We provide digital e-statements that can be viewed and downloaded for free within the Airtel Thanks app at any time. If you require a physical, stamped account statement or passbook configuration, you can visit any authorized retail banking point. The local agent can generate a hard-copy account statement following a quick verification process."
+        }
       ]
     },
     {
       "name": "Account Security & Issues",
       "questions": [
-        "I suspect unauthorized transactions on my Airtel Payments Bank account. What do I do?",
-        "How do I block or freeze my Airtel Payments Bank account immediately?",
-        "How do I reset my Airtel Payments Bank MPIN?",
-        "I lost my phone linked to Airtel Payments Bank. How do I secure my account?",
-        "How do I close my Airtel Payments Bank account permanently?",
-        "How do I update my mobile number linked to Airtel Payments Bank?",
-        "Can I have two Airtel Payments Bank accounts on different phone numbers?",
-        "How do I download an account statement from Airtel Payments Bank?",
-        "What is the grievance redressal process for Airtel Payments Bank disputes?",
-        "Who is the Banking Ombudsman I can approach for unresolved Airtel Payments Bank complaints?"
+        {
+          "question": "I suspect unauthorized transactions on my Airtel Payments Bank account. What do I do?",
+          "answer": "If you notice unusual account activity, block your account immediately using the security settings in the Airtel Thanks app or by calling our support line. Report the unauthorized transactions to our customer care team at 400 (for Airtel users) or 8800688006 to open a fraud investigation. You should also report the incident to the local cyber crime authorities."
+        },
+        {
+          "question": "How do I block or freeze my Airtel Payments Bank account immediately?",
+          "answer": "You can temporarily lock or freeze your banking features instantly through the profile security tab inside the Airtel Thanks app. Alternatively, call our emergency support line from your registered mobile phone to request an immediate administrative block on your account. This action will prevent all outgoing transfers, card transactions, and wallet usage until you choose to unblock it."
+        },
+        {
+          "question": "How do I reset my Airtel Payments Bank MPIN?",
+          "answer": "To reset a forgotten or compromised safety MPIN, open the banking login screen inside the Airtel Thanks app and select 'Forgot MPIN'. Enter your registered personal details, such as your date of birth, to verify your identity and trigger a security OTP text. Once verified, you can create a new 4-digit MPIN to secure your app access."
+        },
+        {
+          "question": "I lost my phone linked to Airtel Payments Bank. How do I secure my account?",
+          "answer": "If your mobile device is lost or stolen, call our support helpline immediately from an alternative line to place an emergency lock on your banking profile. You should also contact your mobile carrier to block your lost SIM card, preventing unauthorized access to your banking OTP texts. Your account can be unlocked once you secure a replacement SIM card and verify your identity."
+        },
+        {
+          "question": "How do I close my Airtel Payments Bank account permanently?",
+          "answer": "To permanently close your bank account, you must submit a formal account closure application through the support section of the Airtel Thanks app. You can also complete this process by visiting an authorized company service branch to submit a written closure request. Ensure you withdraw or transfer out all remaining balances before initiating the closure workflow."
+        },
+        {
+          "question": "How do I update my mobile number linked to Airtel Payments Bank?",
+          "answer": "Because your registered mobile number serves as your unique bank account number, changing it requires a formal account update process. You will need to visit an authorized Airtel company store or service branch with your identity documentation to submit a modification request. Our operations team will guide you through moving your banking profile to your new number."
+        },
+        {
+          "question": "Can I have two Airtel Payments Bank accounts on different phone numbers?",
+          "answer": "In accordance with standard banking rules and central identity verification standards, a customer is limited to one active account profile with Airtel Payments Bank. Your unique banking profile is permanently linked to your individual verified identity details (such as your PAN or Aadhaar number). Any additional mobile lines you own can be linked to your main account for wallet usage."
+        },
+        {
+          "question": "How do I download an account statement from Airtel Payments Bank?",
+          "answer": "You can view and download your transaction history by navigating to the banking statement portal inside the Airtel Thanks app. Select your desired date range or choose a monthly archive, then tap 'Download PDF' to save the file to your device. You can also opt to have these monthly e-statements delivered automatically to your verified email address."
+        },
+        {
+          "question": "What is the grievance redressal process for Airtel Payments Bank disputes?",
+          "answer": "If you experience any issues or disputes, you can register a formal service ticket through the Help menu in the Airtel Thanks app or by emailing our support team. If the initial resolution does not meet your expectations, you can escalate the matter to our Principal Nodal Officer using the contact details on our website. Please include your original tracking reference number with your escalation."
+        },
+        {
+          "question": "Who is the Banking Ombudsman I can approach for unresolved Airtel Payments Bank complaints?",
+          "answer": "If your complaint remains unresolved past thirty days or you are unsatisfied with our final resolution, you can approach the RBI Banking Ombudsman. You can file an appeal online through the official RBI CMS portal or mail a physical application to their regional office. Be sure to provide all previous communication records and your open ticket details for their review."
+        }
       ]
     }
   ]

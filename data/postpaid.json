@@ -4,76 +4,226 @@
     {
       "name": "Billing & Payments",
       "questions": [
-        "How do I view and download my Airtel postpaid bill?",
-        "Why is my Airtel postpaid bill higher than usual this month?",
-        "How do I pay my Airtel postpaid bill online?",
-        "Can I set up auto-pay for my Airtel postpaid bill?",
-        "What happens if I miss my Airtel postpaid bill due date?",
-        "How do I dispute an incorrect charge on my Airtel postpaid bill?",
-        "I was charged twice for the same bill cycle. How do I get a refund?",
-        "Does Airtel postpaid support payment via UPI or net banking?",
-        "How many days after the due date will my Airtel postpaid connection be suspended?",
-        "How do I get a GST invoice for my Airtel postpaid bill?"
+        {
+          "question": "How do I view and download my Airtel postpaid bill?",
+          "answer": "You can view and download your monthly itemized postpaid bills directly within the Airtel Thanks app under the 'Bills & Plan' section. PDF versions of your invoices are also delivered automatically to your registered email address at the end of each billing cycle. If needed, you can request historical copies for the past six months through the app portal."
+        },
+        {
+          "question": "Why is my Airtel postpaid bill higher than usual this month?",
+          "answer": "An unexpected bill increase can be caused by international roaming usage, premium text messaging, or value-added services activated mid-cycle. It could also stem from data consumption that exceeded your plan's high-speed allocation. Review the itemized breakdown page of your latest PDF invoice via the Airtel Thanks app to see the exact cause of any additional charges."
+        },
+        {
+          "question": "How do I pay my Airtel postpaid bill online?",
+          "answer": "You can securely pay your Airtel postpaid bill online using the Airtel Thanks app or our official website dashboard. We accept a variety of payment methods, including UPI, net banking, debit cards, and credit cards. Once payment is processed, a digital receipt will be sent to your registered contact endpoints."
+        },
+        {
+          "question": "Can I set up auto-pay for my Airtel postpaid bill?",
+          "answer": "Yes, you can configure automatic bill payments through the payment settings tab in the Airtel Thanks app. Linking your credit card, debit card, or verified UPI handle will allow the system to clear your total statement balance automatically on the due date each month. This helps ensure your account remains active and guards against late payment fees."
+        },
+        {
+          "question": "What happens if I miss my Airtel postpaid bill due date?",
+          "answer": "Missing your payment due date will result in the addition of a late payment fee on your subsequent monthly statement. If the outstanding balance remains unpaid past the grace period, your outgoing and incoming services may be suspended. Clearing the full outstanding amount through the Airtel Thanks app will restore your services."
+        },
+        {
+          "question": "How do I dispute an incorrect charge on my Airtel postpaid bill?",
+          "answer": "You can dispute a specific billing entry by opening the Help section in the Airtel Thanks app and raising a billing ticket. Alternatively, call our customer care hotline at 198 to discuss the line items with a service agent. We will review your usage records and apply adjustments or statement credits if any errors are found."
+        },
+        {
+          "question": "I was charged twice for the same bill cycle. How do I get a refund?",
+          "answer": "If a duplicate transaction occurs, the extra payment is safely credited to your unique Airtel customer account. This credit balance will be automatically applied to your next consecutive monthly statement, reducing your next payment amount. If you prefer a direct reversal to your original payment method, please file a request through the Airtel Thanks app support channel."
+        },
+        {
+          "question": "Does Airtel postpaid support payment via UPI or net banking?",
+          "answer": "Yes, Airtel fully supports bill payments made via net banking and all major UPI applications. You can complete payments directly inside the Airtel Thanks app by selecting your preferred bank or entering your unique virtual payment address. These online payment options are processed instantly, updating your account status in real time."
+        },
+        {
+          "question": "How many days after the due date will my Airtel postpaid connection be suspended?",
+          "answer": "Service suspension timelines vary depending on your billing history and credit score profile with Airtel. Typically, a grace period is provided after the due date, during which reminder alerts are sent via SMS and email. If payment is still not received after these reminders, automated outgoing service suspension may be applied."
+        },
+        {
+          "question": "How do I get a GST invoice for my Airtel postpaid bill?",
+          "answer": "To receive a tax-compliant GST invoice, you must update your business name and valid GSTIN registration details in your account profile. This can be requested through the corporate care portal or by visiting an authorized Airtel company store with your tax documents. Once verified, your monthly statements will include the updated tax breakdown."
+        }
       ]
     },
     {
       "name": "Plan & Add-ons",
       "questions": [
-        "What postpaid plans does Airtel currently offer?",
-        "How do I upgrade or downgrade my current Airtel postpaid plan?",
-        "Will I be charged a proration fee when I change my plan mid-cycle?",
-        "Which Airtel postpaid plan includes Netflix, Amazon Prime, or Hotstar?",
-        "How do I add an international roaming pack to my postpaid plan?",
-        "How do I add extra data to my postpaid plan before the cycle ends?",
-        "Can I share my postpaid data with family members on the same account?",
-        "What is the Airtel Infinity postpaid plan and what does it include?",
-        "How do I remove an add-on that I no longer want on my postpaid plan?",
-        "Are calls truly unlimited on Airtel postpaid or is there a fair usage limit?"
+        {
+          "question": "What postpaid plans does Airtel currently offer?",
+          "answer": "Airtel provides a wide variety of individual and family postpaid plans designed for different usage needs and data requirements. Because specific inclusions, data limits, and plan choices vary across regions, please view our current plans in the Airtel Thanks app or on our website. Enter your mobile number to see the tailored postpaid packages available in your circle."
+        },
+        {
+          "question": "How do I upgrade or downgrade my current Airtel postpaid plan?",
+          "answer": "You can modify your active postpaid plan tier at any time by navigating to the plan management tab inside the Airtel Thanks app. Select your preferred new plan from the available list and confirm the switch to update your account settings. Upgrades are usually updated quickly, while downgrades are often set to apply from your next billing cycle."
+        },
+        {
+          "question": "Will I be charged a proration fee when I change my plan mid-cycle?",
+          "answer": "When you switch postpaid plans in the middle of a billing cycle, your rental charges and data benefits are calculated proportionally based on the active days of each plan. This proration ensures you only pay for the exact days you used each specific plan tier. You will see these adjustments clearly broken down on your next monthly invoice."
+        },
+        {
+          "question": "Which Airtel postpaid plan includes Netflix, Amazon Prime, or Hotstar?",
+          "answer": "Select mid-tier and premium Airtel postpaid plans include access to streaming platforms as part of their bundled rewards. Because these digital reward partnerships and eligible plans are subject to change, look at the plan descriptions in the Airtel Thanks app for current options. You can claim and manage your active bundled benefits through the 'Discover Thanks' section."
+        },
+        {
+          "question": "How do I add an international roaming pack to my postpaid plan?",
+          "answer": "You can browse and purchase international roaming packs for your postpaid number directly within the Airtel Thanks app. Simply select your destination country, choose a pack that fits your travel duration, and confirm activation. The pack can be set to activate immediately or scheduled to match your departure date."
+        },
+        {
+          "question": "How do I add extra data to my postpaid plan before the cycle ends?",
+          "answer": "If you exhaust your monthly high-speed data allowance early, you can add an immediate data booster pack to your line. These add-ons can be purchased under the 'Manage Add-ons' section of the Airtel Thanks app. The additional data cost will be added directly to your current billing cycle's invoice."
+        },
+        {
+          "question": "Can I share my postpaid data with family members on the same account?",
+          "answer": "Yes, Airtel family postpaid plans allow you to share a pool of data across multiple linked numbers under a single account. The primary account holder can add eligible child lines to the plan to share data and voice benefits. Managing these family lines and viewing individual consumption can be done inside the Airtel Thanks app."
+        },
+        {
+          "question": "What is the Airtel Infinity postpaid plan and what does it include?",
+          "answer": "Airtel Infinity plans are our signature postpaid configurations that feature unlimited local and STD calling benefits alongside generous data allocations. Select tiers within this series also offer data rollover options and access to bundled streaming rewards. You can view the full details and current variations of these plans inside the Airtel Thanks app."
+        },
+        {
+          "question": "How do I remove an add-on that I no longer want on my postpaid plan?",
+          "answer": "You can remove active digital services or data add-ons by opening the account settings menu inside the Airtel Thanks app. Go to the active add-ons tab, select the service you want to cancel, and confirm its removal. The changes will process on our backend, and recurring charges will stop from your next billing cycle."
+        },
+        {
+          "question": "Are calls truly unlimited on Airtel postpaid or is there a fair usage limit?",
+          "answer": "Airtel postpaid plans include unlimited voice calling for standard personal, non-commercial use to any domestic network. To protect network resources and prevent commercial misuse, a broad Fair Usage Policy (FUP) applies to daily or monthly call patterns. Standard residential usage is typically well within these policy limits without any interruptions."
+        }
       ]
     },
     {
       "name": "Data & Roaming",
       "questions": [
-        "How do I check my remaining data usage in the current postpaid cycle?",
-        "My postpaid internet is slow even though I have not exceeded my data limit. Why?",
-        "What speed will I get after exhausting my postpaid data allowance?",
-        "How do I activate international roaming on my Airtel postpaid number?",
-        "How much does Airtel charge for data usage in the USA, UK, or UAE on postpaid?",
-        "My Airtel roaming data is not working after I arrived abroad. What do I do?",
-        "Will roaming charges appear on my next monthly bill or immediately?",
-        "How do I deactivate international roaming when I return to India?",
-        "Can I use Wi-Fi calling on my Airtel postpaid number when abroad?",
-        "Does Airtel postpaid offer any free roaming days as part of the plan?"
+        {
+          "question": "How do I check my remaining data usage in the current postpaid cycle?",
+          "answer": "You can check your real-time data consumption and remaining balance on the account dashboard inside the Airtel Thanks app. The app shows your total data pool, data rollover balance from the previous month, and individual usage across any linked family lines. You can also dial the USSD short code *121# from your phone to receive a quick summary."
+        },
+        {
+          "question": "My postpaid internet is slow even though I have not exceeded my data limit. Why?",
+          "answer": "Slow internet speeds can be caused by physical signal blocks, localized network congestion, or incorrect network configuration profiles on your mobile device. Try toggling your phone's Airplane Mode on and off to re-authenticate your connection to the nearest cell tower. If the issue continues, check your device network settings or use the Airtel Thanks app to check for local network updates."
+        },
+        {
+          "question": "What speed will I get after exhausting my postpaid data allowance?",
+          "answer": "Once you consume your plan's total high-speed data allocation and any accumulated rollover data, your internet speed will adjust down to a lower standard baseline speed. This continuous lower-speed access allows you to send basic text messages without unexpected bill overages. To restore high-speed internet, you can purchase a data booster pack through the Airtel Thanks app."
+        },
+        {
+          "question": "How do I activate international roaming on my Airtel postpaid number?",
+          "answer": "International roaming features are natively built into your Airtel postpaid SIM card and will activate automatically when you connect to a supported partner network abroad. To avoid standard usage-based data charges, we highly recommend activating a specific international roaming pack via the Airtel Thanks app before your trip. Ensure that data roaming is turned on in your device's cellular settings."
+        },
+        {
+          "question": "How much does Airtel charge for data usage in the USA, UK, or UAE on postpaid?",
+          "answer": "Standard out-of-pack data tariffs and international roaming pack rates vary depending on your destination country and partner networks. To view current pricing sheets and roaming plan options for the USA, UK, or UAE, please look under the 'International Roaming' tab in the Airtel Thanks app. This section provides accurate pricing for your specific travel plans."
+        },
+        {
+          "question": "My Airtel roaming data is not working after I arrived abroad. What do I do?",
+          "answer": "If you have no data service abroad, restart your phone and verify that both 'Cellular Data' and 'Data Roaming' are turned on in your mobile settings. If it still fails to connect, switch your device's network selection from automatic to manual mode and choose an official Airtel partner carrier from the list. If you need further help, reach out to our global support team through the Airtel Thanks app."
+        },
+        {
+          "question": "Will roaming charges appear on my next monthly bill or immediately?",
+          "answer": "International roaming usage charges are processed through our partner networks and will be added directly to your standard monthly billing cycle statement. In some instances, processing delays between international networks can cause charges to show on the following month's bill. You can track estimated unbilled usage totals via the Airtel Thanks app."
+        },
+        {
+          "question": "How do I deactivate international roaming when I return to India?",
+          "answer": "When you return to India, your SIM card will automatically reconnect to the local Airtel network, and international roaming charges will stop. Any active fixed-duration roaming packs will automatically expire at the end of their set validity period. You may want to turn off the data roaming toggle in your mobile phone settings to prevent future accidental usage near border areas."
+        },
+        {
+          "question": "Can I use Wi-Fi calling on my Airtel postpaid number when abroad?",
+          "answer": "Yes, Airtel Wi-Fi Calling is supported when traveling internationally, allowing you to make and receive calls over a stable Wi-Fi network. This feature can help lower roaming voice charges depending on your active roaming pack terms. Ensure that Wi-Fi Calling is turned on in your mobile device settings and that your phone is connected to a reliable Wi-Fi link."
+        },
+        {
+          "question": "Does Airtel postpaid offer any free roaming days as part of the plan?",
+          "answer": "Select premium or high-tier Airtel postpaid plans include built-in international roaming benefits or free roaming days for specific destinations. You can review the benefits included in your current plan by looking under the account rewards section of the Airtel Thanks app. If your plan does not bundle roaming days, you can purchase a separate roaming pack before traveling."
+        }
       ]
     },
     {
       "name": "Family & Multi-SIM",
       "questions": [
-        "How do I add a family member's number to my Airtel postpaid account?",
-        "How many SIMs can I add under one Airtel postpaid family plan?",
-        "Can I get a single bill for all family SIMs on my Airtel postpaid account?",
-        "How do I set a spending or data limit for a family member's SIM?",
-        "Can I transfer data from my allowance to a family member's SIM?",
-        "How do I remove a number from my Airtel postpaid family group?",
-        "Does each family SIM get independent data or is it pooled?",
-        "Can I add a prepaid Airtel number to my postpaid family group?",
-        "How do I view usage details for each SIM in my family plan?",
-        "What happens to a family member's SIM if the primary account holder's bill is unpaid?"
+        {
+          "question": "How do I add a family member's number to my Airtel postpaid account?",
+          "answer": "The primary account holder can add family members to their plan through the 'Manage Family' portal inside the Airtel Thanks app. Enter the Airtel mobile number you wish to add and follow the verification prompts to complete the link. The request will process on our backend, and the line will be added to your unified family billing account."
+        },
+        {
+          "question": "How many SIMs can I add under one Airtel postpaid family plan?",
+          "answer": "The total number of child lines you can add depends on the specific postpaid family plan tier you have selected. Standard family plan options typically accommodate between 2 to 5 concurrent connections under a single monthly bill. You can view the maximum number of SIM slots available for your specific plan by checking the Airtel Thanks app."
+        },
+        {
+          "question": "Can I get a single bill for all family SIMs on my Airtel postpaid account?",
+          "answer": "Yes, one of the primary features of our family plans is a single, consolidated monthly bill that covers all linked numbers. This combined invoice lists the base plan rentals alongside any individual add-on charges or extra usage for each family line. You can view and pay this total bill through the primary account holder's Airtel Thanks app."
+        },
+        {
+          "question": "How do I set a spending or data limit for a family member's SIM?",
+          "answer": "The primary account holder can set custom data distribution limits and usage caps for individual child lines through the Airtel Thanks app. Navigate to the family management section, select the specific mobile number, and adjust their data allowance. This feature helps prevent a single line from consuming the shared family data pool early."
+        },
+        {
+          "question": "Can I transfer data from my allowance to a family member's SIM?",
+          "answer": "Airtel family plans utilize a shared data pool system where all linked family members automatically draw from a collective pool of high-speed data. Because this data is shared across the account, you do not need to manually transfer data balances between individual lines. The primary user can adjust data caps for each number via the Airtel Thanks app to manage usage."
+        },
+        {
+          "question": "How do I remove a number from my Airtel postpaid family group?",
+          "answer": "The primary account holder can request the removal of a child line through the family settings panel in the Airtel Thanks app. Once removed, the selected mobile number will be detached from your shared data pool and combined billing account. The detached line will need to be transitioned to an independent plan or a separate account profile."
+        },
+        {
+          "question": "Does each family SIM get independent data or is it pooled?",
+          "answer": "Airtel family plans typically feature a large pooled data allocation that is shared among all linked family connections. Some plans may also provide a smaller independent data bonus to each individual child line upon joining the account. You can view the exact data structure and allocation details for your specific plan inside the Airtel Thanks app."
+        },
+        {
+          "question": "Can I add a prepaid Airtel number to my postpaid family group?",
+          "answer": "To add a prepaid number to a postpaid family group, the prepaid line must first be converted to a postpaid connection. This migration can be initiated through the Airtel Thanks app or by visiting an authorized Airtel company store to complete the required verification. Once the conversion to postpaid is done, the number can be linked to your family account."
+        },
+        {
+          "question": "How do I view usage details for each SIM in my family plan?",
+          "answer": "The primary account holder can view detailed data consumption and usage charts for every linked family member via the Airtel Thanks app. This usage history is also broken down line-by-line in the itemized section of your monthly PDF invoice. This visibility helps the primary account holder track and manage the family's total usage habits."
+        },
+        {
+          "question": "What happens to a family member's SIM if the primary account holder's bill is unpaid?",
+          "answer": "Because all linked lines are tied to a single unified account, missing a payment deadline will affect all connections in the family group. If the primary account bill remains unpaid past the grace period, automated service restrictions will apply to both the primary and child lines. Full services will be restored once the total bill is cleared through the Airtel Thanks app."
+        }
       ]
     },
     {
       "name": "Account Management",
       "questions": [
-        "How do I update the registered address on my Airtel postpaid account?",
-        "How do I transfer my Airtel postpaid number to another person's name?",
-        "How do I convert my Airtel postpaid number to prepaid?",
-        "How do I permanently deactivate or close my Airtel postpaid connection?",
-        "What documents are needed to take over an existing Airtel postpaid account?",
-        "How do I link multiple Airtel mobile numbers to a single Airtel Thanks login?",
-        "How do I check the security deposit amount paid for my postpaid connection?",
-        "How long does Airtel take to refund the security deposit after deactivation?",
-        "How do I raise a complaint about my Airtel postpaid service?",
-        "Who is Airtel's appellate authority and how do I escalate a postpaid complaint?"
+        {
+          "question": "How do I update the registered address on my Airtel postpaid account?",
+          "answer": "You can request an update to your registered home or billing address by navigating to your profile settings inside the Airtel Thanks app. For security and regulatory compliance, you will need to upload a valid Proof of Address document, such as an Aadhaar Card or Voter ID. Our backend team will review the document and update your records within a few working days."
+        },
+        {
+          "question": "How do I transfer my Airtel postpaid number to another person's name?",
+          "answer": "Transferring ownership of a postpaid mobile account requires a standard verification process at an authorized Airtel company store. Both the current account holder and the incoming applicant must visit the store in person to submit transfer documents. The new owner will need to provide identity documents and complete a fresh digital KYC verification."
+        },
+        {
+          "question": "How do I convert my Airtel postpaid number to prepaid?",
+          "answer": "To transition your active postpaid line to a prepaid plan, you must visit an authorized Airtel company store in person. Before the migration can be processed, all current unbilled usage and outstanding balances on your postpaid account must be completely settled. Once cleared, a fresh verification is completed, and the number is moved to a prepaid profile within a few days."
+        },
+        {
+          "question": "How do I permanently deactivate or close my Airtel postpaid connection?",
+          "answer": "To permanently close your postpaid account, you can submit a formal deactivation request through the Airtel Thanks app or call our customer care hotline. Our support team will process the cancellation and generate a final settlement bill covering your usage up to the termination date. All outstanding balances must be cleared to successfully complete the account closure."
+        },
+        {
+          "question": "What documents are needed to take over an existing Airtel postpaid account?",
+          "answer": "The incoming applicant must present a valid Proof of Identity (POI) and a Proof of Address (POA), such as an Aadhaar Card, Passport, or Driving License. A passport-sized photograph or real-time digital photo capture is also required during the store visit. The applicant must complete a digital KYC verification process to assume full financial responsibility for the account."
+        },
+        {
+          "question": "How do I link multiple Airtel mobile numbers to a single Airtel Thanks login?",
+          "answer": "You can link multiple Airtel services, including other mobile numbers, broadband, or DTH accounts, under a single login profile in the Airtel Thanks app. Go to the account management tab, select 'Add Account', and enter the Airtel number you wish to link. Once you verify the request with the OTP sent to that number, it will be added to your app dashboard."
+        },
+        {
+          "question": "How do I check the security deposit amount paid for my postpaid connection?",
+          "answer": "You can check any active security deposits tied to your line by reviewing the initial activation documents sent to your email. Alternatively, you can open a support ticket in the Help section of the Airtel Thanks app or call customer care to request your deposit details. This deposit information is securely archived in our backend subscriber database."
+        },
+        {
+          "question": "How long does Airtel take to refund the security deposit after deactivation?",
+          "answer": "Following the successful deactivation and closure of your postpaid account, any security deposits are adjusted against your final settlement bill. If a credit balance remains after settling all usage charges, the refund is typically processed within 45 working days. This remaining balance will be transferred to your verified bank account details."
+        },
+        {
+          "question": "How do I raise a complaint about my Airtel postpaid service?",
+          "answer": "You can register a formal complaint by navigating to the Help section within the Airtel Thanks app and selecting your specific issue. You can also file a service ticket by calling our dedicated support line at 198 from your mobile number. A unique tracking reference number will be sent to you via SMS along with updates on its resolution."
+        },
+        {
+          "question": "Who is Airtel's appellate authority and how do I escalate a postpaid complaint?",
+          "answer": "If your complaint is not resolved within the expected timeline or you are unsatisfied with the provided solution, you can escalate the matter to the Airtel Appellate Authority in your region. The contact names, office addresses, and official email IDs for the Appellate Authority are updated regularly on our website. Please quote your open 198 complaint reference number when filing an appeal."
+        }
       ]
     }
   ]

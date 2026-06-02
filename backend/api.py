@@ -6,13 +6,13 @@ import json
 from backend.retrieval.semantic import semantic_search
 from backend.retrieval.keyword import keyword_search
 from backend.retrieval.hybrid import reciprocal_rank_fusion
-from backend.retrieval.reranker import rerank
+# from backend.retrieval.reranker import rerank
 from backend.generation.query_rewriter import rewrite_query
 from backend.generation.prompt import build_prompt
 from backend.generation.generator import stream_answer
 from backend.generation.hallucination import add_confidence_note
 
-app = FastAPI(title="Airtel RAG API v3")
+app = FastAPI(title="Airtel RAG API")
 
 
 class QueryRequest(BaseModel):
@@ -23,10 +23,12 @@ class QueryRequest(BaseModel):
 
 @app.post("/chat/stream")
 async def chat_stream(request: QueryRequest):
+    print("POST /chat/stream CALLED")
     """
     Server-Sent Events endpoint.
     Yields: data: {"token": "..."} and finally data: {"sources": [...], "done": true}
     """
+    
     async def event_generator():
         # 1. Memory
         history = request.history
@@ -36,23 +38,62 @@ async def chat_stream(request: QueryRequest):
             content = msg.get("content", "")
             history_str += f"{role}: {content}\n"
 
-        # 2. Query rewriting
-        rewritten = rewrite_query(request.question, request.history)
+        # # 2. Query rewriting
+        # rewritten = rewrite_query(request.question, request.history)
 
-        # 3. Hybrid retrieval — service filter applied when provided
-        sem_results = semantic_search(rewritten, request.service)
-        kw_results  = keyword_search(rewritten,  request.service)
-        fused_docs  = reciprocal_rank_fusion(sem_results, kw_results)
+        # # 3. Hybrid retrieval — service filter applied when provided
+        # sem_results = semantic_search(rewritten, request.service)
+        # kw_results  = keyword_search(rewritten,  request.service)
+        # fused_docs  = reciprocal_rank_fusion(sem_results, kw_results)
 
-        # 4. Reranking
-        reranked_docs = rerank(rewritten, fused_docs)
+        # # 4. Reranking
+        # reranked_docs = rerank(rewritten, fused_docs)
+        
+        try:
+            rewritten = rewrite_query(
+                request.question,
+                request.history
+            )
+            print("1. Query rewritten")
 
-        # 5. Prompt + sources
-        prompt, sources = build_prompt(
-            question=request.question,
-            docs=reranked_docs,
-            rewritten_query=rewritten,
-        )
+            sem_results = semantic_search(
+                rewritten,
+                request.service
+            )
+            print("2. Semantic done")
+
+            kw_results = keyword_search(
+                rewritten,
+                request.service
+            )
+            print("3. Keyword done")
+
+            fused_docs = reciprocal_rank_fusion(
+                sem_results,
+                kw_results
+            )
+            print("4. Fusion done")
+
+            reranked_docs = fused_docs[:5]
+            print("5. Rerank done")
+
+            prompt, sources = build_prompt(
+                question=request.question,
+                docs=reranked_docs,
+                rewritten_query=rewritten,
+            )
+            print("6. Prompt built")
+
+        except Exception as e:
+            print("ERROR:", str(e))
+            raise
+        # # 5. Prompt + sources
+        # prompt, sources = build_prompt(
+        #     question=request.question,
+        #     docs=reranked_docs,
+        #     rewritten_query=rewritten,
+        # )
+        
 
         # 6. Stream tokens
         full_answer = ""

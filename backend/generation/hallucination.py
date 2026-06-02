@@ -31,9 +31,7 @@ def is_grounded(answer: str, docs: list[Document]) -> bool:
 
 def add_confidence_note(answer: str, docs: list[Document]) -> str:
     if not is_grounded(answer, docs):
-        return (
-            answer
-            + "\n\n> ⚠️ *Low confidence: this answer may not be fully grounded "
-            "in the knowledge base. Please verify with Airtel support.*"
-        )
+        return answer
+
+   
     return answer

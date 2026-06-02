@@ -4,76 +4,226 @@
     {
       "name": "New Connection & Installation",
       "questions": [
-        "How do I apply for a new Airtel Xstream Fiber connection at my home?",
-        "How long does it take to get an Airtel broadband connection installed?",
-        "Is Airtel Xstream Fiber available in my area or building?",
-        "What documents are required to apply for a new Airtel broadband connection?",
-        "Can I book a new Airtel broadband connection entirely online?",
-        "What is the installation charge for a new Airtel Xstream Fiber connection?",
-        "I paid the installation fee but the technician has not visited yet. What do I do?",
-        "Can I choose a preferred date and time slot for the technician's visit?",
-        "Does Airtel provide a router with the broadband connection or do I buy my own?",
-        "How do I track the status of my new Airtel broadband connection request?"
+        {
+          "question": "How do I apply for a new Airtel Xstream Fiber connection at my home?",
+          "answer": "You can apply for a new Airtel Xstream Fiber connection online via the official Airtel website or the Airtel Thanks app. Alternatively, you can visit your nearest Airtel retail store or call our customer service team to submit a request. An executive will then contact you to verify service feasibility and schedule a installation visit."
+        },
+        {
+          "question": "How long does it take to get an Airtel broadband connection installed?",
+          "answer": "Once your application is submitted and technical feasibility is confirmed, installation is typically completed within 24 to 48 hours. A certified network technician will visit your premises to set up the fiber wiring and configure the router. You will receive SMS alerts with the technician's details and updates on your request status."
+        },
+        {
+          "question": "Is Airtel Xstream Fiber available in my area or building?",
+          "answer": "You can check the availability of Airtel Xstream Fiber in your locality by visiting the broadband section of the Airtel website or the Airtel Thanks app. Simply enter your city, building name, or pin code to view real-time coverage data. If your building is not yet connected, you can submit a request to be notified when services go live."
+        },
+        {
+          "question": "What documents are required to apply for a new Airtel broadband connection?",
+          "answer": "To secure a new broadband connection, you must provide a valid Proof of Identity (POI) and Proof of Address (POA). Acceptable documents include your Aadhaar Card, Passport, Voter ID, or Driving License. The verification process is completed digitally by the installation executive during their visit."
+        },
+        {
+          "question": "Can I book a new Airtel broadband connection entirely online?",
+          "answer": "Yes, the booking process can be completed entirely online through the Airtel website or the Airtel Thanks app. You can select your preferred plan, enter your installation address, and submit your contact details online. Our backend team will process the request and dispatch an installation technician to your location."
+        },
+        {
+          "question": "What is the installation charge for a new Airtel Xstream Fiber connection?",
+          "answer": "Installation charges vary depending on the specific subscription plan and promotional offers available at the time of booking. Certain long-term or higher-tier plans include complementary installation as part of the package terms. Exact charges will be clearly displayed in the summary screen prior to final checkout on our online portals."
+        },
+        {
+          "question": "I paid the installation fee but the technician has not visited yet. What do I do?",
+          "answer": "If your scheduled installation window has passed, you can track the real-time status of your ticket via the Airtel Thanks app. You can also contact Airtel customer care at 121 to escalate the delay directly to the regional operations team. We will coordinate with the local technician to expedite your home installation visit."
+        },
+        {
+          "question": "Can I choose a preferred date and time slot for the technician's visit?",
+          "answer": "Yes, during the online application or initial confirmation call, you can pick a preferred appointment slot that matches your availability. Airtel attempts to assign technicians within your selected window, subject to local resource availability. If rescheduling is needed, you can modify your appointment slot using the Airtel Thanks app."
+        },
+        {
+          "question": "Does Airtel provide a router with the broadband connection or do I buy my own?",
+          "answer": "Airtel provides a complimentary high-speed Wi-Fi router or ONT device with every new Airtel Xstream Fiber connection for use during your active service period. This equipment remains the property of Airtel and must be returned in working condition upon disconnection. You do not need to purchase any external third-party hardware to begin using the service."
+        },
+        {
+          "question": "How do I track the status of my new Airtel broadband connection request?",
+          "answer": "You can track the ongoing progress of your connection request using the unique reference number sent to your registered mobile phone. Simply log into the Airtel Thanks app or visit the track request page on the Airtel portal to see real-time deployment status. Regular automated progress alerts will also be sent to you via SMS."
+        }
       ]
     },
     {
       "name": "Router & Equipment",
       "questions": [
-        "How do I set up my Airtel Xstream router for the first time?",
-        "What is the default username and password for my Airtel router?",
-        "How do I change the WiFi name and password on my Airtel router?",
-        "My Airtel router power light is red or orange. What does that mean?",
-        "How do I reboot or factory reset my Airtel Xstream router?",
-        "Can I use my own third-party router with Airtel Xstream Fiber?",
-        "How do I connect a device using a wired Ethernet cable to my Airtel router?",
-        "My Airtel router is overheating. Is this normal and what should I do?",
-        "How do I update the firmware on my Airtel router?",
-        "How do I set up a guest WiFi network on my Airtel router?"
+        {
+          "question": "How do I set up my Airtel Xstream router for the first time?",
+          "answer": "Your Airtel Xstream router is provisioned, connected, and fully activated by our service technician during the initial installation phase. If you need to reconfigure settings post-installation, ensure all cables are securely plugged into the matching WAN and power ports. The router will automatically establish an internet connection with our local gateway once powered up."
+        },
+        {
+          "question": "What is the default username and password for my Airtel router?",
+          "answer": "The default login credentials, including the admin username, password, and initial gateway IP address, are printed clearly on the sticker located on the bottom or back of your specific router model. For security reasons, we strongly recommend logging into this gateway panel immediately to replace the factory credentials with a strong personal password. If you cannot locate the credentials, please contact Airtel support for configuration guidance."
+        },
+        {
+          "question": "How do I change the WiFi name and password on my Airtel router?",
+          "answer": "You can modify your Wi-Fi network name (SSID) and security password conveniently via the Airtel Thanks app under the router settings tab. Alternatively, log into the router's web console using its local IP gateway address from any connected browser. Save your updates inside the Wireless settings section, which will prompt all your devices to reconnect using the new credentials."
+        },
+        {
+          "question": "My Airtel router power light is red or orange. What does that mean?",
+          "answer": "A solid red or orange power light indicates a hardware self-test fault, local power supply issue, or a critical link drop from our local exchange line. Power off the router, wait 30 seconds, and turn it back on to see if it clears the error state. If the light remains red or orange, please raise a technical support ticket through the Airtel Thanks app."
+        },
+        {
+          "question": "How do I reboot or factory reset my Airtel Xstream router?",
+          "answer": "To perform a safe reboot, unplug the power adapter from the electrical outlet, wait half a minute, and reconnect it. To execute a complete factory reset, gently press and hold the recessed 'Reset' button on the back panel using a pin for about 10 seconds while the unit is on. Note that a factory reset erases all custom Wi-Fi profiles, passwords, and custom network settings."
+        },
+        {
+          "question": "Can I use my own third-party router with Airtel Xstream Fiber?",
+          "answer": "Airtel fiber lines require our specialized optical network terminal (ONT) router to successfully authenticate and terminate the fiber connection. However, you can connect your personal third-party router to the Airtel equipment by running an Ethernet cable from our LAN port to your router's WAN port. You can then configure your custom router in bridge or access point mode to distribute the Wi-Fi signal."
+        },
+        {
+          "question": "How do I connect a device using a wired Ethernet cable to my Airtel router?",
+          "answer": "Locate the yellow or yellow-rimmed LAN ports on the back panel of your Airtel broadband router. Plug one end of a standard RJ-45 Ethernet cable into an available LAN port, and connect the opposite end directly into your computer, gaming console, or smart TV. The device will automatically pick up an IP address and configure internet access without requiring additional software."
+        },
+        {
+          "question": "My Airtel router is overheating. Is this normal and what should I do?",
+          "answer": "Broadband routers generate mild operational heat, but they should never feel excessively hot to the touch or cause unexpected reboots. Ensure your router is placed in a well-ventilated open area away from direct sunlight, fabric surfaces, and enclosed cabinets. If the device continues to overheat and drop connections, contact customer care to request a hardware inspection or replacement."
+        },
+        {
+          "question": "How do I update the firmware on my Airtel router?",
+          "answer": "Firmware upgrades for all official Airtel Xstream routers are managed and deployed remotely by our central engineering team over the network. You do not need to manually search for, download, or flash patches to your equipment. Keeping your router consistently powered on ensures it safely receives these automated security and performance patches during off-peak hours."
+        },
+        {
+          "question": "How do I set up a guest WiFi network on my Airtel router?",
+          "answer": "You can configure a separate, isolated guest Wi-Fi network by opening the advanced wireless configurations page via the Airtel Thanks app or the router gateway panel. Enable the 'Guest Network' toggle, create a unique network name, and assign a dedicated password for your visitors. This keeps your personal files, local storage, and main smart home devices completely safe from guest user access."
+        }
       ]
     },
     {
       "name": "Speed & Connectivity Issues",
       "questions": [
-        "My Airtel broadband speed is much slower than what my plan promises. Why?",
-        "How do I run a speed test to check my actual Airtel broadband speed?",
-        "My internet is slow only during evenings. Is this a network congestion issue?",
-        "Does Airtel throttle broadband speed after I exceed a data limit?",
-        "Restarting the router does not fix my slow internet. What is the next step?",
-        "My WiFi speed is slow but wired Ethernet speed is fine. What should I check?",
-        "My Airtel broadband keeps disconnecting every few minutes. Why?",
-        "My broadband has been down for several hours. How do I report it?",
-        "How do I check if there is a planned Airtel network outage in my area?",
-        "Can I get a bill credit if my Airtel broadband is down for more than 24 hours?"
+        {
+          "question": "My Airtel broadband speed is much slower than what my plan promises. Why?",
+          "answer": "Broadband speed can fluctuate due to Wi-Fi distance, obstacle interference, or the simultaneous use of heavy bandwidth programs across multiple household devices. To identify the root cause, disconnect other devices and run a speed test over a wired Ethernet cable connection. If your wired speeds consistently fall short of your plan tier, please contact Airtel support to verify line health."
+        },
+        {
+          "question": "How do I run a speed test to check my actual Airtel broadband speed?",
+          "answer": "You can launch an official diagnostic network speed test directly inside the customer support section of the Airtel Thanks app. Alternatively, visit dependable third-party platforms like Speedtest.net from an isolated device connected to your router. For the most accurate baseline readings, run the diagnostic test while connected via a physical Ethernet cable rather than Wi-Fi."
+        },
+        {
+          "question": "My internet is slow only during evenings. Is this a network congestion issue?",
+          "answer": "While peak internet traffic windows can impact local access points, Airtel Xstream Fiber uses dedicated high-bandwidth configurations to prevent localized slowdowns. Evening drops are frequently caused by local high-demand tasks running inside your home, such as multiple concurrent 4K streams or massive video game downloads. If performance degrades across all devices, open the Airtel Thanks app to check for any active neighborhood network optimizations."
+        },
+        {
+          "question": "Does Airtel throttle broadband speed after I exceed a data limit?",
+          "answer": "Airtel broadband plans include generous high-speed data buckets designed for uncapped everyday usage. However, to maintain uniform quality of service across our network infrastructure, a Fair Usage Policy (FUP) applies once you exceed your monthly allowance. After hitting this cap, your speed will adjust down to a standard baseline speed for the remainder of that billing cycle."
+        },
+        {
+          "question": "Restarting the router does not fix my slow internet. What is the next step?",
+          "answer": "If a quick power cycle fails to restore performance, check if the fiber cables feeding into your router are bent or loose. Log into the Airtel Thanks app to verify your current account status and check if you have exhausted your high-speed monthly data quota. If the line appears healthy yet slow, use the app to open an official troubleshooting ticket for regional engineering review."
+        },
+        {
+          "question": "My WiFi speed is slow but wired Ethernet speed is fine. What should I check?",
+          "answer": "Since your wired connection delivers normal speeds, the underlying fiber link is functioning properly and the issue is restricted to the wireless environment. Physical barriers like concrete walls, major electronic appliances, or competing neighborhood router frequencies can degrade Wi-Fi signals. Consider shifting your router to a central location, transitioning devices to the 5GHz band, or upgrading to a Wi-Fi extender for larger layouts."
+        },
+        {
+          "question": "My Airtel broadband keeps disconnecting every few minutes. Why?",
+          "answer": "Frequent drops are typically triggered by physical line issues like a loosely connected fiber splice, a kinked indoor cable, or fluctuating input power. This behavior can also stem from severe local Wi-Fi signal interference or outdated device wireless drivers. Please check your physical connections and, if the drops persist, log a support ticket via the Airtel Thanks app for line diagnostic testing."
+        },
+        {
+          "question": "My broadband has been down for several hours. How do I report it?",
+          "answer": "You can easily report an outage by using the automated network diagnostics tool found in the Help section of the Airtel Thanks app. Alternatively, call our customer care hotline at 121 from your registered mobile number to open a service ticket. Our regional engineering teams will be dispatched to isolate and repair any local distribution or fiber cuts."
+        },
+        {
+          "question": "How do I check if there is a planned Airtel network outage in my area?",
+          "answer": "When mandatory maintenance or critical network infrastructure upgrades are scheduled, Airtel posts status banners directly inside the Airtel Thanks app dashboard. We also proactively broadcast advance warning notifications via SMS and email to all affected subscribers in that specific zone. If no alert is visible but your line is dead, please report the individual issue immediately."
+        },
+        {
+          "question": "Can I get a bill credit if my Airtel broadband is down for more than 24 hours?",
+          "answer": "Airtel reviews extended network outages that exceed our standard Service Level Agreements on a case-by-case basis. If a major service disruption occurs due to backend infrastructure damage, affected customers may request a proportional service credit. Please reach out to customer support with your resolved ticket number to initiate an account review."
+        }
       ]
     },
     {
       "name": "Plans, Billing & Payments",
       "questions": [
-        "What are the current Airtel Xstream Fiber plans and their monthly costs?",
-        "How do I upgrade my Airtel broadband to a higher speed plan?",
-        "Can I downgrade my Airtel broadband plan to a cheaper option?",
-        "How long does a broadband plan change take to come into effect?",
-        "How do I pay my Airtel broadband bill online?",
-        "Can I set up auto-pay for my Airtel broadband bill?",
-        "What happens if I miss my Airtel broadband bill due date?",
-        "How do I download a broadband invoice for a previous billing month?",
-        "I was charged twice for the same billing cycle. How do I get a refund?",
-        "Does Airtel broadband include any OTT subscriptions like Netflix or Hotstar?"
+        {
+          "question": "What are the current Airtel Xstream Fiber plans and their monthly costs?",
+          "answer": "Airtel offers a wide suite of broadband plans designed for different speed requirements, ranging from basic browsing tiers to multi-gigabit connections. Due to dynamic market adjustments and regional taxes, exact monthly pricing and plan features should be reviewed directly on the Airtel Thanks app or the official Airtel website. Enter your specific address on our portals to view the current list of verified residential options."
+        },
+        {
+          "question": "How do I upgrade my Airtel broadband to a higher speed plan?",
+          "answer": "You can upgrade your current broadband plan instantly by navigating to the account management portal within the Airtel Thanks app. Select your active fixed-line connection, view available upgrades, and confirm your selection to apply the change. The higher speed profile is normally provisioned over the air within a few hours of verification."
+        },
+        {
+          "question": "Can I downgrade my Airtel broadband plan to a cheaper option?",
+          "answer": "Yes, you can request a plan downgrade to any lower-priced active tier directly via the Airtel Thanks app or by getting in touch with customer support. Downgrade requests are typically scheduled to take effect from the start of your next billing cycle to prevent complex fractional billing. Any advance rental credits remaining on your profile will be automatically adjusted."
+        },
+        {
+          "question": "How long does a broadband plan change take to come into effect?",
+          "answer": "Speed upgrades requested online are usually updated within a few hours following automated backend profile syncing. Plan downgrades or custom contract restructures are generally queued to apply at the midnight turn of your current billing cycle. You will receive an confirmation SMS once the new plan configuration goes live on your router."
+        },
+        {
+          "question": "How do I pay my Airtel broadband bill online?",
+          "answer": "You can securely clear your monthly broadband bill online using the Airtel Thanks app, our official website, or authorized third-party payment applications. We support multiple payment modes including UPI, net banking, credit cards, and debit cards. Once payment goes through successfully, an instantaneous confirmation receipt will be delivered to your registered contact endpoints."
+        },
+        {
+          "question": "Can I set up auto-pay for my Airtel broadband bill?",
+          "answer": "Yes, you can activate the standing auto-pay instruction via the billing settings menu inside the Airtel Thanks app. By linking your preferred credit card, debit card, or UPI profile, your statement balance will clear automatically on or before the due date each month. This safeguards your account against late penalties or unexpected service blocks."
+        },
+        {
+          "question": "What happens if I miss my Airtel broadband bill due date?",
+          "answer": "Missing your payment due date can result in the application of late payment administrative fees on your subsequent billing statement. If the account balance remains overdue past the grace window, your broadband services will experience automated soft suspension. Clearing your total outstanding balance through the Airtel Thanks app will trigger an instant reconnection of services."
+        },
+        {
+          "question": "How do I download a broadband invoice for a previous billing month?",
+          "answer": "Itemized historical bills are permanently archived and available for download inside the Airtel Thanks app. Navigate to the billing history subsection under your broadband account to view and download PDF versions of your statements for the last six months. PDF copies are also routinely delivered to your verified email address upon monthly bill generation."
+        },
+        {
+          "question": "I was charged twice for the same billing cycle. How do I get a refund?",
+          "answer": "If an extra payment occurs due to a network glitch or a duplicate charge, the surplus amount is securely credited to your unique Airtel customer account. This credit balance will automatically deduct from your next consecutive monthly invoice. If you require a direct reversal back to your original payment source, please submit a refund ticket through the Airtel Thanks app."
+        },
+        {
+          "question": "Does Airtel broadband include any OTT subscriptions like Netflix or Hotstar?",
+          "answer": "Select mid-tier and premium Airtel Xstream Fiber packages bundle streaming benefits, including popular entertainment and OTT platform access. The availability of specific streaming add-ons depends entirely on the plan tier you select during sign-up or renewal. You can check and activate your bundled rewards through the 'Discover Thanks' section in the Airtel Thanks app."
+        }
       ]
     },
     {
       "name": "Account Management",
       "questions": [
-        "Can I shift my Airtel broadband connection to a new address in the same city?",
-        "How do I apply for a broadband relocation and how long does it take?",
-        "Is there a charge for relocating my Airtel Xstream Fiber connection?",
-        "Can I transfer my Airtel broadband connection to another person's name?",
-        "How do I permanently cancel my Airtel broadband connection?",
-        "What is the notice period required before cancelling Airtel broadband?",
-        "Will I get a refund for unused days if I cancel my plan early?",
-        "Do I need to return the router and ONT device after cancellation?",
-        "How do I pause or temporarily suspend my Airtel broadband connection?",
-        "How do I raise a complaint or escalate a broadband service issue with Airtel?"
+        {
+          "question": "Can I shift my Airtel broadband connection to a new address in the same city?",
+          "answer": "Yes, shifting your connection within the same city is fully supported, provided our network has active technical feasibility at your target location. You can formally initiate this transfer by logging into the Airtel Thanks app and providing your new complete address details. Our support team will analyze coverage data and contact you to coordinate the hardware relocation."
+        },
+        {
+          "question": "How do I apply for a broadband relocation and how long does it take?",
+          "answer": "You can request an account relocation under the service settings tab in the Airtel Thanks app or by submitting a ticket at an Airtel store. Once feasibility at your new home is confirmed, our field team usually installs and reactivates the connection within 48 hours. Please ensure you carry your existing Airtel router and power adapter to the new location."
+        },
+        {
+          "question": "Is there a charge for relocating my Airtel Xstream Fiber connection?",
+          "answer": "A nominal technical shift fee may be applied to your next monthly statement to cover line installation and alignment at the new address. These shifting costs vary slightly depending on regional operations and active customer segment promotions. The exact breakdown of transfer fees will be outlined when you book the request on the Airtel Thanks app."
+        },
+        {
+          "question": "Can I transfer my Airtel broadband connection to another person's name?",
+          "answer": "Yes, ownership transfers are permitted for residential accounts subject to standard regulatory procedures. Both the current account holder and the incoming subscriber must sign a transfer agreement and submit updated Know Your Customer (KYC) identity documentation. You can initiate this ownership transfer workflow by visiting your nearest main Airtel company store."
+        },
+        {
+          "question": "How do I permanently cancel my Airtel broadband connection?",
+          "answer": "To permanently cancel your service, you must submit a formal closure request through the Airtel Thanks app or contact our customer care helpline. Our retention team will process the safe closure request and generate your final settlement invoice covering outstanding usage up to the termination day. An authorized representative will then schedule an appointment to collect the company-owned router equipment."
+        },
+        {
+          "question": "What is the notice period required before cancelling Airtel broadband?",
+          "answer": "Airtel requests that clients log their service cancellation requests in advance to allow for smooth billing cutoff coordination. This ensures your final bill cycle is calculated precisely up to your active cancellation date without rolling into the next month. Any outstanding or unbilled usage fees must be completely cleared before account termination can be approved."
+        },
+        {
+          "question": "Will I get a refund for unused days if I cancel my plan early?",
+          "answer": "For standard post-paid accounts, your final bill will be prorated dynamically based on the exact count of days the line remained active during that final cycle. If you are on an advance-rental or multi-month advance plan, refunds for early structural termination are subject to the specific terms accepted at booking. Any eligible refund balances will be disbursed following equipment return and final account auditing."
+        },
+        {
+          "question": "Do I need to return the router and ONT device after cancellation?",
+          "answer": "Yes, the optical network terminal (ONT), Wi-Fi router, and matching power adapters provided by Airtel are company assets loaned for your subscription period. Upon formal cancellation of your broadband account, you must return this hardware to our collection executive. Failure to hand over the equipment in reasonable working condition can attract inventory recovery charges on your final bill."
+        },
+        {
+          "question": "How do I pause or temporarily suspend my Airtel broadband connection?",
+          "answer": "Airtel offers a temporary safe custody feature for customers traveling away from home for an extended duration. You can activate this safe custody hold directly through the Airtel Thanks app or by contacting customer support. While active, your main broadband services are temporarily paused, and a nominal retention fee is charged to reserve your port configuration."
+        },
+        {
+          "question": "How do I raise a complaint or escalate a broadband service issue with Airtel?",
+          "answer": "You can immediately log technical or billing complaints using the Help interface inside the Airtel Thanks app, which provides automated tracking IDs. If the initial resolution fails to meet expectations, you can escalate the ticket to the Nodal Officer or the Appellate Authority details listed on the Airtel website. Ensure you quote your open complaint ticket number for faster tracking."
+        }
       ]
     }
   ]

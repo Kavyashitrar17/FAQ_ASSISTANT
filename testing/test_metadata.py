@@ -20,3 +20,12 @@ for i, doc in enumerate(docs, start=1):
     print("DOC", i)
     print("TEXT:", doc.page_content)
     print("METADATA:", doc.metadata)
+
+
+# from backend.retrieval.semantic import semantic_search
+
+# results = semantic_search("How do I recharge my Airtel number?")
+
+# for doc, score in results:
+#     print("=" * 50)
+#     print(doc.page_content)

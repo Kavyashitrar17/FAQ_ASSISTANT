@@ -4,76 +4,226 @@
     {
       "name": "New Connection & Installation",
       "questions": [
-        "How do I get a new Airtel DTH connection installed at my home?",
-        "How long does Airtel DTH installation take after I place the order?",
-        "What is the cost of a new Airtel DTH connection including the set-top box?",
-        "Can I book a new Airtel DTH connection online?",
-        "Does Airtel DTH provide the dish antenna and set-top box, or do I buy them separately?",
-        "What documents are required for a new Airtel DTH connection?",
-        "Can I choose a specific date and time for the DTH installation technician?",
-        "I booked a new Airtel DTH connection but no technician has arrived yet. What do I do?",
-        "Is Airtel DTH HD or 4K available in my city?",
-        "Can I get multiple DTH set-top boxes connected to a single Airtel DTH account?"
+        {
+          "question": "How do I get a new Airtel DTH connection installed at my home?",
+          "answer": "You can apply for a new Airtel DTH connection online via the official Airtel website or through the Airtel Thanks app. Alternatively, you can visit any authorized Airtel retail store or call our customer service team to place an order. An executive will then contact you to confirm your selected plan and schedule a technician visit for physical installation."
+        },
+        {
+          "question": "How long does Airtel DTH installation take after I place the order?",
+          "answer": "Once your order is confirmed and payment is processed, the physical installation is typically completed within 24 to 48 hours. A certified Airtel installation technician will visit your premises to mount the dish antenna, run the cabling, and configure your set-top box. You will receive real-time updates and technician contact details via SMS."
+        },
+        {
+          "question": "What is the cost of a new Airtel DTH connection including the set-top box?",
+          "answer": "The initial cost of a new connection depends on the specific type of set-top box selected, such as Standard Definition, High Definition, or the Android-enabled Airtel Xstream Box. These upfront costs frequently bundle promotional monthly channel packs and standard installation charges. Please check the Airtel Thanks app or our official website to view current localized promotional pricing."
+        },
+        {
+          "question": "Can I book a new Airtel DTH connection online?",
+          "answer": "Yes, you can seamlessly complete the booking process entirely online through the Airtel website or the Airtel Thanks app. The portal allows you to select your preferred set-top box hardware, choose a baseline channel package, and securely pay the entry fees. Once submitted, our local installation team will contact you to align on a deployment time."
+        },
+        {
+          "question": "Does Airtel DTH provide the dish antenna and set-top box, or do I buy them separately?",
+          "answer": "Airtel provides the complete hardware ecosystem required for service activation, including the outdoor dish antenna, Low Noise Block (LNB), connecting coaxial cables, and the indoor set-top box with a remote control. This equipment is provisioned directly by the company as part of your initial onboarding package. You do not need to purchase any secondary third-party hardware components."
+        },
+        {
+          "question": "What documents are required for a new Airtel DTH connection?",
+          "answer": "To activate your new DTH connection, you must provide a valid Proof of Identity (POI) and a Proof of Address (POA). Acceptable official documents include your Aadhaar Card, Voter ID, Passport, or Driving License. The certified installation technician will verify these documents digitally at your premises during the setup process."
+        },
+        {
+          "question": "Can I choose a specific date and time for the DTH installation technician?",
+          "answer": "Yes, during the online checkout or during the initial validation call with our customer service team, you can indicate your preferred scheduling window. Airtel will make every effort to assign a local field technician within that specific timeframe. If you need to reschedule an active appointment, you can do so directly within the Airtel Thanks app."
+        },
+        {
+          "question": "I booked a new Airtel DTH connection but no technician has arrived yet. What do I do?",
+          "answer": "If your scheduled installation time window has passed without a visit, you can track the real-time status of your service order via the Airtel Thanks app. You can also call our customer support helpline at 121 to escalate the installation delay directly to the regional logistics team. We will coordinate with the local field office to expedite your technician's dispatch."
+        },
+        {
+          "question": "Is Airtel DTH HD or 4K available in my city?",
+          "answer": "Airtel DTH High Definition (HD) and advanced 4K scaling features are broadcast via satellite network configurations, making them universally accessible across India wherever there is a clear line of sight to the sky. To experience these higher resolutions, you must ensure you select an HD or Xstream 4K set-top box alongside a compatible television unit. Current localized equipment options can be verified on the Airtel Thanks app."
+        },
+        {
+          "question": "Can I get multiple DTH set-top boxes connected to a single Airtel DTH account?",
+          "answer": "Yes, Airtel supports multi-TV configurations where you can link supplementary child set-top boxes to your primary household DTH account. This multi-connection setup offers discounted monthly subscription pricing for the secondary television profiles under our corporate guidelines. You can easily manage and add secondary connections through the Airtel Thanks app."
+        }
       ]
     },
     {
       "name": "Recharge & Subscription Plans",
       "questions": [
-        "How do I recharge my Airtel DTH account?",
-        "What are the current Airtel DTH subscription packs and their monthly prices?",
-        "How do I add or remove specific channels from my Airtel DTH pack?",
-        "My Airtel DTH subscription expired. How do I renew it?",
-        "Can I pay for Airtel DTH via UPI or credit card?",
-        "How do I set up auto-recharge for my Airtel DTH subscription?",
-        "My Airtel DTH recharge was deducted but channels are not visible. What do I do?",
-        "How do I check the balance and next recharge date on my Airtel DTH account?",
-        "Is there an annual Airtel DTH plan that reduces my monthly cost?",
-        "Can I recharge my Airtel DTH from outside India?"
+        {
+          "question": "How do I recharge my Airtel DTH account?",
+          "answer": "You can securely recharge your DTH account online by utilizing the Airtel Thanks app, our official website, or any authorized third-party digital payment application. We support a wide array of payment channels, including UPI, net banking, debit cards, and credit cards. Simply enter your unique 10-digit Customer ID to instantly process the transaction and refresh your television signals."
+        },
+        {
+          "question": "What are the current Airtel DTH subscription packs and their monthly prices?",
+          "answer": "Airtel features a diverse library of base packs, regional curation bundles, and custom a-la-carte selections to fit different viewing tastes. Because pricing structures change based on regulatory network capacity fees (NCF) and dynamic broadcast adjustments, please view the current catalog via the Airtel Thanks app. Enter your customer details to see tailored subscription options available for your account profile."
+        },
+        {
+          "question": "How do I add or remove specific channels from my Airtel DTH pack?",
+          "answer": "You can instantly customize your channel lineup by using the 'Manage TV Channels' tool inside the Airtel Thanks app. You can also send specific add or remove commands via SMS from your registered mobile number as outlined in our service manual. The updated channel configurations normally sync with your set-top box within a few minutes."
+        },
+        {
+          "question": "My Airtel DTH subscription expired. How do I renew it?",
+          "answer": "To renew an expired account, simply complete a successful digital recharge of your baseline monthly pack value using the Airtel Thanks app or our online portal. Ensure your set-top box remains powered on and connected to the satellite link while processing the payment to allow the immediate activation signal to push through. Your viewing services will automatically resume once the billing transaction validates."
+        },
+        {
+          "question": "Can I pay for Airtel DTH via UPI or credit card?",
+          "answer": "Yes, Airtel fully supports instantaneous billing payments executed through all major credit card providers and verified UPI interfaces. These payment pipelines are integrated directly into the Airtel Thanks app interface for a streamlined checkout experience. All successful transactions post immediately to your DTH account timeline."
+        },
+        {
+          "question": "How do I set up auto-recharge for my Airtel DTH subscription?",
+          "answer": "You can activate automated monthly recharges by navigating to the payment preferences tab inside the Airtel Thanks app. By linking your preferred credit card, debit card, or UPI mandate, the platform will auto-clear your exact monthly pack configuration balance right before expiration. This auto-pay setting helps prevent unexpected signal blackouts or manual renewal lapses."
+        },
+        {
+          "question": "My Airtel DTH recharge was deducted but channels are not visible. What do I do?",
+          "answer": "If your payment was successful but your television screen remains blocked, ensure your set-top box is completely powered on and dial the automated refreshing number from your registered mobile. You can also trigger an over-the-air signal refresh command using the Help menu within the Airtel Thanks app. If the channels still fail to activate within 15 minutes, please contact customer care."
+        },
+        {
+          "question": "How do I check the balance and next recharge date on my Airtel DTH account?",
+          "answer": "You can check your real-time account balance, daily burning rate, and upcoming renewal deadlines by looking at your profile card inside the Airtel Thanks app. Alternatively, sending an SMS query or dialing our balance check short codes from your registered phone will yield an instant text update summary. Your account metrics are also briefly displayed on your TV screen upon turning on the set-top box gateway channel."
+        },
+        {
+          "question": "Is there an annual Airtel DTH plan that reduces my monthly cost?",
+          "answer": "Yes, Airtel consistently provides long-term annual or semi-annual promotional recharge configurations that offer bulk value discounts compared to standard monthly billing. These extended validity plans secure your active channel lineup for 6 or 12 continuous months while protecting you against intermediate rate changes. You can browse active long-term values under the 'Offers' tab in the Airtel Thanks app."
+        },
+        {
+          "question": "Can I recharge my Airtel DTH from outside India?",
+          "answer": "Yes, as long as you have access to international credit cards or active Indian digital payment interfaces (such as UPI), you can complete recharges from anywhere globally via the Airtel Thanks app or our web portal. Simply supply the correct 10-digit DTH Customer ID to process the digital payment securely. The satellite broadcast system will update the subscription records instantly, keeping the active home connection running."
+        }
       ]
     },
     {
       "name": "Signal & Picture Issues",
       "questions": [
-        "My Airtel DTH screen shows 'No Signal'. How do I fix it?",
-        "My Airtel DTH picture is pixelated or freezing. What is the cause?",
-        "All my Airtel DTH channels disappeared after heavy rain. What should I do?",
-        "How do I improve the Airtel DTH signal strength in bad weather?",
-        "My Airtel DTH shows signal on some channels but not all. Why?",
-        "The Airtel DTH set-top box is on but the screen is black. How do I fix it?",
-        "My Airtel DTH remote is not responding to the set-top box. What should I check?",
-        "How do I reset my Airtel DTH set-top box to factory settings?",
-        "Which cable connects the dish to the set-top box and how do I check if it is damaged?",
-        "How do I report an Airtel DTH signal problem and request a technician visit?"
+        {
+          "question": "My Airtel DTH screen shows 'No Signal'. How do I fix it?",
+          "answer": "A 'No Signal' message usually points to an obstruction blocking your outdoor dish antenna or a loose coaxial cable connection at the back of your set-top box. First, inspect the physical cable connector to ensure it is firmly screwed into the 'Satellite IN' port of the box. If the physical connections look solid but the error persists, use the Airtel Thanks app to trigger an automated remote signal test."
+        },
+        {
+          "question": "My Airtel DTH picture is pixelated or freezing. What is the cause?",
+          "answer": "Picture pixelation or freezing is typically triggered by a dropping satellite signal level, which can be caused by shifting weather fronts or minor structural misalignment of your outdoor dish. It can also stem from a worn or cracked coaxial cable line that is letting in moisture or radio interference. If the issue happens during clear weather conditions, you should log a technician service ticket through the Airtel Thanks app to check your alignment."
+        },
+        {
+          "question": "All my Airtel DTH channels disappeared after heavy rain. What should I do?",
+          "answer": "Severe rainstorms can cause temporary satellite signal absorption, a natural phenomenon known as rain fade that resolves itself once the storm passes. If your channels do not automatically reappear after the sky clears up, power cycle your set-top box by unplugging it from the wall socket for 30 seconds. If the line remains blank, verify that the outdoor dish hasn't been physically shifted by high winds or obstructed by storm debris."
+        },
+        {
+          "question": "How do I improve the Airtel DTH signal strength in bad weather?",
+          "answer": "Satellite signal drops during severe storms are a temporary environmental issue, but maintaining precise physical dish tracking limits these interruptions. Ensure your outdoor dish is securely anchored to prevent shifting in high winds, and keep the LNB face clear of dirt or foliage. If your signal metrics frequently drop during light cloud cover, log a ticket via the Airtel Thanks app to request a tuning check."
+        },
+        {
+          "question": "My Airtel DTH shows signal on some channels but not all. Why?",
+          "answer": "Missing select channels while others function normally can point to partial satellite transponder signal loss, which can be caused by minor dish shifting or a faulty LNB piece. It could also mean those specific channels are not included in your current subscription pack tier. Check your pack details in the Airtel Thanks app, and if those missing channels are active on your profile, use the app to run an over-the-air refresh command."
+        },
+        {
+          "question": "The Airtel DTH set-top box is on but the screen is black. How do I fix it?",
+          "answer": "A solid black screen with a lit set-top box indicates a video handshake mismatch or a loose connection with your television's display cable. Ensure the HDMI or composite AV cable is pushed firmly into the correct ports on both your set-top box and your TV unit. Then, double-check that your television remote is set to the matching input source (such as HDMI 1 or HDMI 2)."
+        },
+        {
+          "question": "My Airtel DTH remote is not responding to the set-top box. What should I check?",
+          "answer": "First, replace the existing AAA batteries with a fresh pair and verify that the remote's infrared emitter window is clean and unobstructed. Ensure there are no large physical objects blocking the line of sight to the front sensor panel of your set-top box unit. If you are using an Airtel Xstream Bluetooth remote, try repairing it by pressing the designated button combinations outlined in your device guide."
+        },
+        {
+          "question": "How do I reset my Airtel DTH set-top box to factory settings?",
+          "answer": "You can trigger a complete hardware reset by navigating into the System Settings or Advanced Configuration menu using your DTH remote control. Select the 'Factory Reset' or 'Default Settings' option and enter your system security code (typically 0000 or 1234) to confirm the action. Please note that performing a factory reset clears all your custom parental controls, language selections, and personalized channel lists."
+        },
+        {
+          "question": "Which cable connects the dish to the set-top box and how do I check if it is damaged?",
+          "answer": "Your outdoor dish antenna connects to your indoor set-top box using a shielded RG-6 coaxial cable equipped with metallic screw-on F-connectors. Visually inspect the length of the cable line for any severe bends, outer plastic cracks, or animal chew marks that could break the internal wiring. If you spot physical damage that is disrupting your signal quality, you can arrange for a cable replacement through the Airtel Thanks app."
+        },
+        {
+          "question": "How do I report an Airtel DTH signal problem and request a technician visit?",
+          "answer": "You can report signal loss or structural hardware issues by visiting the Help and Support portal within the Airtel Thanks app. Select your DTH account connection, follow the automated signal diagnostic flow, and choose the option to schedule a technician visit if the automated checks fail to resolve the problem. A service visit fee may be applied directly to your account statement for home repairs."
+        }
       ]
     },
     {
       "name": "Channel & Pack Management",
       "questions": [
-        "How do I add a new channel to my existing Airtel DTH pack?",
-        "How do I remove a channel I no longer want from my Airtel DTH subscription?",
-        "How do I switch to a different Airtel DTH base pack?",
-        "What is the TRAI rule about channel selection for DTH and how does it affect me?",
-        "How do I view the full list of channels available in my current Airtel DTH pack?",
-        "Does Airtel DTH offer sports-only or news-only channel packs?",
-        "How do I get regional language channels added to my Airtel DTH?",
-        "Can I add premium channels like HBO or Sony LIV to my Airtel DTH pack?",
-        "How long does it take for a newly added channel to become visible on my DTH?",
-        "Can I temporarily suspend specific channels without cancelling my whole plan?"
+        {
+          "question": "How do I add a new channel to my existing Airtel DTH pack?",
+          "answer": "You can add any individual channel or specialized bundle instantly by navigating to the account management dashboard inside the Airtel Thanks app. Alternatively, you can text the channel number along with the keyword 'ADD' to our official messaging short code from your registered phone. Make sure your set-top box is turned on when sending the request to ensure it captures the activation code quickly."
+        },
+        {
+          "question": "How do I remove a channel I no longer want from my Airtel DTH subscription?",
+          "answer": "To drop a channel and stop its recurring daily costs, open the channel manager tool inside the Airtel Thanks app, select your active layout, and tap delete. You can also request removals via automated SMS keywords sent from your registered mobile number. The updated changes process on our servers quickly, adjusting your daily account burn rate accordingly."
+        },
+        {
+          "question": "How do I switch to a different Airtel DTH base pack?",
+          "answer": "You can change your entire baseline entertainment package by opening the 'Change Pack' tab inside the Airtel Thanks app profile menu. Here you can browse and compare different regional packs, language sports tiers, and base options before confirming a swap. The new plan configuration goes live on your account immediately, with any remaining pre-paid balance credits adjusting proportionally."
+        },
+        {
+          "question": "What is the TRAI rule about channel selection for DTH and how does it affect me?",
+          "answer": "The Telecom Regulatory Authority of India (TRAI) mandate ensures that consumers only pay for the explicit channels they select, alongside a standard Network Capacity Fee (NCF) that covers baseline infrastructure delivery. This framework gives you the freedom to build your television package using individual a-la-carte choices or curated broadcaster packs. You can review your transparent breakdown of NCF and channel rates inside the Airtel Thanks app."
+        },
+        {
+          "question": "How do I view the full list of channels available in my current Airtel DTH pack?",
+          "answer": "You can view your complete active channel lineup by logging into the Airtel Thanks app and downloading your plan profile document. Your set-top box also lets you browse your active channels directly by opening the on-screen electronic program guide (EPG) using your remote control. This index displays your subscribed options alongside current programming descriptions."
+        },
+        {
+          "question": "Does Airtel DTH offer sports-only or news-only channel packs?",
+          "answer": "Yes, Airtel provides a selection of focused, genre-specific add-on packs that cater directly to sports fans or news viewers. These targeted add-on vouchers can be activated on top of your existing base plan layout to expand your options at a low cost. You can browse and toggle these specialized genre add-ons via the Airtel Thanks app channel portal."
+        },
+        {
+          "question": "How do I get regional language channels added to my Airtel DTH?",
+          "answer": "You can add individual regional stations or language-specific entertainment bundles through the channel management console in the Airtel Thanks app. Airtel offers curated packages for various languages, including Hindi, Tamil, Telugu, Bengali, and Malayalam. These additions can be activated instantly to enhance your household viewing options."
+        },
+        {
+          "question": "Can I add premium channels like HBO or Sony LIV to my Airtel DTH pack?",
+          "answer": "Yes, premium linear movie channels and select digital network packs can be added to your account using the Airtel Thanks app channel marketplace. For customers using our Android-powered Airtel Xstream Box, you can also subscribe directly to streaming platforms like Sony LIV via the integrated apps interface. These premium additions will be billed directly through your main DTH account balance."
+        },
+        {
+          "question": "How long does it take for a newly added channel to become visible on my DTH?",
+          "answer": "New channel additions are usually processed quickly, appearing on your television within 5 to 10 minutes after submitting the request online. To ensure your hardware captures the incoming over-the-air activation signal, keep your set-top box turned on during the activation window. If the station remains blocked after 15 minutes, you can trigger a signal refresh through the Airtel Thanks app."
+        },
+        {
+          "question": "Can I temporarily suspend specific channels without cancelling my whole plan?",
+          "answer": "Individual standalone channels or custom add-on boosters can be added or dropped at any time via the Airtel Thanks app, with no long-term commitments. However, structural standard core channels that are hard-coded into fixed broadcaster bundles cannot be paused on their own. If you need to stop all television services temporarily during an extended vacation, you can use our account-level suspension feature instead."
+        }
       ]
     },
     {
       "name": "Account & Device Management",
       "questions": [
-        "How do I transfer my Airtel DTH connection to a new address?",
-        "Can I transfer my Airtel DTH account to another person's name?",
-        "How do I permanently deactivate my Airtel DTH connection?",
-        "Will I get a refund if I cancel my Airtel DTH mid-subscription?",
-        "How do I upgrade my Airtel DTH set-top box to an HD or 4K model?",
-        "My Airtel DTH set-top box is damaged or not working. How do I get it replaced?",
-        "How do I register my Airtel DTH account on the Airtel Thanks app?",
-        "How do I link multiple Airtel DTH set-top boxes to a single account?",
-        "What is the customer care number for Airtel DTH support?",
-        "How do I raise a formal complaint about my Airtel DTH service?"
+        {
+          "question": "How do I transfer my Airtel DTH connection to a new address?",
+          "answer": "To move your DTH connection to a new home, you can submit a relocation request through the account management section of the Airtel Thanks app. You will need to take your existing set-top box, remote control, and power adapters with you to the new address. An Airtel technician will visit the new location to mount a new dish antenna and wire up your system."
+        },
+        {
+          "question": "Can I transfer my Airtel DTH account to another person's name?",
+          "answer": "Yes, transferring ownership of a residential DTH account is permitted under company guidelines, subject to regulatory verification. Both the current owner and the new applicant must complete a transfer request and submit updated Know Your Customer (KYC) identity documentation. You can start this ownership transfer workflow by visiting your nearest authorized Airtel company store."
+        },
+        {
+          "question": "How do I permanently deactivate my Airtel DTH connection?",
+          "answer": "To permanently deactivate your service, you must submit a formal closure application through the help section of the Airtel Thanks app or call our customer support helpline. Our back-end team will process the termination and guide you through settling any final outstanding balances or adjusting remaining prepaid credits. Once deactivated, your customer ID profile will be archived in our subscriber registry."
+        },
+        {
+          "question": "Will I get a refund if I cancel my Airtel DTH mid-subscription?",
+          "answer": "Upon completing a formal account closure, any remaining unutilized prepaid balance credits are calculated from the day of deactivation. For standard accounts, these verified credit surpluses can be refunded to your bank account after our backend audit is complete. If your account is tied to a promotional multi-month advance hardware contract, early cancellation refunds are subject to the specific terms accepted at sign-up."
+        },
+        {
+          "question": "How do I upgrade my Airtel DTH set-top box to an HD or 4K model?",
+          "answer": "You can request a device hardware upgrade by navigating to the device management menu inside the Airtel Thanks app. Upgrading from a standard box to an HD box or an Android-powered Airtel Xstream 4K Box requires a nominal hardware swap fee. Once requested, a field technician will visit your home to deliver the new box and update your account profile properties."
+        },
+        {
+          "question": "My Airtel DTH set-top box is damaged or not working. How do I get it replaced?",
+          "answer": "If your set-top box encounters a hardware failure or physical damage, you can log a replacement ticket through the support portal in the Airtel Thanks app. An authorized technical representative will visit your home to run diagnostics and verify the hardware fault. If the box is found to be faulty, it will be replaced with a fresh unit according to company warranty guidelines."
+        },
+        {
+          "question": "How do I register my Airtel DTH account on the Airtel Thanks app?",
+          "answer": "Download the Airtel Thanks app onto your smartphone and log in using your active mobile number. Navigate to the account link menu, select the 'DTH' category, and enter your unique 10-digit DTH Customer ID or registered telephone number. Once you complete the verification process using the OTP text sent to your phone, your DTH dashboard will be active on the app."
+        },
+        {
+          "question": "How do I link multiple Airtel DTH set-top boxes to a single account?",
+          "answer": "You can link separate DTH set-top boxes under a single unified profile by using the 'Add Account' link in the Airtel Thanks app management tab. Enter the unique Customer ID for each connection and verify ownership using the OTP text sent to the registered mobile number. Linking your accounts allows you to track balances and process recharges for all connections from a single dashboard."
+        },
+        {
+          "question": "What is the customer care number for Airtel DTH support?",
+          "answer": "For immediate automated balance updates, plan details, or basic configuration help, you can dial our interactive voice response helpline at 121 from your registered phone line. If you need to report physical line faults or file a formal complaint, you can dial our dedicated support short code at 198. Regional customer desk telephone numbers are also maintained on the Airtel website."
+        },
+        {
+          "question": "How do I raise a formal complaint about my Airtel DTH service?",
+          "answer": "You can register an official service complaint by opening the Help section within the Airtel Thanks app and selecting the topic that matches your problem. You can also file a ticket by calling our customer service hotline at 198 to speak with a support representative. A unique tracking reference number will be sent to you via SMS along with regular updates on its resolution status."
+        }
       ]
     }
   ]
