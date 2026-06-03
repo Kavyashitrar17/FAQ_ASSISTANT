@@ -963,5 +963,139 @@
                 "rewritten_query": "tell me step wise how to port my number to Airtel prepaid"
             }
         ]
+    },
+    "def19fad": {
+        "title": "what is airtel black?",
+        "messages": [
+            {
+                "role": "user",
+                "content": "what is airtel black?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u26a0\ufe0f **Error:** Response ended prematurely",
+                "rewritten_query": null
+            }
+        ]
+    },
+    "8980f0a0": {
+        "title": "what is airtel black?",
+        "messages": [
+            {
+                "role": "user",
+                "content": "what is airtel black?"
+            },
+            {
+                "role": "assistant",
+                "content": "Airtel Black is a premium bundled service that combines multiple Airtel accounts, such as Mobile, Broadband, and DTH, under a single customized plan. It simplifies your monthly billing by combining these services into one bill and gives you access to a dedicated premium customer support team. [Source 2]",
+                "rewritten_query": "what is airtel black?"
+            },
+            {
+                "role": "user",
+                "content": "what is airtel black ?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u26a0\ufe0f **Error:** Response ended prematurely",
+                "rewritten_query": null
+            }
+        ]
+    },
+    "6570ddb2": {
+        "title": "what is airtel black?",
+        "messages": [
+            {
+                "role": "user",
+                "content": "what is airtel black?"
+            },
+            {
+                "role": "assistant",
+                "content": "Airtel Black is a premium bundled service that combines multiple Airtel accounts\u2014such as Mobile, Broadband, and DTH\u2014under a single customized plan. It simplifies your monthly billing by combining these services into one bill and gives you access to a dedicated premium customer support team. This setup offers a more convenient experience compared to managing separate individual service plans.[Source 1]",
+                "rewritten_query": "what is airtel black?"
+            },
+            {
+                "role": "user",
+                "content": "what is airtel black "
+            },
+            {
+                "role": "assistant",
+                "content": "Airtel Black is a premium bundled service that combines multiple Airtel accounts\u2014such as Mobile, Broadband, and DTH\u2014under a single customized plan. It simplifies your monthly billing by combining these services into one bill and gives you access to a dedicated premium customer support team. This setup offers a more convenient experience compared to managing separate individual service plans.[Source 1]",
+                "rewritten_query": "what is Airtel Black?"
+            }
+        ]
+    },
+    "9ad261f8": {
+        "title": "How do I port my number to Air\u2026",
+        "messages": [
+            {
+                "role": "user",
+                "content": "How do I port my number to Airtel prepaid?"
+            },
+            {
+                "role": "assistant",
+                "content": "To switch to Airtel: 1. Send SMS: PORT <mobile number> to 1900, 2. Receive UPC code, 3. Visit Airtel store, 4. Submit documents, 5. Choose a plan. Porting usually completes within a few days.",
+                "rewritten_query": "How do I port my number to Airtel prepaid?"
+            }
+        ]
+    },
+    "880808fd": {
+        "title": "What is Airtel Black and what \u2026",
+        "messages": [
+            {
+                "role": "user",
+                "content": "What is Airtel Black and what are its benefits?"
+            },
+            {
+                "role": "assistant",
+                "content": "Airtel Black is a premium bundled service that combines multiple Airtel accounts\u2014such as Mobile, Broadband, and DTH\u2014under a single customized plan. It simplifies your monthly billing by combining these services into one bill and gives you access to a dedicated premium customer support team.\n\n[Source 7]",
+                "rewritten_query": "What is Airtel Black and what are its benefits?"
+            },
+            {
+                "role": "user",
+                "content": "what is airtel black?"
+            },
+            {
+                "role": "assistant",
+                "content": "Airtel Black is a premium bundled service that combines multiple Airtel accounts\u2014such as Mobile, Broadband, and DTH\u2014under a single customized plan. It simplifies your monthly billing by combining these services into one bill and gives you access to a dedicated premium customer support team.[Source 7]",
+                "rewritten_query": "what is Airtel Black?"
+            },
+            {
+                "role": "user",
+                "content": "what is airtel black?"
+            },
+            {
+                "role": "assistant",
+                "content": "Airtel Black is a premium bundled service that combines multiple Airtel accounts\u2014such as Mobile, Broadband, and DTH\u2014under a single customized plan. It simplifies your monthly billing by combining these services into one bill and gives you access to a dedicated premium customer support team.[Source 7]",
+                "rewritten_query": "what is airtel black?"
+            }
+        ]
+    },
+    "90ffb61d": {
+        "title": "How do I port my number to Air\u2026",
+        "messages": [
+            {
+                "role": "user",
+                "content": "How do I port my number to Airtel prepaid?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u26a0\ufe0f **Backend not running.**\n\nPlease start the FastAPI server first.",
+                "rewritten_query": null
+            }
+        ]
+    },
+    "f8d7180f": {
+        "title": "How do I port my number to Air\u2026",
+        "messages": [
+            {
+                "role": "user",
+                "content": "How do I port my number to Airtel prepaid?"
+            },
+            {
+                "role": "assistant",
+                "content": "To switch to Airtel: 1. Send SMS: PORT <mobile number> to 1900, 2. Receive UPC code, 3. Visit Airtel store, 4. Submit documents, 5. Choose a plan. Porting usually completes within a few days.",
+                "rewritten_query": "How do I port my number to Airtel prepaid?"
+            }
+        ]
     }
 }

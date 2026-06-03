@@ -199,7 +199,7 @@ def rename_chat_dialog(cid):
             st.rerun()
 
 # ─────────────────────────────────────────────
-# LOAD CHAT HISTORY
+# LOAD CHAT  
 # ─────────────────────────────────────────────
 if os.path.exists(CHAT_FILE):
     with open(CHAT_FILE, "r") as f:

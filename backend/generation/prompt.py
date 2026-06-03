@@ -17,6 +17,7 @@ def build_prompt(
     question: str,
     docs: list[Document],
     rewritten_query: str,
+    history: str
 ) -> tuple[str, list[dict]]:
 
     context_parts = []
@@ -46,13 +47,22 @@ def build_prompt(
         })
 
     context_text = "\n\n".join(context_parts)
-
+    history_section = (
+    f"Conversation History:\n{history}\n\n"
+    if history.strip()
+    else ""
+    )
     prompt = f"""{_SYSTEM}
+
+{history_section}
 
 Retrieved Context:
 {context_text}
 
-User Question:
+Current User Question:
+{question}
+
+Rewritten Query:
 {rewritten_query}
 
 Answer:

@@ -1,5 +1,7 @@
 import ollama
-
+client = ollama.Client(
+    host="http://localhost:11434"
+)
 _REWRITE_TEMPLATE = """\
 You are a query rewriter for a conversational RAG system.
 
@@ -77,7 +79,7 @@ def rewrite_query(question: str, history: list[dict]) -> str:
         question=question
     )
 
-    response = ollama.chat(
+    response = client.chat(
         model="llama3.2:3b",
         messages=[
             {
