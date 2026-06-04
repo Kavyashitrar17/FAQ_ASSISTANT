@@ -6,7 +6,7 @@ import json
 from backend.retrieval.semantic import semantic_search
 from backend.retrieval.keyword import keyword_search
 from backend.retrieval.hybrid import reciprocal_rank_fusion
-# from backend.retrieval.reranker import rerank
+from backend.retrieval.reranker import rerank
 from backend.generation.query_rewriter import rewrite_query
 from backend.generation.prompt import build_prompt
 from backend.generation.generator import stream_answer
@@ -95,7 +95,11 @@ async def chat_stream(request: QueryRequest):
             )
            print("4. Fusion done")
 
-           reranked_docs = fused_docs[:5]
+          #  reranked_docs = fused_docs[:5]
+           reranked_docs = rerank(
+                    rewritten,
+                    fused_docs
+                      )
            print("5. Rerank done")
 
            retrieval_cache[cache_key] = reranked_docs
@@ -161,4 +165,11 @@ def metrics():
         "retrieval_cache_hits": retrieval_cache_hits,
         "answer_cache_hit_rate": round(answer_rate, 2),
         "retrieval_cache_hit_rate": round(retrieval_rate, 2),
+    }
+@app.get("/cache")
+def cache_debug():
+    return {
+        "answer_cache_size": len(answer_cache),
+        "retrieval_cache_size": len(retrieval_cache),
+        "answer_keys": list(answer_cache.keys())
     }
