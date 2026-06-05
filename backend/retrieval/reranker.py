@@ -1,20 +1,29 @@
 from sentence_transformers import CrossEncoder
 from langchain_core.documents import Document
 from backend.config import settings
+from backend.logger import logger
 
 _reranker = CrossEncoder(settings.reranker_model)
 
 def rerank(query: str, docs: list[Document]) -> list[Document]:
-    print(f"RERANKER RECEIVED {len(docs)} DOCS")
+    logger.info(
+    f"RERANKER RECEIVED {len(docs)} DOCS"
+)
 
     if not docs:
         return []
 
     pairs = [(query, doc.page_content) for doc in docs]
-
+    logger.info(
+    f"RERANKER RECEIVED {len(docs)} DOCS"
+)
     scores = _reranker.predict(pairs)
-    print(scores)
-    
+    logger.info(
+    f"RERANKER SCORES: {scores}"
+)
+    logger.info(
+    "RERANKER SCORING COMPLETE"
+)
     ranked = sorted(
         zip(docs, scores),
         key=lambda x: x[1],

@@ -4,7 +4,7 @@ import re
 from rank_bm25 import BM25Okapi
 from langchain_core.documents import Document
 from backend.config import settings
-
+from backend.logger import logger
 
 def _tokenise(text: str) -> list[str]:
     return re.findall(r"\w+", text.lower())
@@ -35,14 +35,16 @@ class BM25Index:
         k = top_k or settings.bm25_top_k
         tokens = _tokenise(query)
         scores = self.bm25.get_scores(tokens)
-
+        logger.info(
+    f"BM25 SEARCH: {query}"
+)
         # Rank all documents by score descending
         ranked = sorted(
             range(len(scores)),
             key=lambda i: scores[i],
             reverse=True,
         )
-
+    
         results = []
         for i in ranked:
             if scores[i] <= 0:
@@ -63,7 +65,9 @@ class BM25Index:
 
             if len(results) == k:
                 break
-
+        logger.info(
+    f"BM25 RETURNED {len(results)} DOCS"
+)
         return results
 
 

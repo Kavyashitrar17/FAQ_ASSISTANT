@@ -1,6 +1,9 @@
+from asyncio.log import logger
+
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from backend.config import settings
+from backend.logger import logger
 
 _embedding_model = HuggingFaceEmbeddings(model_name=settings.embedding_model)
 _vectorstore = FAISS.load_local(
@@ -25,7 +28,9 @@ def semantic_search(query: str, service: str | None = None) -> list[tuple]:
     fetch_k = settings.semantic_top_k if service is None else settings.semantic_top_k * 6
 
     results = _vectorstore.similarity_search_with_score(query, k=fetch_k)
-
+    logger.info(
+    f"SEMANTIC SEARCH: {query}"
+)
     filtered = []
     for doc, score in results:
         # ── Service filter ────────────────────────────────────────────────────
@@ -44,4 +49,7 @@ def semantic_search(query: str, service: str | None = None) -> list[tuple]:
         filtered.append((doc, normalised))
 
     # Honour top-k cap after filtering
+    logger.info(
+    f"SEMANTIC SEARCH RETURNED {len(filtered)} DOCS"
+)
     return filtered[: settings.semantic_top_k]

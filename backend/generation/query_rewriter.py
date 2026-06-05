@@ -1,4 +1,5 @@
 import ollama
+from backend.logger import logger
 client = ollama.Client(
     host="http://localhost:11434"
 )
@@ -65,7 +66,9 @@ Rewritten question:
 def rewrite_query(question: str, history: list[dict]) -> str:
     if not history:
         return question
-
+    logger.info(
+    f"REWRITING QUERY: {question}"
+)
     # Use only recent history
     recent = history[-6:]
 
@@ -94,7 +97,9 @@ def rewrite_query(question: str, history: list[dict]) -> str:
     )
 
     rewritten = response["message"]["content"].strip()
-
+    logger.info(
+    f"REWRITTEN QUERY: {rewritten}"
+)
     # Safety fallback
     if (
         not rewritten
